@@ -1,0 +1,10 @@
+/home/denis/diploma_ws/build/nspu/CMakeFiles/uninstall.dir
+/home/denis/diploma_ws/build/nspu/CMakeFiles/nspu_uninstall.dir
+/home/denis/diploma_ws/build/nspu/CMakeFiles/navigation_services_provider_unit.dir
+/home/denis/diploma_ws/build/nspu/CMakeFiles/test.dir
+/home/denis/diploma_ws/build/nspu/CMakeFiles/edit_cache.dir
+/home/denis/diploma_ws/build/nspu/CMakeFiles/rebuild_cache.dir
+/home/denis/diploma_ws/build/nspu/CMakeFiles/list_install_components.dir
+/home/denis/diploma_ws/build/nspu/CMakeFiles/install.dir
+/home/denis/diploma_ws/build/nspu/CMakeFiles/install/local.dir
+/home/denis/diploma_ws/build/nspu/CMakeFiles/install/strip.dir

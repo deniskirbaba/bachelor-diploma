@@ -1,0 +1,20 @@
+[0.039s] Invoking command in '/home/denis/diploma_ws/build/bt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/bt -- -j4 -l4
+[0.137s] Invoked command in '/home/denis/diploma_ws/build/bt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/bt -- -j4 -l4
+[0.268s] Invoking command in '/home/denis/diploma_ws/build/bt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/bt
+[0.287s] -- Install configuration: ""
+[0.287s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/ament_index/resource_index/package_run_dependencies/bt
+[0.288s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/ament_index/resource_index/parent_prefix_path/bt
+[0.288s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/ament_prefix_path.sh
+[0.288s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/ament_prefix_path.dsv
+[0.288s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/path.sh
+[0.289s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/path.dsv
+[0.289s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.bash
+[0.289s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.sh
+[0.289s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.zsh
+[0.289s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.dsv
+[0.290s] -- Installing: /home/denis/diploma_ws/install/bt/share/bt/package.dsv
+[0.290s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/ament_index/resource_index/packages/bt
+[0.290s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/cmake/btConfig.cmake
+[0.290s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/cmake/btConfig-version.cmake
+[0.291s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/package.xml
+[0.293s] Invoked command in '/home/denis/diploma_ws/build/bt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/bt

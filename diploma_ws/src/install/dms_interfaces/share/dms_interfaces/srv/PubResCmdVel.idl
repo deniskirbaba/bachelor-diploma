@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dms_interfaces/srv/PubResCmdVel.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Twist.idl"
+
+module dms_interfaces {
+  module srv {
+    struct PubResCmdVel_Request {
+      geometry_msgs::msg::Twist cmd_vel;
+    };
+    struct PubResCmdVel_Response {
+      boolean success;
+    };
+  };
+};

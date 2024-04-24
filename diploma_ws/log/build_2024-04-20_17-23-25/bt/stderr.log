@@ -1,0 +1,48 @@
+In file included from [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt_2.cpp:1[m[K:
+[01m[K/home/denis/diploma_ws/src/bt/include/bt/lidar_check_2.hpp:5:33:[m[K [01;31m[Kerror: [m[Kexpected template-name before ‘[01m[K<[m[K’ token
+    5 | class LidarCheck: RosServiceNode[01;31m[K<[m[Kstd_srvs::srv::SetBool>
+      |                                 [01;31m[K^[m[K
+[01m[K/home/denis/diploma_ws/src/bt/include/bt/lidar_check_2.hpp:5:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K<[m[K’ token
+[01m[K/home/denis/diploma_ws/src/bt/include/bt/lidar_check_2.hpp:5:33:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K<[m[K’ token
+[01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt_2.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt_2.cpp:7:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+    7 |     BT::BehaviorTreeFactory [01;31m[K=[m[K factory;
+      |                             [01;31m[K^[m[K
+[01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt_2.cpp:14:17:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+   14 |     params.nh = [01;31m[Knode[m[K;
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt_2.cpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kfactory[m[K’ was not declared in this scope
+   16 |     [01;31m[Kfactory[m[K.registerNodeType<LidarCheck>("lidar_check", params);
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt_2.cpp:16:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   16 |     factory.registerNodeType<LidarCheck[01;31m[K>[m[K("lidar_check", params);
+      |                                        [01;31m[K^[m[K
+[01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt_2.cpp:16:42:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   16 |     factory.registerNodeType<LidarCheck>([01;35m[K"lidar_check"[m[K, params);
+      |                                          [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/home/denis/diploma_ws/install/behaviortree_ros2/include/behaviortree_ros2/bt_service_node.hpp:20[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/bt/include/bt/lidar_check_2.hpp:1[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt_2.cpp:1[m[K:
+[01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt_2.cpp:30:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[KBT::NodeStatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   30 |         RCLCPP_INFO(rclcpp::get_logger("root"), [01;35m[K"BT Status: %d"[m[K, [32m[Kstatus[m[K);
+      |                                                 [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~[m[K
+      |                                                                  [32m[K|[m[K
+      |                                                                  [32m[KBT::NodeStatus[m[K
+[01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt_2.cpp:30:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   30 |         RCLCPP_INFO(rclcpp::get_logger("root"), "BT Status: [01;36m[K%d[m[K", status);
+      |                                                             [01;36m[K~^[m[K
+      |                                                              [01;36m[K|[m[K
+      |                                                              [01;36m[Kint[m[K
+gmake[2]: *** [CMakeFiles/lidar_bt_2.dir/build.make:76: CMakeFiles/lidar_bt_2.dir/src/lidar_bt_2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_bt_2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

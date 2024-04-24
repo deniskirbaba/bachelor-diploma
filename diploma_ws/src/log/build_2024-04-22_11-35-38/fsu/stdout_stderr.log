@@ -1,0 +1,20 @@
+[100%] Built target lidar_remapping_node
+-- Install configuration: ""
+-- Up-to-date: /home/denis/diploma_ws/src/install/fsu/lib/fsu/lidar_remapping_node
+-- Up-to-date: /home/denis/diploma_ws/src/install/fsu/share/fsu/launch
+-- Up-to-date: /home/denis/diploma_ws/src/install/fsu/share/fsu/launch/fsu.launch.py
+-- Up-to-date: /home/denis/diploma_ws/src/install/fsu/share/ament_index/resource_index/package_run_dependencies/fsu
+-- Up-to-date: /home/denis/diploma_ws/src/install/fsu/share/ament_index/resource_index/parent_prefix_path/fsu
+-- Up-to-date: /home/denis/diploma_ws/src/install/fsu/share/fsu/environment/ament_prefix_path.sh
+-- Up-to-date: /home/denis/diploma_ws/src/install/fsu/share/fsu/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/denis/diploma_ws/src/install/fsu/share/fsu/environment/path.sh
+-- Up-to-date: /home/denis/diploma_ws/src/install/fsu/share/fsu/environment/path.dsv
+-- Up-to-date: /home/denis/diploma_ws/src/install/fsu/share/fsu/local_setup.bash
+-- Up-to-date: /home/denis/diploma_ws/src/install/fsu/share/fsu/local_setup.sh
+-- Up-to-date: /home/denis/diploma_ws/src/install/fsu/share/fsu/local_setup.zsh
+-- Up-to-date: /home/denis/diploma_ws/src/install/fsu/share/fsu/local_setup.dsv
+-- Installing: /home/denis/diploma_ws/src/install/fsu/share/fsu/package.dsv
+-- Up-to-date: /home/denis/diploma_ws/src/install/fsu/share/ament_index/resource_index/packages/fsu
+-- Up-to-date: /home/denis/diploma_ws/src/install/fsu/share/fsu/cmake/fsuConfig.cmake
+-- Up-to-date: /home/denis/diploma_ws/src/install/fsu/share/fsu/cmake/fsuConfig-version.cmake
+-- Up-to-date: /home/denis/diploma_ws/src/install/fsu/share/fsu/package.xml

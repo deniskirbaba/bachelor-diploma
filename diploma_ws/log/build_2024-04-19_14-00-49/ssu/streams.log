@@ -1,0 +1,20 @@
+[0.039s] Invoking command in '/home/denis/diploma_ws/build/ssu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/ssu -- -j4 -l4
+[0.148s] Invoked command in '/home/denis/diploma_ws/build/ssu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/ssu -- -j4 -l4
+[0.246s] Invoking command in '/home/denis/diploma_ws/build/ssu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/ssu
+[0.271s] -- Install configuration: ""
+[0.272s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ament_index/resource_index/package_run_dependencies/ssu
+[0.272s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ament_index/resource_index/parent_prefix_path/ssu
+[0.273s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/environment/ament_prefix_path.sh
+[0.273s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/environment/ament_prefix_path.dsv
+[0.273s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/environment/path.sh
+[0.274s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/environment/path.dsv
+[0.274s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/local_setup.bash
+[0.274s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/local_setup.sh
+[0.274s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/local_setup.zsh
+[0.275s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/local_setup.dsv
+[0.275s] -- Installing: /home/denis/diploma_ws/install/ssu/share/ssu/package.dsv
+[0.275s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ament_index/resource_index/packages/ssu
+[0.275s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/cmake/ssuConfig.cmake
+[0.285s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/cmake/ssuConfig-version.cmake
+[0.286s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/package.xml
+[0.286s] Invoked command in '/home/denis/diploma_ws/build/ssu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/ssu

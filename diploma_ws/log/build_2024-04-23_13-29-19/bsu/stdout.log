@@ -1,0 +1,23 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/battery_simulation_unit.dir/src/battery_simulation_unit.cpp.o[0m
+[100%] [32m[1mLinking CXX executable battery_simulation_unit[0m
+[100%] Built target battery_simulation_unit
+-- Install configuration: ""
+-- Installing: /home/denis/diploma_ws/install/bsu/lib/bsu/battery_simulation_unit
+-- Set runtime path of "/home/denis/diploma_ws/install/bsu/lib/bsu/battery_simulation_unit" to ""
+-- Installing: /home/denis/diploma_ws/install/bsu/share/bsu/launch
+-- Installing: /home/denis/diploma_ws/install/bsu/share/bsu/launch/battery_simulation_unit.launch.py
+-- Installing: /home/denis/diploma_ws/install/bsu/share/ament_index/resource_index/package_run_dependencies/bsu
+-- Installing: /home/denis/diploma_ws/install/bsu/share/ament_index/resource_index/parent_prefix_path/bsu
+-- Installing: /home/denis/diploma_ws/install/bsu/share/bsu/environment/ament_prefix_path.sh
+-- Installing: /home/denis/diploma_ws/install/bsu/share/bsu/environment/ament_prefix_path.dsv
+-- Installing: /home/denis/diploma_ws/install/bsu/share/bsu/environment/path.sh
+-- Installing: /home/denis/diploma_ws/install/bsu/share/bsu/environment/path.dsv
+-- Installing: /home/denis/diploma_ws/install/bsu/share/bsu/local_setup.bash
+-- Installing: /home/denis/diploma_ws/install/bsu/share/bsu/local_setup.sh
+-- Installing: /home/denis/diploma_ws/install/bsu/share/bsu/local_setup.zsh
+-- Installing: /home/denis/diploma_ws/install/bsu/share/bsu/local_setup.dsv
+-- Up-to-date: /home/denis/diploma_ws/install/bsu/share/bsu/package.dsv
+-- Installing: /home/denis/diploma_ws/install/bsu/share/ament_index/resource_index/packages/bsu
+-- Installing: /home/denis/diploma_ws/install/bsu/share/bsu/cmake/bsuConfig.cmake
+-- Installing: /home/denis/diploma_ws/install/bsu/share/bsu/cmake/bsuConfig-version.cmake
+-- Installing: /home/denis/diploma_ws/install/bsu/share/bsu/package.xml

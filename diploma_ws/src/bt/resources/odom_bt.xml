@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<root BTCPP_format="4" >
+    <BehaviorTree ID="main_bt">
+        <Sequence name="root_sequence">
+            <Fallback name="odom_fallback">
+                <OdomCheck name="odom_check"/>
+                <Sequence name="odom_first_recover_seq">
+                    <SpeedReduce name="speed_reduce"/>
+                    <OdomRestart name="odom_restart"/>
+                    <SpeedRestore name="speed_restore"/>
+                </Sequence>
+                <Sequence name="odom_second_recover_seq">
+                    <FullStop name="full_stop"/>
+                    <RetryUntilSuccessful num_attempts="2">
+                        <OdomRestart name="odom_restart"/>
+                    </RetryUntilSuccessful>
+                    <SpeedRestore name="speed_restore"/>
+                </Sequence>
+                <Sequence name="odom_complete_failure_seq">
+                    <CancelTask name="cancel_task"/>
+                    <SetOdomFailureState name="set_odom_failure_state"/>
+                </Sequence>
+            </Fallback>
+        </Sequence>
+    </BehaviorTree>
+
+    <!-- the BT executor don't require this, but Groot does -->     
+    <TreeNodeModel>
+        <Condition ID="OdomCheck"/>
+        <Action ID="OdomRestart"/>
+        <Action ID="SetOdomFailureState"/>
+
+        <Action ID="SpeedReduce"/>
+        <Action ID="SpeedRestore"/>
+        <Action ID="FullStop"/>
+
+        <Action ID="CancelTask"/> 
+    </TreeNodeModel>
+</root>

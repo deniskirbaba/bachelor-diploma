@@ -1,0 +1,2 @@
+Invoking command in '/home/denis/diploma_ws/build/fsu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/fsu -- -j4 -l4
+Invoked command in '/home/denis/diploma_ws/build/fsu' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/fsu -- -j4 -l4

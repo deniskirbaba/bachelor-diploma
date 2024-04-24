@@ -1,0 +1,27 @@
+[01m[K/home/denis/diploma_ws/src/ssu/src/sensor_supervisitory_unit.cpp:[m[K In member function ‘[01m[Kvoid SensorSupervisitoryUnit::lidar_cb(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/denis/diploma_ws/src/ssu/src/sensor_supervisitory_unit.cpp:51:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   51 | isitoryUnit::lidar_cb([01;35m[Kconst sensor_msgs::msg::LaserScan::SharedPtr msg[m[K)
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+[01m[K/home/denis/diploma_ws/src/ssu/src/sensor_supervisitory_unit.cpp:[m[K In member function ‘[01m[Kvoid SensorSupervisitoryUnit::imu_cb(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/denis/diploma_ws/src/ssu/src/sensor_supervisitory_unit.cpp:58:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   58 | orSupervisitoryUnit::imu_cb([01;35m[Kconst sensor_msgs::msg::Imu::SharedPtr msg[m[K)
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+[01m[K/home/denis/diploma_ws/src/ssu/src/sensor_supervisitory_unit.cpp:[m[K In member function ‘[01m[Kvoid SensorSupervisitoryUnit::odom_cb(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/denis/diploma_ws/src/ssu/src/sensor_supervisitory_unit.cpp:65:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   65 | upervisitoryUnit::odom_cb([01;35m[Kconst nav_msgs::msg::Odometry::SharedPtr msg[m[K)
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+[01m[K/home/denis/diploma_ws/src/ssu/src/sensor_supervisitory_unit.cpp:[m[K In member function ‘[01m[Kvoid SensorSupervisitoryUnit::lidar_check_service_cb(std_srvs::srv::SetBool_Request_<std::allocator<void> >::SharedPtr, std_srvs::srv::SetBool_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/denis/diploma_ws/src/ssu/src/sensor_supervisitory_unit.cpp:73:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   73 |             [01;35m[Kconst std_srvs::srv::SetBool_Request::SharedPtr request[m[K,
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/denis/diploma_ws/src/ssu/src/sensor_supervisitory_unit.cpp:[m[K In member function ‘[01m[Kvoid SensorSupervisitoryUnit::imu_check_service_cb(std_srvs::srv::SetBool_Request_<std::allocator<void> >::SharedPtr, std_srvs::srv::SetBool_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/denis/diploma_ws/src/ssu/src/sensor_supervisitory_unit.cpp:93:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   93 |             [01;35m[Kconst std_srvs::srv::SetBool_Request::SharedPtr request[m[K,
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/denis/diploma_ws/src/ssu/src/sensor_supervisitory_unit.cpp:[m[K In member function ‘[01m[Kvoid SensorSupervisitoryUnit::odom_check_service_cb(std_srvs::srv::SetBool_Request_<std::allocator<void> >::SharedPtr, std_srvs::srv::SetBool_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/denis/diploma_ws/src/ssu/src/sensor_supervisitory_unit.cpp:113:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  113 |             [01;35m[Kconst std_srvs::srv::SetBool_Request::SharedPtr request[m[K,
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K

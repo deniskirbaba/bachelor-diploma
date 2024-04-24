@@ -1,0 +1,4 @@
+source;share/fsu/local_setup.bash
+source;share/fsu/local_setup.dsv
+source;share/fsu/local_setup.sh
+source;share/fsu/local_setup.zsh

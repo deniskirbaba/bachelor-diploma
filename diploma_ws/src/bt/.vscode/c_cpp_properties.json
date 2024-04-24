@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/denis/diploma_ws/install/turtlebot3_gazebo/include/**",
+        "/home/denis/diploma_ws/install/turtlebot3_fake_node/include/**",
+        "/home/denis/diploma_ws/install/dms_interfaces/include/**",
+        "/home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/**",
+        "/home/denis/diploma_ws/install/behaviortree_ros2/include/**",
+        "/home/denis/diploma_ws/install/behaviortree_cpp_v3/include/**",
+        "/home/denis/diploma_ws/install/behaviortree_cpp/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/denis/diploma_ws/src/BehaviorTree.CPP-3.8/include/**",
+        "/home/denis/diploma_ws/src/bsu/include/**",
+        "/home/denis/diploma_ws/src/bt/include/**",
+        "/home/denis/diploma_ws/src/csu/include/**",
+        "/home/denis/diploma_ws/src/dms_interfaces/include/**",
+        "/home/denis/diploma_ws/src/fsu/include/**",
+        "/home/denis/diploma_ws/src/nspu/include/**",
+        "/home/denis/diploma_ws/src/ssu/include/**",
+        "/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/**",
+        "/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,55 @@
+In file included from [01m[K/home/denis/diploma_ws/src/bt/src/battery_bt.cpp:1[m[K:
+[01m[K/home/denis/diploma_ws/src/bt/include/bt/battery_check.hpp:[m[K In member function ‘[01m[Kbool BatteryCheck::get_goal_distance_srv_call(float&)[m[K’:
+[01m[K/home/denis/diploma_ws/src/bt/include/bt/battery_check.hpp:36:40:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KBT::NodeStatus[m[K’ to ‘[01m[Kbool[m[K’ in return
+   36 |                 return BT::NodeStatus::[01;31m[KFAILURE[m[K;
+      |                                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/denis/diploma_ws/src/bt/include/bt/battery_check.hpp:38:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_client[m[K’ was not declared in this scope
+   38 |             if (![01;31m[Kservice_client[m[K->wait_for_service(std::chrono::milliseconds(500)))
+      |                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/denis/diploma_ws/src/bt/include/bt/battery_check.hpp:41:40:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KBT::NodeStatus[m[K’ to ‘[01m[Kbool[m[K’ in return
+   41 |                 return BT::NodeStatus::[01;31m[KFAILURE[m[K;
+      |                                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/denis/diploma_ws/src/bt/include/bt/battery_check.hpp:[m[K In member function ‘[01m[Kbool BatteryCheck::get_battery_level_srv_call(float&, float&, float&)[m[K’:
+[01m[K/home/denis/diploma_ws/src/bt/include/bt/battery_check.hpp:62:40:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KBT::NodeStatus[m[K’ to ‘[01m[Kbool[m[K’ in return
+   62 |                 return BT::NodeStatus::[01;31m[KFAILURE[m[K;
+      |                                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/denis/diploma_ws/src/bt/include/bt/battery_check.hpp:64:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_client[m[K’ was not declared in this scope
+   64 |             if (![01;31m[Kservice_client[m[K->wait_for_service(std::chrono::milliseconds(500)))
+      |                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/denis/diploma_ws/src/bt/include/bt/battery_check.hpp:67:40:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KBT::NodeStatus[m[K’ to ‘[01m[Kbool[m[K’ in return
+   67 |                 return BT::NodeStatus::[01;31m[KFAILURE[m[K;
+      |                                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/denis/diploma_ws/src/bt/include/bt/battery_check.hpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus BatteryCheck::tick()[m[K’:
+[01m[K/home/denis/diploma_ws/src/bt/include/bt/battery_check.hpp:87:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_service_call[m[K’ was not declared in this scope
+   87 |             if (![01;31m[Kdistance_service_call[m[K(goal_distance))
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/denis/diploma_ws/src/bt/include/bt/battery_check.hpp:99:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kcharge_service_call[m[K’ was not declared in this scope
+   99 |             if (![01;31m[Kcharge_service_call[m[K(charge, idle_consumption, drive_consumption))
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/bt/include/bt/battery_check.hpp:4[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/bt/src/battery_bt.cpp:1[m[K:
+[01m[K/home/denis/diploma_ws/src/bt/src/battery_bt.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[K/home/denis/diploma_ws/src/bt/src/battery_bt.cpp:48:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[KBT::NodeStatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   48 |         RCLCPP_INFO(rclcpp::get_logger("root"), [01;35m[K"BT Status: %d"[m[K, [32m[Kstatus[m[K);
+      |                                                 [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~[m[K
+      |                                                                  [32m[K|[m[K
+      |                                                                  [32m[KBT::NodeStatus[m[K
+[01m[K/home/denis/diploma_ws/src/bt/src/battery_bt.cpp:48:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   48 |         RCLCPP_INFO(rclcpp::get_logger("root"), "BT Status: [01;36m[K%d[m[K", status);
+      |                                                             [01;36m[K~^[m[K
+      |                                                              [01;36m[K|[m[K
+      |                                                              [01;36m[Kint[m[K
+gmake[2]: *** [CMakeFiles/battery_bt.dir/build.make:76: CMakeFiles/battery_bt.dir/src/battery_bt.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/battery_bt.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

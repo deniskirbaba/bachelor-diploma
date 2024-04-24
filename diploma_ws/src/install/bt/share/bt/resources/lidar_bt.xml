@@ -1,0 +1,39 @@
+ <?xml version="1.0"?>
+ <root BTCPP_format="4" >
+    <BehaviorTree ID="main_bt">
+        <Sequence name="root_sequence">
+            <Fallback name="lidar_fallback">
+                <LidarCheck name="lidar_check"/>
+                <Sequence name="lidar_first_recover_seq">
+                    <ReduceSpeed name="reduce_speed"/>
+                    <!-- <RestartLidar name="restart_lidar"/>
+                    <RestoreSpeed name="restore_speed"/> -->
+                </Sequence>
+                <!-- <Sequence name="LidarSecondRecoverSeq">
+                    <Action ID="FullStop"/>
+                    <RetryUntilSuccessful num_attempts="2">
+                        <Action ID="RestartLidar"/>
+                    </RetryUntilSuccessful>
+                    <Action ID="RestoreSpeed"/>
+                </Sequence>
+                <Sequence name="LidarCompleteFailure">
+                    <Action ID="CancelTask"/>
+                    <Action ID="SetLidarFailureState"/>
+                </Sequence> -->
+            </Fallback>
+        </Sequence>
+    </BehaviorTree>
+
+    <!-- the BT executor don't require this, but Groot does -->     
+    <TreeNodeModel>
+        <Condition ID="LidarCheck"/>
+        <Action ID="RestartLidar"/>
+        <!-- <Action ID="SetLidarFailureState"/> -->
+
+        <!-- <Action ID="ReduceSpeed"/> -->
+        <!-- <Action ID="RestoreSpeed"> -->
+        <!-- <Action ID="FullStop"/> -->
+
+        <!-- <Action ID="CancelTask"/>  -->
+    </TreeNodeModel>
+ </root>

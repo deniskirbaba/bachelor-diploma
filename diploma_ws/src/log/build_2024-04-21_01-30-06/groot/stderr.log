@@ -1,0 +1,121 @@
+[01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/src/NodeGeometry.cpp:[m[K In member function ‘[01m[Kunsigned int QtNodes::NodeGeometry::portWidth(QtNodes::PortType) const[m[K’:
+[01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/src/NodeGeometry.cpp:286:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QFontMetrics::width(const QString&, int) const[m[K’ is deprecated: Use QFontMetrics::horizontalAdvance [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  286 |     width = std::max(unsigned([01;35m[K_fontMetrics.width(name)[m[K), width);
+      |                               [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/QFontMetrics:1[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/include/nodes/internal/NodeGeometry.hpp:6[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/src/NodeGeometry.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h:106:9:[m[K [01;36m[Knote: [m[Kdeclared here
+  106 |     int [01;36m[Kwidth[m[K(const QString &, int len = -1) const;
+      |         [01;36m[K^~~~~[m[K
+[01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/src/ConnectionStyle.cpp:[m[K In member function ‘[01m[KQColor QtNodes::ConnectionStyle::normalColor(QString) const[m[K’:
+[01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/src/ConnectionStyle.cpp:169:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid qsrand(uint)[m[K’ is deprecated: use QRandomGenerator instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  169 |   [01;35m[Kqsrand(hash)[m[K;
+      |   [01;35m[K~~~~~~^~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/QColor:1[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/include/nodes/internal/ConnectionStyle.hpp:3[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/src/ConnectionStyle.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:1273:81:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1273 | Q_CORE_EXPORT QT_DEPRECATED_VERSION_X_5_15("use QRandomGenerator instead") void [01;36m[Kqsrand[m[K(uint seed);
+      |                                                                                 [01;36m[K^~~~~~[m[K
+[01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/src/ConnectionStyle.cpp:170:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint qrand()[m[K’ is deprecated: use QRandomGenerator instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  170 |   std::size_t hue = [01;35m[Kqrand()[m[K % hue_range;
+      |                     [01;35m[K~~~~~^~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/QColor:1[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/include/nodes/internal/ConnectionStyle.hpp:3[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/src/ConnectionStyle.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:1274:80:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1274 | Q_CORE_EXPORT QT_DEPRECATED_VERSION_X_5_15("use QRandomGenerator instead") int [01;36m[Kqrand[m[K();
+      |                                                                                [01;36m[K^~~~~[m[K
+[01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_editor.cpp:[m[K In member function ‘[01m[Kvoid SidepanelEditor::on_buttonUpload_clicked()[m[K’:
+[01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_editor.cpp:302:38:[m[K [01;35m[Kwarning: [m[K‘[01m[KQTextStream& QTextStreamFunctions::endl(QTextStream&)[m[K’ is deprecated: Use Qt::endl [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  302 |         stream << doc.toString(4) << [01;35m[Kendl[m[K;
+      |                                      [01;35m[K^~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:49[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcborcommon.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcborvalue.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h:46[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject:1[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/./QtNodeEditor/include/nodes/internal/Node.hpp:7[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/./QtNodeEditor/include/nodes/Node:1[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/bt_editor_base.h:9[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/XML_utilities.hpp:5[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_editor.h:8[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_editor.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h:293:75:[m[K [01;36m[Knote: [m[Kdeclared here
+  293 | Q_CORE_EXPORT QT_DEPRECATED_VERSION_X(5, 15, "Use Qt::endl") QTextStream &[01;36m[Kendl[m[K(QTextStream &s);
+      |                                                                           [01;36m[K^~~~[m[K
+[01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_editor.cpp:302:38:[m[K [01;35m[Kwarning: [m[K‘[01m[KQTextStream& QTextStreamFunctions::endl(QTextStream&)[m[K’ is deprecated: Use Qt::endl [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  302 |         stream << doc.toString(4) << [01;35m[Kendl[m[K;
+      |                                      [01;35m[K^~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:49[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcborcommon.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcborvalue.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h:46[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject:1[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/./QtNodeEditor/include/nodes/internal/Node.hpp:7[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/./QtNodeEditor/include/nodes/Node:1[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/bt_editor_base.h:9[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/XML_utilities.hpp:5[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_editor.h:8[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_editor.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h:293:75:[m[K [01;36m[Knote: [m[Kdeclared here
+  293 | Q_CORE_EXPORT QT_DEPRECATED_VERSION_X(5, 15, "Use Qt::endl") QTextStream &[01;36m[Kendl[m[K(QTextStream &s);
+      |                                                                           [01;36m[K^~~~[m[K
+[01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_replay.cpp:[m[K In member function ‘[01m[Kvoid SidepanelReplay::updateTableModel(const AbsBehaviorTree&)[m[K’:
+[01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_replay.cpp:106:30:[m[K [01;35m[Kwarning: [m[K‘[01m[KQString& QString::sprintf(const char*, ...)[m[K’ is deprecated: Use asprintf(), arg() or QTextStream instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  106 |             [01;35m[Ktimestamp.sprintf("%.3f", trans.timestamp - first_timestamp)[m[K;
+      |             [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:47[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame:1[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_replay.h:5[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_replay.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:393:14:[m[K [01;36m[Knote: [m[Kdeclared here
+  393 |     QString &[01;36m[Ksprintf[m[K(const char *format, ...) Q_ATTRIBUTE_FORMAT_PRINTF(2, 3);
+      |              [01;36m[K^~~~~~~[m[K
+[01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_replay.cpp:109:30:[m[K [01;35m[Kwarning: [m[K‘[01m[KQString& QString::sprintf(const char*, ...)[m[K’ is deprecated: Use asprintf(), arg() or QTextStream instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  109 |             [01;35m[Ktimestamp.sprintf("absolute time: %.3f", trans.timestamp)[m[K;
+      |             [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:47[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame:1[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_replay.h:5[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_replay.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:393:14:[m[K [01;36m[Knote: [m[Kdeclared here
+  393 |     QString &[01;36m[Ksprintf[m[K(const char *format, ...) Q_ATTRIBUTE_FORMAT_PRINTF(2, 3);
+      |              [01;36m[K^~~~~~~[m[K
+[01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.cpp:[m[K In member function ‘[01m[Kbool SidepanelMonitor::getTreeFromServer()[m[K’:
+[01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.cpp:147:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid zmq::detail::socket_base::setsockopt(int, const void*, size_t)[m[K’ is deprecated: from 4.7.0, use `set` taking option from zmq::sockopt [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  147 |         [01;35m[Kzmq_client.setsockopt(ZMQ_RCVTIMEO, &_load_tree_timeout_ms, sizeof(int) )[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.h:5[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.cpp:1[m[K:
+[01m[K/usr/include/zmq.hpp:1676:10:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1676 |     void [01;36m[Ksetsockopt[m[K(int option_, const void *optval_, size_t optvallen_)
+      |          [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.cpp:[m[K In member function ‘[01m[Kvoid SidepanelMonitor::on_Connect()[m[K’:
+[01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.cpp:239:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid zmq::detail::socket_base::setsockopt(int, const void*, size_t)[m[K’ is deprecated: from 4.7.0, use `set` taking option from zmq::sockopt [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  239 |                 [01;35m[K_zmq_subscriber.setsockopt(ZMQ_SUBSCRIBE, "", 0)[m[K;
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.h:5[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.cpp:1[m[K:
+[01m[K/usr/include/zmq.hpp:1676:10:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1676 |     void [01;36m[Ksetsockopt[m[K(int option_, const void *optval_, size_t optvallen_)
+      |          [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.cpp:240:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid zmq::detail::socket_base::setsockopt(int, const void*, size_t)[m[K’ is deprecated: from 4.7.0, use `set` taking option from zmq::sockopt [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  240 |                 [01;35m[K_zmq_subscriber.setsockopt(ZMQ_RCVTIMEO, &timeout_ms, sizeof(int) )[m[K;
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.h:5[m[K,
+                 from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.cpp:1[m[K:
+[01m[K/usr/include/zmq.hpp:1676:10:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1676 |     void [01;36m[Ksetsockopt[m[K(int option_, const void *optval_, size_t optvallen_)
+      |          [01;36m[K^~~~~~~~~~[m[K

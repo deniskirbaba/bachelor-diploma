@@ -1,0 +1,4 @@
+Invoking command in '/home/denis/diploma_ws/src/build/behaviortree_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/denis/diploma_ws/src/BehaviorTree.CPP -DCMAKE_INSTALL_PREFIX=/home/denis/diploma_ws/src/install/behaviortree_cpp
+Invoked command in '/home/denis/diploma_ws/src/build/behaviortree_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/denis/diploma_ws/src/BehaviorTree.CPP -DCMAKE_INSTALL_PREFIX=/home/denis/diploma_ws/src/install/behaviortree_cpp
+Invoking command in '/home/denis/diploma_ws/src/build/behaviortree_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/src/build/behaviortree_cpp -- -j4 -l4
+Invoked command in '/home/denis/diploma_ws/src/build/behaviortree_cpp' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/src/build/behaviortree_cpp -- -j4 -l4

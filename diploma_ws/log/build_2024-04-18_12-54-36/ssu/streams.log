@@ -1,0 +1,42 @@
+[0.047s] Invoking command in '/home/denis/diploma_ws/build/ssu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/denis/diploma_ws/src/ssu -DCMAKE_INSTALL_PREFIX=/home/denis/diploma_ws/install/ssu
+[0.200s] -- The C compiler identification is GNU 11.4.0
+[0.447s] -- The CXX compiler identification is GNU 11.4.0
+[0.471s] -- Detecting C compiler ABI info
+[0.929s] -- Detecting C compiler ABI info - done
+[0.981s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.982s] -- Detecting C compile features
+[0.982s] -- Detecting C compile features - done
+[0.990s] -- Detecting CXX compiler ABI info
+[1.335s] -- Detecting CXX compiler ABI info - done
+[1.395s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.396s] -- Detecting CXX compile features
+[1.398s] -- Detecting CXX compile features - done
+[1.410s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.959s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.256s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.650s] -- Added test 'lint_cmake' to check CMake code style
+[2.650s] -- Added test 'xmllint' to check XML markup files
+[2.650s] -- Configuring done
+[2.651s] -- Generating done
+[2.651s] -- Build files have been written to: /home/denis/diploma_ws/build/ssu
+[2.680s] Invoked command in '/home/denis/diploma_ws/build/ssu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/denis/diploma_ws/src/ssu -DCMAKE_INSTALL_PREFIX=/home/denis/diploma_ws/install/ssu
+[2.681s] Invoking command in '/home/denis/diploma_ws/build/ssu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/ssu -- -j4 -l4
+[2.826s] Invoked command in '/home/denis/diploma_ws/build/ssu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/ssu -- -j4 -l4
+[2.958s] Invoking command in '/home/denis/diploma_ws/build/ssu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/ssu
+[2.971s] -- Install configuration: ""
+[2.972s] -- Installing: /home/denis/diploma_ws/install/ssu/share/ament_index/resource_index/package_run_dependencies/ssu
+[2.974s] -- Installing: /home/denis/diploma_ws/install/ssu/share/ament_index/resource_index/parent_prefix_path/ssu
+[2.974s] -- Installing: /home/denis/diploma_ws/install/ssu/share/ssu/environment/ament_prefix_path.sh
+[2.974s] -- Installing: /home/denis/diploma_ws/install/ssu/share/ssu/environment/ament_prefix_path.dsv
+[2.974s] -- Installing: /home/denis/diploma_ws/install/ssu/share/ssu/environment/path.sh
+[2.987s] -- Installing: /home/denis/diploma_ws/install/ssu/share/ssu/environment/path.dsv
+[2.988s] -- Installing: /home/denis/diploma_ws/install/ssu/share/ssu/local_setup.bash
+[2.991s] -- Installing: /home/denis/diploma_ws/install/ssu/share/ssu/local_setup.sh
+[2.991s] -- Installing: /home/denis/diploma_ws/install/ssu/share/ssu/local_setup.zsh
+[2.992s] -- Installing: /home/denis/diploma_ws/install/ssu/share/ssu/local_setup.dsv
+[2.992s] -- Installing: /home/denis/diploma_ws/install/ssu/share/ssu/package.dsv
+[2.992s] -- Installing: /home/denis/diploma_ws/install/ssu/share/ament_index/resource_index/packages/ssu
+[2.992s] -- Installing: /home/denis/diploma_ws/install/ssu/share/ssu/cmake/ssuConfig.cmake
+[2.993s] -- Installing: /home/denis/diploma_ws/install/ssu/share/ssu/cmake/ssuConfig-version.cmake
+[2.993s] -- Installing: /home/denis/diploma_ws/install/ssu/share/ssu/package.xml
+[2.993s] Invoked command in '/home/denis/diploma_ws/build/ssu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/ssu

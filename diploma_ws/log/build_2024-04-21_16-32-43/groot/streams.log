@@ -1,0 +1,328 @@
+[0.019s] Invoking command in '/home/denis/diploma_ws/build/groot': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake /home/denis/diploma_ws/src/Groot -DCMAKE_INSTALL_PREFIX=/home/denis/diploma_ws/install/groot
+[0.116s] -- The C compiler identification is GNU 11.4.0
+[0.209s] -- The CXX compiler identification is GNU 11.4.0
+[0.220s] -- Detecting C compiler ABI info
+[0.340s] -- Detecting C compiler ABI info - done
+[0.352s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.352s] -- Detecting C compile features
+[0.353s] -- Detecting C compile features - done
+[0.358s] -- Detecting CXX compiler ABI info
+[0.500s] -- Detecting CXX compiler ABI info - done
+[0.518s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.518s] -- Detecting CXX compile features
+[0.519s] -- Detecting CXX compile features - done
+[0.798s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.968s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.970s] -- ---------------------
+[0.970s] -- Compiling with AMENT.
+[0.970s] -- ---------------------
+[0.986s] -- Found ZMQ: /usr/lib/x86_64-linux-gnu/libzmq.so  
+[0.986s] -- ZeroMQ found.
+[1.120s] -- Configuring done
+[1.268s] -- Generating done
+[1.271s] -- Build files have been written to: /home/denis/diploma_ws/build/groot
+[1.284s] Invoked command in '/home/denis/diploma_ws/build/groot' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake /home/denis/diploma_ws/src/Groot -DCMAKE_INSTALL_PREFIX=/home/denis/diploma_ws/install/groot
+[1.287s] Invoking command in '/home/denis/diploma_ws/build/groot': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake --build /home/denis/diploma_ws/build/groot -- -j4 -l4
+[1.367s] [  1%] [34m[1mAutomatic MOC and UIC for target QtNodeEditor[0m
+[1.415s] [  1%] Built target QtNodeEditor_autogen
+[1.440s] [  1%] [34m[1mGenerating qrc_resources.cpp[0m
+[1.442s] [  2%] [34m[1mGenerating include/nodes/internal/moc_Connection.cpp[0m
+[1.444s] [  3%] [34m[1mGenerating include/nodes/internal/moc_Compiler.cpp[0m
+[1.449s] [  4%] [34m[1mGenerating include/nodes/internal/moc_ConnectionGeometry.cpp[0m
+[1.484s] [  5%] [34m[1mGenerating include/nodes/internal/moc_ConnectionState.cpp[0m
+[1.504s] [  5%] [34m[1mGenerating include/nodes/internal/moc_ConnectionGraphicsObject.cpp[0m
+[1.526s] [  6%] [34m[1mGenerating include/nodes/internal/moc_ConnectionStyle.cpp[0m
+[1.551s] [  6%] [34m[1mGenerating include/nodes/internal/moc_DataModelRegistry.cpp[0m
+[1.631s] [  7%] [34m[1mGenerating include/nodes/internal/moc_Export.cpp[0m
+[1.648s] [  8%] [34m[1mGenerating include/nodes/internal/moc_FlowScene.cpp[0m
+[1.691s] [  8%] [34m[1mGenerating include/nodes/internal/moc_FlowViewStyle.cpp[0m
+[1.707s] [  9%] [34m[1mGenerating include/nodes/internal/moc_FlowView.cpp[0m
+[1.757s] [ 10%] [34m[1mGenerating include/nodes/internal/moc_Node.cpp[0m
+[1.838s] [ 11%] [34m[1mGenerating include/nodes/internal/moc_NodeData.cpp[0m
+[1.848s] [ 11%] [34m[1mGenerating include/nodes/internal/moc_NodeDataModel.cpp[0m
+[1.900s] [ 12%] [34m[1mGenerating include/nodes/internal/moc_NodeGeometry.cpp[0m
+[1.913s] [ 13%] [34m[1mGenerating include/nodes/internal/moc_NodeGraphicsObject.cpp[0m
+[1.926s] [ 14%] [34m[1mGenerating include/nodes/internal/moc_NodePainterDelegate.cpp[0m
+[2.021s] [ 14%] [34m[1mGenerating include/nodes/internal/moc_NodeState.cpp[0m
+[2.073s] [ 15%] [34m[1mGenerating include/nodes/internal/moc_OperatingSystem.cpp[0m
+[2.084s] [ 16%] [34m[1mGenerating include/nodes/internal/moc_NodeStyle.cpp[0m
+[2.119s] [ 16%] [34m[1mGenerating include/nodes/internal/moc_PortType.cpp[0m
+[2.122s] [ 17%] [34m[1mGenerating include/nodes/internal/moc_QStringStdHash.cpp[0m
+[2.174s] [ 18%] [34m[1mGenerating include/nodes/internal/moc_Serializable.cpp[0m
+[2.197s] [ 19%] [34m[1mGenerating include/nodes/internal/moc_Style.cpp[0m
+[2.199s] [ 19%] [34m[1mGenerating include/nodes/internal/moc_QUuidStdHash.cpp[0m
+[2.275s] [ 20%] [34m[1mGenerating include/nodes/internal/moc_TypeConverter.cpp[0m
+[2.303s] [ 21%] [34m[1mGenerating include/nodes/internal/moc_memory.cpp[0m
+[2.371s] [ 21%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/QtNodeEditor_autogen/mocs_compilation.cpp.o[0m
+[2.376s] [ 22%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/ConnectionBlurEffect.cpp.o[0m
+[2.379s] [ 23%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/Connection.cpp.o[0m
+[2.390s] [ 24%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/ConnectionGeometry.cpp.o[0m
+[2.459s] [ 24%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/ConnectionGraphicsObject.cpp.o[0m
+[4.398s] [ 25%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/ConnectionPainter.cpp.o[0m
+[5.404s] [ 26%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/ConnectionState.cpp.o[0m
+[7.723s] [ 26%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/ConnectionStyle.cpp.o[0m
+[9.380s] [ 27%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/DataModelRegistry.cpp.o[0m
+[9.483s] [ 28%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/FlowScene.cpp.o[0m
+[10.511s] [01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/src/ConnectionStyle.cpp:[m[K In member function ‘[01m[KQColor QtNodes::ConnectionStyle::normalColor(QString) const[m[K’:
+[10.511s] [01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/src/ConnectionStyle.cpp:169:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid qsrand(uint)[m[K’ is deprecated: use QRandomGenerator instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.511s]   169 |   [01;35m[Kqsrand(hash)[m[K;
+[10.511s]       |   [01;35m[K~~~~~~^~~~~~[m[K
+[10.512s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43[m[K,
+[10.512s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h:43[m[K,
+[10.512s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/QColor:1[m[K,
+[10.512s]                  from [01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/include/nodes/internal/ConnectionStyle.hpp:3[m[K,
+[10.512s]                  from [01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/src/ConnectionStyle.cpp:1[m[K:
+[10.513s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:1273:81:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.513s]  1273 | RECATED_VERSION_X_5_15("use QRandomGenerator instead") void [01;36m[Kqsrand[m[K(uint seed);
+[10.513s]       |                                                             [01;36m[K^~~~~~[m[K
+[10.513s] 
+[10.513s] [01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/src/ConnectionStyle.cpp:170:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint qrand()[m[K’ is deprecated: use QRandomGenerator instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.514s]   170 |   std::size_t hue = [01;35m[Kqrand()[m[K % hue_range;
+[10.514s]       |                     [01;35m[K~~~~~^~[m[K
+[10.514s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43[m[K,
+[10.514s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h:43[m[K,
+[10.514s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/QColor:1[m[K,
+[10.514s]                  from [01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/include/nodes/internal/ConnectionStyle.hpp:3[m[K,
+[10.515s]                  from [01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/src/ConnectionStyle.cpp:1[m[K:
+[10.515s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:1274:80:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.515s]  1274 | _DEPRECATED_VERSION_X_5_15("use QRandomGenerator instead") int [01;36m[Kqrand[m[K();
+[10.515s]       |                                                                [01;36m[K^~~~~[m[K
+[10.515s] 
+[11.535s] [ 29%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/FlowView.cpp.o[0m
+[12.331s] [ 29%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/FlowViewStyle.cpp.o[0m
+[14.705s] [ 30%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/Node.cpp.o[0m
+[15.073s] [ 31%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/NodeConnectionInteraction.cpp.o[0m
+[16.222s] [ 31%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/NodeDataModel.cpp.o[0m
+[18.429s] [ 32%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/NodeGeometry.cpp.o[0m
+[18.836s] [ 33%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/NodeGraphicsObject.cpp.o[0m
+[18.994s] [ 34%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/NodePainter.cpp.o[0m
+[20.669s] [ 34%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/NodeState.cpp.o[0m
+[21.176s] [01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/src/NodeGeometry.cpp:[m[K In member function ‘[01m[Kunsigned int QtNodes::NodeGeometry::portWidth(QtNodes::PortType) const[m[K’:
+[21.176s] [01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/src/NodeGeometry.cpp:286:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QFontMetrics::width(const QString&, int) const[m[K’ is deprecated: Use QFontMetrics::horizontalAdvance [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[21.176s]   286 |     width = std::max(unsigned([01;35m[K_fontMetrics.width(name)[m[K), width);
+[21.176s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[21.176s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/QFontMetrics:1[m[K,
+[21.177s]                  from [01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/include/nodes/internal/NodeGeometry.hpp:6[m[K,
+[21.177s]                  from [01m[K/home/denis/diploma_ws/src/Groot/QtNodeEditor/src/NodeGeometry.cpp:1[m[K:
+[21.177s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h:106:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[21.177s]   106 |     int [01;36m[Kwidth[m[K(const QString &, int len = -1) const;
+[21.177s]       |         [01;36m[K^~~~~[m[K
+[21.688s] [ 35%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/NodeStyle.cpp.o[0m
+[22.687s] [ 36%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/Properties.cpp.o[0m
+[24.060s] [ 36%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/StyleCollection.cpp.o[0m
+[24.356s] [ 37%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/qrc_resources.cpp.o[0m
+[24.456s] [ 38%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_Compiler.cpp.o[0m
+[24.504s] [ 39%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_Connection.cpp.o[0m
+[24.600s] [ 39%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_ConnectionGeometry.cpp.o[0m
+[24.650s] [ 40%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_ConnectionGraphicsObject.cpp.o[0m
+[25.475s] [ 41%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_ConnectionState.cpp.o[0m
+[25.525s] [ 41%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_ConnectionStyle.cpp.o[0m
+[25.573s] [ 42%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_DataModelRegistry.cpp.o[0m
+[25.621s] [ 43%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_Export.cpp.o[0m
+[25.669s] [ 44%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_FlowScene.cpp.o[0m
+[26.620s] [ 44%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_FlowView.cpp.o[0m
+[26.917s] [ 45%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_FlowViewStyle.cpp.o[0m
+[26.940s] [ 46%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_Node.cpp.o[0m
+[26.968s] [ 46%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_NodeData.cpp.o[0m
+[27.017s] [ 47%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_NodeDataModel.cpp.o[0m
+[28.828s] [ 48%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_NodeGeometry.cpp.o[0m
+[28.876s] [ 49%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_NodeGraphicsObject.cpp.o[0m
+[29.005s] [ 49%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_NodePainterDelegate.cpp.o[0m
+[29.054s] [ 50%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_NodeState.cpp.o[0m
+[29.106s] [ 51%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_NodeStyle.cpp.o[0m
+[29.155s] [ 51%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_OperatingSystem.cpp.o[0m
+[29.203s] [ 52%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_PortType.cpp.o[0m
+[29.251s] [ 53%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_QStringStdHash.cpp.o[0m
+[29.301s] [ 54%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_QUuidStdHash.cpp.o[0m
+[29.353s] [ 54%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_Serializable.cpp.o[0m
+[29.401s] [ 55%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_Style.cpp.o[0m
+[29.451s] [ 56%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_TypeConverter.cpp.o[0m
+[29.499s] [ 56%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_memory.cpp.o[0m
+[30.885s] [ 57%] [32m[1mLinking CXX static library ../lib/libQtNodeEditor.a[0m
+[31.031s] [ 57%] Built target QtNodeEditor
+[31.064s] [ 58%] [34m[1mAutomatic MOC and UIC for target behavior_tree_editor[0m
+[32.763s] [ 58%] Built target behavior_tree_editor_autogen
+[32.786s] [ 61%] [34m[1mGenerating ui_startup_dialog.h[0m
+[32.786s] [ 61%] [34m[1mGenerating ui_about_dialog.h[0m
+[32.786s] [ 61%] [34m[1mGenerating ui_action_form.h[0m
+[32.787s] [ 62%] [34m[1mGenerating ui_custom_node_dialog.h[0m
+[32.818s] [ 64%] [34m[1mGenerating ui_mainwindow.h[0m
+[32.818s] [ 64%] [34m[1mGenerating ui_sidepanel_editor.h[0m
+[32.818s] [ 64%] [34m[1mGenerating ui_sidepanel_monitor.h[0m
+[32.819s] [ 64%] [34m[1mGenerating ui_sidepanel_replay.h[0m
+[32.871s] [ 65%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/models/BehaviorTreeNodeModel.cpp.o[0m
+[32.871s] [ 66%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/models/SubtreeNodeModel.cpp.o[0m
+[32.872s] [ 65%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/behavior_tree_editor_autogen/mocs_compilation.cpp.o[0m
+[32.872s] [ 66%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/mainwindow.cpp.o[0m
+[38.627s] [ 67%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/editor_flowscene.cpp.o[0m
+[39.576s] [ 68%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/utils.cpp.o[0m
+[39.804s] [ 69%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/bt_editor_base.cpp.o[0m
+[43.847s] [ 69%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/graphic_container.cpp.o[0m
+[45.124s] [ 70%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/startup_dialog.cpp.o[0m
+[45.233s] [ 71%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_editor.cpp.o[0m
+[47.766s] [ 71%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_replay.cpp.o[0m
+[49.472s] [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_editor.cpp:[m[K In member function ‘[01m[Kvoid SidepanelEditor::on_buttonUpload_clicked()[m[K’:
+[49.473s] [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_editor.cpp:302:38:[m[K [01;35m[Kwarning: [m[K‘[01m[KQTextStream& QTextStreamFunctions::endl(QTextStream&)[m[K’ is deprecated: Use Qt::endl [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[49.473s]   302 |         stream << doc.toString(4) << [01;35m[Kendl[m[K;
+[49.473s]       |                                      [01;35m[K^~~~[m[K
+[49.473s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:49[m[K,
+[49.474s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcborcommon.h:45[m[K,
+[49.474s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcborvalue.h:45[m[K,
+[49.474s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h:46[m[K,
+[49.474s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h:43[m[K,
+[49.474s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject:1[m[K,
+[49.474s]                  from [01m[K/home/denis/diploma_ws/src/Groot/./QtNodeEditor/include/nodes/internal/Node.hpp:7[m[K,
+[49.474s]                  from [01m[K/home/denis/diploma_ws/src/Groot/./QtNodeEditor/include/nodes/Node:1[m[K,
+[49.475s]                  from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/bt_editor_base.h:9[m[K,
+[49.475s]                  from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/XML_utilities.hpp:5[m[K,
+[49.475s]                  from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_editor.h:8[m[K,
+[49.475s]                  from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_editor.cpp:1[m[K:
+[49.476s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h:293:75:[m[K [01;36m[Knote: [m[Kdeclared here
+[49.476s]   293 | QT_DEPRECATED_VERSION_X(5, 15, "Use Qt::endl") QTextStream &[01;36m[Kendl[m[K(QTextStream &s);
+[49.476s]       |                                                             [01;36m[K^~~~[m[K
+[49.476s] 
+[49.476s] [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_editor.cpp:302:38:[m[K [01;35m[Kwarning: [m[K‘[01m[KQTextStream& QTextStreamFunctions::endl(QTextStream&)[m[K’ is deprecated: Use Qt::endl [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[49.476s]   302 |         stream << doc.toString(4) << [01;35m[Kendl[m[K;
+[49.477s]       |                                      [01;35m[K^~~~[m[K
+[49.477s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:49[m[K,
+[49.477s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcborcommon.h:45[m[K,
+[49.477s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcborvalue.h:45[m[K,
+[49.477s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h:46[m[K,
+[49.477s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h:43[m[K,
+[49.478s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject:1[m[K,
+[49.478s]                  from [01m[K/home/denis/diploma_ws/src/Groot/./QtNodeEditor/include/nodes/internal/Node.hpp:7[m[K,
+[49.478s]                  from [01m[K/home/denis/diploma_ws/src/Groot/./QtNodeEditor/include/nodes/Node:1[m[K,
+[49.478s]                  from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/bt_editor_base.h:9[m[K,
+[49.478s]                  from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/XML_utilities.hpp:5[m[K,
+[49.478s]                  from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_editor.h:8[m[K,
+[49.479s]                  from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_editor.cpp:1[m[K:
+[49.479s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h:293:75:[m[K [01;36m[Knote: [m[Kdeclared here
+[49.479s]   293 | QT_DEPRECATED_VERSION_X(5, 15, "Use Qt::endl") QTextStream &[01;36m[Kendl[m[K(QTextStream &s);
+[49.479s]       |                                                             [01;36m[K^~~~[m[K
+[49.479s] 
+[49.838s] [ 72%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/custom_node_dialog.cpp.o[0m
+[52.182s] [ 73%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/XML_utilities.cpp.o[0m
+[52.373s] [ 74%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_monitor.cpp.o[0m
+[53.033s] [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_replay.cpp:[m[K In member function ‘[01m[Kvoid SidepanelReplay::updateTableModel(const AbsBehaviorTree&)[m[K’:
+[53.033s] [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_replay.cpp:106:30:[m[K [01;35m[Kwarning: [m[K‘[01m[KQString& QString::sprintf(const char*, ...)[m[K’ is deprecated: Use asprintf(), arg() or QTextStream instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[53.034s]   106 |             [01;35m[Ktimestamp.sprintf("%.3f", trans.timestamp - first_timestamp)[m[K;
+[53.034s]       |             [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[53.035s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:47[m[K,
+[53.035s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45[m[K,
+[53.035s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:44[m[K,
+[53.036s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame:1[m[K,
+[53.036s]                  from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_replay.h:5[m[K,
+[53.036s]                  from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_replay.cpp:1[m[K:
+[53.037s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:393:14:[m[K [01;36m[Knote: [m[Kdeclared here
+[53.037s]   393 |     QString &[01;36m[Ksprintf[m[K(const char *format, ...) Q_ATTRIBUTE_FORMAT_PRINTF(2, 3);
+[53.037s]       |              [01;36m[K^~~~~~~[m[K
+[53.038s] [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_replay.cpp:109:30:[m[K [01;35m[Kwarning: [m[K‘[01m[KQString& QString::sprintf(const char*, ...)[m[K’ is deprecated: Use asprintf(), arg() or QTextStream instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[53.039s]   109 |             [01;35m[Ktimestamp.sprintf("absolute time: %.3f", trans.timestamp)[m[K;
+[53.039s]       |             [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[53.039s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:47[m[K,
+[53.040s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45[m[K,
+[53.040s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:44[m[K,
+[53.040s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame:1[m[K,
+[53.041s]                  from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_replay.h:5[m[K,
+[53.041s]                  from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_replay.cpp:1[m[K:
+[53.041s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:393:14:[m[K [01;36m[Knote: [m[Kdeclared here
+[53.041s]   393 |     QString &[01;36m[Ksprintf[m[K(const char *format, ...) Q_ATTRIBUTE_FORMAT_PRINTF(2, 3);
+[53.042s]       |              [01;36m[K^~~~~~~[m[K
+[56.878s] [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.cpp:[m[K In member function ‘[01m[Kbool SidepanelMonitor::getTreeFromServer()[m[K’:
+[56.879s] [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.cpp:147:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid zmq::detail::socket_base::setsockopt(int, const void*, size_t)[m[K’ is deprecated: from 4.7.0, use `set` taking option from zmq::sockopt [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[56.879s]   147 |         [01;35m[Kzmq_client.setsockopt(ZMQ_RCVTIMEO, &_load_tree_timeout_ms, sizeof(int) )[m[K;
+[56.879s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[56.879s] In file included from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.h:5[m[K,
+[56.879s]                  from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.cpp:1[m[K:
+[56.880s] [01m[K/usr/include/zmq.hpp:1676:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[56.880s]  1676 |     void [01;36m[Ksetsockopt[m[K(int option_, const void *optval_, size_t optvallen_)
+[56.880s]       |          [01;36m[K^~~~~~~~~~[m[K
+[56.892s] [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.cpp:[m[K In member function ‘[01m[Kvoid SidepanelMonitor::on_Connect()[m[K’:
+[56.892s] [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.cpp:239:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid zmq::detail::socket_base::setsockopt(int, const void*, size_t)[m[K’ is deprecated: from 4.7.0, use `set` taking option from zmq::sockopt [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[56.892s]   239 |                 [01;35m[K_zmq_subscriber.setsockopt(ZMQ_SUBSCRIBE, "", 0)[m[K;
+[56.893s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[56.893s] In file included from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.h:5[m[K,
+[56.893s]                  from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.cpp:1[m[K:
+[56.893s] [01m[K/usr/include/zmq.hpp:1676:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[56.893s]  1676 |     void [01;36m[Ksetsockopt[m[K(int option_, const void *optval_, size_t optvallen_)
+[56.893s]       |          [01;36m[K^~~~~~~~~~[m[K
+[56.894s] [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.cpp:240:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid zmq::detail::socket_base::setsockopt(int, const void*, size_t)[m[K’ is deprecated: from 4.7.0, use `set` taking option from zmq::sockopt [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[56.894s]   240 |                 [01;35m[K_zmq_subscriber.setsockopt(ZMQ_RCVTIMEO, &timeout_ms, sizeof(int) )[m[K;
+[56.894s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[56.894s] In file included from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.h:5[m[K,
+[56.894s]                  from [01m[K/home/denis/diploma_ws/src/Groot/bt_editor/sidepanel_monitor.cpp:1[m[K:
+[56.895s] [01m[K/usr/include/zmq.hpp:1676:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[56.895s]  1676 |     void [01;36m[Ksetsockopt[m[K(int option_, const void *optval_, size_t optvallen_)
+[56.895s]       |          [01;36m[K^~~~~~~~~~[m[K
+[58.474s] [ 74%] [32m[1mLinking CXX shared library libbehavior_tree_editor.so[0m
+[59.544s] [ 74%] Built target behavior_tree_editor
+[59.580s] [ 75%] [34m[1mAutomatic MOC and UIC for target Groot[0m
+[59.588s] [ 75%] [34m[1mAutomatic MOC and UIC for target editor_test[0m
+[59.591s] [ 76%] [34m[1mAutomatic MOC and UIC for target replay_test[0m
+[59.630s] [ 76%] Built target Groot_autogen
+[59.657s] [ 77%] [34m[1mAutomatic RCC for bt_editor/resources/style.qrc[0m
+[59.669s] [ 78%] [34m[1mAutomatic RCC for test_data/test_files.qrc[0m
+[59.754s] [ 78%] [34m[1mAutomatic RCC for bt_editor/resources/icons.qrc[0m
+[60.079s] [ 78%] [32mBuilding CXX object CMakeFiles/Groot.dir/Groot_autogen/mocs_compilation.cpp.o[0m
+[60.083s] [ 79%] [32mBuilding CXX object CMakeFiles/Groot.dir/bt_editor/main.cpp.o[0m
+[60.177s] [ 80%] [32mBuilding CXX object CMakeFiles/Groot.dir/Groot_autogen/OQ4J2MLGYJ/qrc_icons.cpp.o[0m
+[60.757s] [ 80%] Built target editor_test_autogen
+[60.782s] [ 81%] [34m[1mAutomatic RCC for ../bt_editor/resources/style.qrc[0m
+[60.808s] [ 81%] Built target replay_test_autogen
+[60.832s] [ 82%] [34m[1mAutomatic RCC for ../test_data/test_files.qrc[0m
+[60.833s] [ 82%] [34m[1mAutomatic RCC for ../bt_editor/resources/style.qrc[0m
+[60.882s] [ 83%] [34m[1mAutomatic RCC for ../test_data/test_files.qrc[0m
+[60.885s] [ 84%] [34m[1mAutomatic RCC for ../QtNodeEditor/resources/resources.qrc[0m
+[60.933s] [ 84%] [34m[1mAutomatic RCC for ../bt_editor/resources/icons.qrc[0m
+[60.935s] [ 85%] [34m[1mAutomatic RCC for ../QtNodeEditor/resources/resources.qrc[0m
+[60.984s] [ 86%] [34m[1mAutomatic RCC for ../bt_editor/resources/icons.qrc[0m
+[61.092s] [ 87%] [32mBuilding CXX object test/CMakeFiles/editor_test.dir/editor_test_autogen/mocs_compilation.cpp.o[0m
+[61.133s] [ 88%] [32mBuilding CXX object test/CMakeFiles/replay_test.dir/replay_test_autogen/mocs_compilation.cpp.o[0m
+[61.472s] [ 89%] [32mBuilding CXX object CMakeFiles/Groot.dir/Groot_autogen/OQ4J2MLGYJ/qrc_style.cpp.o[0m
+[61.542s] [ 89%] [32mBuilding CXX object CMakeFiles/Groot.dir/Groot_autogen/NYYW7IJ2JN/qrc_test_files.cpp.o[0m
+[61.641s] [ 90%] [32mBuilding CXX object test/CMakeFiles/replay_test.dir/replay_test.cpp.o[0m
+[66.991s] [ 91%] [32m[1mLinking CXX executable Groot[0m
+[67.964s] [ 91%] Built target Groot
+[67.985s] [ 91%] [32mBuilding CXX object test/CMakeFiles/replay_test.dir/groot_test_base.cpp.o[0m
+[69.028s] [ 91%] [32mBuilding CXX object test/CMakeFiles/editor_test.dir/editor_test.cpp.o[0m
+[69.262s] [ 92%] [32mBuilding CXX object test/CMakeFiles/replay_test.dir/replay_test_autogen/EB4OVBCXLB/qrc_resources.cpp.o[0m
+[69.363s] [ 93%] [32mBuilding CXX object test/CMakeFiles/replay_test.dir/replay_test_autogen/K3L5NHU5SO/qrc_icons.cpp.o[0m
+[69.763s] [ 93%] [32mBuilding CXX object test/CMakeFiles/replay_test.dir/replay_test_autogen/K3L5NHU5SO/qrc_style.cpp.o[0m
+[69.829s] [ 94%] [32mBuilding CXX object test/CMakeFiles/replay_test.dir/replay_test_autogen/4L4FNCFPKD/qrc_test_files.cpp.o[0m
+[69.924s] [ 95%] [32mBuilding CXX object test/CMakeFiles/editor_test.dir/groot_test_base.cpp.o[0m
+[70.456s] [ 96%] [32mBuilding CXX object test/CMakeFiles/editor_test.dir/editor_test_autogen/EB4OVBCXLB/qrc_resources.cpp.o[0m
+[70.548s] [ 96%] [32mBuilding CXX object test/CMakeFiles/editor_test.dir/editor_test_autogen/K3L5NHU5SO/qrc_icons.cpp.o[0m
+[71.582s] [ 97%] [32mBuilding CXX object test/CMakeFiles/editor_test.dir/editor_test_autogen/K3L5NHU5SO/qrc_style.cpp.o[0m
+[71.652s] [ 98%] [32mBuilding CXX object test/CMakeFiles/editor_test.dir/editor_test_autogen/4L4FNCFPKD/qrc_test_files.cpp.o[0m
+[75.809s] [ 99%] [32m[1mLinking CXX executable replay_test[0m
+[76.620s] [ 99%] Built target replay_test
+[77.067s] [100%] [32m[1mLinking CXX executable editor_test[0m
+[77.804s] [100%] Built target editor_test
+[77.825s] Invoked command in '/home/denis/diploma_ws/build/groot' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake --build /home/denis/diploma_ws/build/groot -- -j4 -l4
+[77.961s] Invoking command in '/home/denis/diploma_ws/build/groot': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake --install /home/denis/diploma_ws/build/groot
+[77.974s] -- Install configuration: ""
+[77.975s] -- Installing: /home/denis/diploma_ws/install/groot/lib/libbehavior_tree_editor.so
+[77.983s] -- Set runtime path of "/home/denis/diploma_ws/install/groot/lib/libbehavior_tree_editor.so" to ""
+[77.983s] -- Installing: /home/denis/diploma_ws/install/groot/lib/groot/Groot
+[77.985s] -- Set runtime path of "/home/denis/diploma_ws/install/groot/lib/groot/Groot" to ""
+[77.985s] -- Installing: /home/denis/diploma_ws/install/groot/share/groot/environment/library_path.sh
+[77.985s] -- Installing: /home/denis/diploma_ws/install/groot/share/groot/environment/library_path.dsv
+[77.985s] -- Installing: /home/denis/diploma_ws/install/groot/share/ament_index/resource_index/package_run_dependencies/groot
+[77.986s] -- Installing: /home/denis/diploma_ws/install/groot/share/ament_index/resource_index/parent_prefix_path/groot
+[77.986s] -- Installing: /home/denis/diploma_ws/install/groot/share/groot/environment/ament_prefix_path.sh
+[77.986s] -- Installing: /home/denis/diploma_ws/install/groot/share/groot/environment/ament_prefix_path.dsv
+[77.987s] -- Installing: /home/denis/diploma_ws/install/groot/share/groot/environment/path.sh
+[77.987s] -- Installing: /home/denis/diploma_ws/install/groot/share/groot/environment/path.dsv
+[77.987s] -- Installing: /home/denis/diploma_ws/install/groot/share/groot/local_setup.bash
+[77.987s] -- Installing: /home/denis/diploma_ws/install/groot/share/groot/local_setup.sh
+[77.988s] -- Installing: /home/denis/diploma_ws/install/groot/share/groot/local_setup.zsh
+[77.988s] -- Installing: /home/denis/diploma_ws/install/groot/share/groot/local_setup.dsv
+[77.988s] -- Installing: /home/denis/diploma_ws/install/groot/share/groot/package.dsv
+[77.989s] -- Installing: /home/denis/diploma_ws/install/groot/share/ament_index/resource_index/packages/groot
+[77.989s] -- Installing: /home/denis/diploma_ws/install/groot/share/groot/cmake/ament_cmake_export_include_directories-extras.cmake
+[77.989s] -- Installing: /home/denis/diploma_ws/install/groot/share/groot/cmake/ament_cmake_export_dependencies-extras.cmake
+[77.989s] -- Installing: /home/denis/diploma_ws/install/groot/share/groot/cmake/ament_cmake_export_libraries-extras.cmake
+[77.990s] -- Installing: /home/denis/diploma_ws/install/groot/share/groot/cmake/grootConfig.cmake
+[77.990s] -- Installing: /home/denis/diploma_ws/install/groot/share/groot/cmake/grootConfig-version.cmake
+[77.990s] -- Installing: /home/denis/diploma_ws/install/groot/share/groot/package.xml
+[77.994s] Invoked command in '/home/denis/diploma_ws/build/groot' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake --install /home/denis/diploma_ws/build/groot

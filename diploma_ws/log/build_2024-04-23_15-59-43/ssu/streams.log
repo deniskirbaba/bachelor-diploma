@@ -1,0 +1,24 @@
+[0.031s] Invoking command in '/home/denis/diploma_ws/build/ssu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/ssu -- -j4 -l4
+[0.200s] [100%] Built target sensor_supervisitory_unit
+[0.228s] Invoked command in '/home/denis/diploma_ws/build/ssu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/ssu -- -j4 -l4
+[0.320s] Invoking command in '/home/denis/diploma_ws/build/ssu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/ssu
+[0.411s] -- Install configuration: ""
+[0.411s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/lib/ssu/sensor_supervisitory_unit
+[0.411s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/launch
+[0.412s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/launch/sensor_supervisitory_unit.launch.py
+[0.412s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ament_index/resource_index/package_run_dependencies/ssu
+[0.412s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ament_index/resource_index/parent_prefix_path/ssu
+[0.412s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/environment/ament_prefix_path.sh
+[0.413s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/environment/ament_prefix_path.dsv
+[0.413s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/environment/path.sh
+[0.413s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/environment/path.dsv
+[0.413s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/local_setup.bash
+[0.413s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/local_setup.sh
+[0.414s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/local_setup.zsh
+[0.414s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/local_setup.dsv
+[0.415s] -- Installing: /home/denis/diploma_ws/install/ssu/share/ssu/package.dsv
+[0.415s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ament_index/resource_index/packages/ssu
+[0.416s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/cmake/ssuConfig.cmake
+[0.416s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/cmake/ssuConfig-version.cmake
+[0.416s] -- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/package.xml
+[0.417s] Invoked command in '/home/denis/diploma_ws/build/ssu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/ssu

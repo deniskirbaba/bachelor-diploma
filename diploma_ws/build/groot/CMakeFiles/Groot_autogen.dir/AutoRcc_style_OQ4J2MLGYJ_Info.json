@@ -1,0 +1,23 @@
+{
+	"BUILD_DIR" : "/home/denis/diploma_ws/build/groot/Groot_autogen",
+	"CMAKE_BINARY_DIR" : "/home/denis/diploma_ws/build/groot",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/denis/diploma_ws/build/groot",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/denis/diploma_ws/src/Groot",
+	"CMAKE_SOURCE_DIR" : "/home/denis/diploma_ws/src/Groot",
+	"INCLUDE_DIR" : "/home/denis/diploma_ws/build/groot/Groot_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/denis/diploma_ws/src/Groot/bt_editor/resources/NodesStyle.json",
+		"/home/denis/diploma_ws/src/Groot/bt_editor/resources/stylesheet.qss"
+	],
+	"LOCK_FILE" : "/home/denis/diploma_ws/build/groot/CMakeFiles/Groot_autogen.dir/AutoRcc_style_OQ4J2MLGYJ_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "style" ],
+	"OUTPUT_CHECKSUM" : "OQ4J2MLGYJ",
+	"OUTPUT_NAME" : "qrc_style.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/denis/diploma_ws/build/groot/CMakeFiles/Groot_autogen.dir/AutoRcc_style_OQ4J2MLGYJ_Used.txt",
+	"SOURCE" : "/home/denis/diploma_ws/src/Groot/bt_editor/resources/style.qrc",
+	"VERBOSITY" : 0
+}

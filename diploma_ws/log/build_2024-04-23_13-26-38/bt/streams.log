@@ -1,0 +1,38 @@
+[0.028s] Invoking command in '/home/denis/diploma_ws/build/bt': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake --build /home/denis/diploma_ws/build/bt -- -j4 -l4
+[0.221s] [ 25%] Built target lidar_bt
+[0.238s] [ 50%] Built target imu_bt
+[0.253s] [ 75%] Built target sensors_bt
+[0.257s] [100%] Built target odom_bt
+[0.283s] Invoked command in '/home/denis/diploma_ws/build/bt' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake --build /home/denis/diploma_ws/build/bt -- -j4 -l4
+[0.367s] Invoking command in '/home/denis/diploma_ws/build/bt': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake --install /home/denis/diploma_ws/build/bt
+[0.384s] -- Install configuration: ""
+[0.385s] -- Up-to-date: /home/denis/diploma_ws/install/bt/lib/bt/lidar_bt
+[0.386s] -- Up-to-date: /home/denis/diploma_ws/install/bt/lib/bt/imu_bt
+[0.387s] -- Up-to-date: /home/denis/diploma_ws/install/bt/lib/bt/odom_bt
+[0.388s] -- Up-to-date: /home/denis/diploma_ws/install/bt/lib/bt/sensors_bt
+[0.389s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources
+[0.389s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources/imu_bt.xml
+[0.389s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources/sensors_bt.xml
+[0.390s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources/lidar_bt.xml
+[0.390s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources/odom_bt.xml
+[0.391s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch
+[0.391s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch/lidar_bt.launch.py
+[0.391s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch/odom_bt.launch.py
+[0.392s] -- Installing: /home/denis/diploma_ws/install/bt/share/bt/launch/sensors_bt.launch.py
+[0.392s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch/imu_bt.launch.py
+[0.392s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/ament_index/resource_index/package_run_dependencies/bt
+[0.392s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/ament_index/resource_index/parent_prefix_path/bt
+[0.392s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/ament_prefix_path.sh
+[0.393s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/ament_prefix_path.dsv
+[0.393s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/path.sh
+[0.393s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/path.dsv
+[0.393s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.bash
+[0.396s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.sh
+[0.397s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.zsh
+[0.397s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.dsv
+[0.397s] -- Installing: /home/denis/diploma_ws/install/bt/share/bt/package.dsv
+[0.397s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/ament_index/resource_index/packages/bt
+[0.398s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/cmake/btConfig.cmake
+[0.398s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/cmake/btConfig-version.cmake
+[0.399s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/package.xml
+[0.399s] Invoked command in '/home/denis/diploma_ws/build/bt' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake --install /home/denis/diploma_ws/build/bt

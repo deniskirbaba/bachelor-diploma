@@ -1,0 +1,54 @@
+[0.081s] Invoking command in '/home/denis/diploma_ws/build/bt': CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/nav2_bringup:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/groot/lib:/home/denis/diploma_ws/install/dms_interfaces/lib:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/denis/diploma_ws/build/bt -- -j4 -l4
+[0.301s] [35m[1mConsolidate compiler generated dependencies of target lidar_bt[0m
+[0.385s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_bt.dir/src/lidar_bt.cpp.o[0m
+[15.593s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[15.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[15.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[15.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[15.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[15.595s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[15.595s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[15.596s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[15.596s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[15.597s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[15.597s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[15.598s]                  from [01m[K/home/denis/diploma_ws/src/bt/include/bt/lidar_check.hpp:6[m[K,
+[15.599s]                  from [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:1[m[K:
+[15.599s] [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[15.600s] [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:50:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[KBT::NodeStatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[15.600s]    50 |         RCLCPP_INFO(rclcpp::get_logger("root"), [01;35m[K"BT Status: %d"[m[K, [32m[Kstatus[m[K);
+[15.600s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~[m[K
+[15.600s]       |                                                                  [32m[K|[m[K
+[15.601s]       |                                                                  [32m[KBT::NodeStatus[m[K
+[15.601s] [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:50:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[15.601s]    50 |         RCLCPP_INFO(rclcpp::get_logger("root"), "BT Status: [01;36m[K%d[m[K", status);
+[15.602s]       |                                                             [01;36m[K~^[m[K
+[15.606s]       |                                                              [01;36m[K|[m[K
+[15.606s]       |                                                              [01;36m[Kint[m[K
+[23.682s] [100%] [32m[1mLinking CXX executable lidar_bt[0m
+[24.815s] [100%] Built target lidar_bt
+[24.878s] Invoked command in '/home/denis/diploma_ws/build/bt' returned '0': CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/nav2_bringup:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/groot/lib:/home/denis/diploma_ws/install/dms_interfaces/lib:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/denis/diploma_ws/build/bt -- -j4 -l4
+[25.071s] Invoking command in '/home/denis/diploma_ws/build/bt': CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/nav2_bringup:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/groot/lib:/home/denis/diploma_ws/install/dms_interfaces/lib:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/denis/diploma_ws/build/bt
+[25.111s] -- Install configuration: ""
+[25.113s] -- Installing: /home/denis/diploma_ws/install/bt/lib/bt/lidar_bt
+[25.120s] -- Set runtime path of "/home/denis/diploma_ws/install/bt/lib/bt/lidar_bt" to ""
+[25.120s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources
+[25.120s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources/lidar_bt.xml
+[25.121s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch
+[25.122s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch/lidar_bt.launch.py
+[25.123s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/ament_index/resource_index/package_run_dependencies/bt
+[25.123s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/ament_index/resource_index/parent_prefix_path/bt
+[25.123s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/ament_prefix_path.sh
+[25.126s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/ament_prefix_path.dsv
+[25.126s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/path.sh
+[25.127s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/path.dsv
+[25.128s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.bash
+[25.129s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.sh
+[25.130s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.zsh
+[25.135s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.dsv
+[25.135s] -- Installing: /home/denis/diploma_ws/install/bt/share/bt/package.dsv
+[25.135s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/ament_index/resource_index/packages/bt
+[25.136s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/cmake/btConfig.cmake
+[25.138s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/cmake/btConfig-version.cmake
+[25.138s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/package.xml
+[25.139s] Invoked command in '/home/denis/diploma_ws/build/bt' returned '0': CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/nav2_bringup:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/groot/lib:/home/denis/diploma_ws/install/dms_interfaces/lib:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/denis/diploma_ws/build/bt

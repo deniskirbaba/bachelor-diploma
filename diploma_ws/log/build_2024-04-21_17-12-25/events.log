@@ -1,0 +1,337 @@
+[0.000000] (-) TimerEvent: {}
+[0.000171] (-) JobUnselected: {'identifier': 'behaviortree_cpp_v3'}
+[0.000286] (-) JobUnselected: {'identifier': 'bt'}
+[0.000326] (-) JobUnselected: {'identifier': 'csu'}
+[0.000352] (-) JobUnselected: {'identifier': 'fsu'}
+[0.000424] (-) JobUnselected: {'identifier': 'groot'}
+[0.000501] (-) JobUnselected: {'identifier': 'ssu'}
+[0.000566] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000644] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000750] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.000807] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000843] (dms_interfaces) JobQueued: {'identifier': 'dms_interfaces', 'dependencies': OrderedDict()}
+[0.000891] (dms_interfaces) JobStarted: {'identifier': 'dms_interfaces'}
+[0.015302] (dms_interfaces) JobProgress: {'identifier': 'dms_interfaces', 'progress': 'cmake'}
+[0.015793] (dms_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/denis/diploma_ws/src/dms_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/denis/diploma_ws/install/dms_interfaces'], 'cwd': '/home/denis/diploma_ws/build/dms_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'denis'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/denis/diploma_ws/install/groot/lib:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/denis'), ('OLDPWD', '/home/denis/diploma_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '1313'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/denis/diploma_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'denis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'denis'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:/home/denis/diploma_ws/install/behaviortree_cpp/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/denis-asus:@/tmp/.ICE-unix/1068,unix/denis-asus:/tmp/.ICE-unix/1068'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f3aa0167_5f4a_4ead_a6f0_00402c51aaff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OENPM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.607'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/denis/diploma_ws/build/dms_interfaces'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble')]), 'shell': False}
+[0.098895] (-) TimerEvent: {}
+[0.114508] (dms_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199023] (-) TimerEvent: {}
+[0.208749] (dms_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.220103] (dms_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299169] (-) TimerEvent: {}
+[0.335653] (dms_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.347128] (dms_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.347497] (dms_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.348097] (dms_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.352786] (dms_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399319] (-) TimerEvent: {}
+[0.488018] (dms_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.499436] (-) TimerEvent: {}
+[0.499720] (dms_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.500172] (dms_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.500953] (dms_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.508295] (dms_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.599558] (-) TimerEvent: {}
+[0.699989] (-) TimerEvent: {}
+[0.755910] (dms_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.800064] (-) TimerEvent: {}
+[0.900483] (-) TimerEvent: {}
+[0.937420] (dms_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.948066] (dms_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.967849] (dms_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.000610] (-) TimerEvent: {}
+[1.064666] (dms_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.100719] (-) TimerEvent: {}
+[1.147581] (dms_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.200866] (-) TimerEvent: {}
+[1.301211] (-) TimerEvent: {}
+[1.401524] (-) TimerEvent: {}
+[1.501907] (-) TimerEvent: {}
+[1.602229] (-) TimerEvent: {}
+[1.702610] (-) TimerEvent: {}
+[1.802955] (-) TimerEvent: {}
+[1.817708] (dms_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.903098] (-) TimerEvent: {}
+[2.003416] (-) TimerEvent: {}
+[2.103802] (-) TimerEvent: {}
+[2.204142] (-) TimerEvent: {}
+[2.231396] (dms_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.304258] (-) TimerEvent: {}
+[2.404631] (-) TimerEvent: {}
+[2.504968] (-) TimerEvent: {}
+[2.605336] (-) TimerEvent: {}
+[2.705665] (-) TimerEvent: {}
+[2.748476] (dms_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.784578] (dms_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.790184] (dms_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.805776] (-) TimerEvent: {}
+[2.832427] (dms_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.832937] (dms_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.833180] (dms_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.833398] (dms_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.866930] (dms_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.905913] (-) TimerEvent: {}
+[2.975946] (dms_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.006040] (-) TimerEvent: {}
+[3.027633] (dms_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.030302] (dms_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.035615] (dms_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.093809] (dms_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.097833] (dms_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/denis/diploma_ws/build/dms_interfaces\n'}
+[3.106194] (-) TimerEvent: {}
+[3.111064] (dms_interfaces) CommandEnded: {'returncode': 0}
+[3.111972] (dms_interfaces) JobProgress: {'identifier': 'dms_interfaces', 'progress': 'build'}
+[3.112920] (dms_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/denis/diploma_ws/build/dms_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/denis/diploma_ws/build/dms_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'denis'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/denis/diploma_ws/install/groot/lib:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/denis'), ('OLDPWD', '/home/denis/diploma_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '1313'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/denis/diploma_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'denis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'denis'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:/home/denis/diploma_ws/install/behaviortree_cpp/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/denis-asus:@/tmp/.ICE-unix/1068,unix/denis-asus:/tmp/.ICE-unix/1068'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f3aa0167_5f4a_4ead_a6f0_00402c51aaff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OENPM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.607'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/denis/diploma_ws/build/dms_interfaces'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble')]), 'shell': False}
+[3.189630] (dms_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.206309] (-) TimerEvent: {}
+[3.219180] (dms_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.231282] (dms_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_dms_interfaces\n'}
+[3.306426] (-) TimerEvent: {}
+[3.406968] (-) TimerEvent: {}
+[3.507340] (-) TimerEvent: {}
+[3.607791] (-) TimerEvent: {}
+[3.708210] (-) TimerEvent: {}
+[3.729516] (dms_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.730988] (dms_interfaces) StdoutLine: {'line': b'creating dms_interfaces.egg-info\n'}
+[3.731479] (dms_interfaces) StdoutLine: {'line': b'writing dms_interfaces.egg-info/PKG-INFO\n'}
+[3.731992] (dms_interfaces) StdoutLine: {'line': b'writing dependency_links to dms_interfaces.egg-info/dependency_links.txt\n'}
+[3.732457] (dms_interfaces) StdoutLine: {'line': b'writing top-level names to dms_interfaces.egg-info/top_level.txt\n'}
+[3.733024] (dms_interfaces) StdoutLine: {'line': b"writing manifest file 'dms_interfaces.egg-info/SOURCES.txt'\n"}
+[3.737886] (dms_interfaces) StdoutLine: {'line': b"reading manifest file 'dms_interfaces.egg-info/SOURCES.txt'\n"}
+[3.739715] (dms_interfaces) StdoutLine: {'line': b"writing manifest file 'dms_interfaces.egg-info/SOURCES.txt'\n"}
+[3.798529] (dms_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_dms_interfaces_egg\n'}
+[3.808317] (-) TimerEvent: {}
+[3.811663] (dms_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/dms_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dms_interfaces/srv/detail/pub_res_cmd_vel__functions.c.o\x1b[0m\n'}
+[3.875409] (dms_interfaces) StdoutLine: {'line': b'[  9%] Built target dms_interfaces__cpp\n'}
+[3.900365] (dms_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.900782] (dms_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.902003] (dms_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.908437] (-) TimerEvent: {}
+[3.944285] (dms_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libdms_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.008554] (-) TimerEvent: {}
+[4.040430] (dms_interfaces) StdoutLine: {'line': b'[ 22%] Built target dms_interfaces__rosidl_generator_c\n'}
+[4.067226] (dms_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.108658] (-) TimerEvent: {}
+[4.209049] (-) TimerEvent: {}
+[4.309424] (-) TimerEvent: {}
+[4.409797] (-) TimerEvent: {}
+[4.510183] (-) TimerEvent: {}
+[4.610791] (-) TimerEvent: {}
+[4.652911] (dms_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/dms_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dms_interfaces/srv/detail/pub_res_cmd_vel__type_support.cpp.o\x1b[0m\n'}
+[4.662939] (dms_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/dms_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dms_interfaces/srv/pub_res_cmd_vel__type_support.cpp.o\x1b[0m\n'}
+[4.711530] (-) TimerEvent: {}
+[4.741018] (dms_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/dms_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dms_interfaces/srv/detail/dds_fastrtps/pub_res_cmd_vel__type_support.cpp.o\x1b[0m\n'}
+[4.811997] (-) TimerEvent: {}
+[4.913096] (-) TimerEvent: {}
+[4.966458] (dms_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/dms_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dms_interfaces/srv/detail/pub_res_cmd_vel__type_support_c.cpp.o\x1b[0m\n'}
+[5.013223] (-) TimerEvent: {}
+[5.113793] (-) TimerEvent: {}
+[5.214391] (-) TimerEvent: {}
+[5.314972] (-) TimerEvent: {}
+[5.415524] (-) TimerEvent: {}
+[5.516125] (-) TimerEvent: {}
+[5.616677] (-) TimerEvent: {}
+[5.705738] (dms_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libdms_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.716799] (-) TimerEvent: {}
+[5.816648] (dms_interfaces) StdoutLine: {'line': b'[ 41%] Built target dms_interfaces__rosidl_typesupport_cpp\n'}
+[5.816951] (-) TimerEvent: {}
+[5.845549] (dms_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.889264] (dms_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libdms_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.917084] (-) TimerEvent: {}
+[6.017740] (-) TimerEvent: {}
+[6.038542] (dms_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libdms_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.118198] (-) TimerEvent: {}
+[6.161286] (dms_interfaces) StdoutLine: {'line': b'[ 51%] Built target dms_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[6.188098] (dms_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.195239] (dms_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libdms_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.218302] (-) TimerEvent: {}
+[6.302324] (dms_interfaces) StdoutLine: {'line': b'[ 58%] Built target dms_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.318420] (-) TimerEvent: {}
+[6.417175] (dms_interfaces) StdoutLine: {'line': b'[ 58%] Built target dms_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.418522] (-) TimerEvent: {}
+[6.518857] (-) TimerEvent: {}
+[6.611152] (dms_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/dms_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dms_interfaces/srv/detail/pub_res_cmd_vel__type_support.c.o\x1b[0m\n'}
+[6.618966] (-) TimerEvent: {}
+[6.684499] (dms_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libdms_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.709077] (dms_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/dms_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dms_interfaces/srv/pub_res_cmd_vel__type_support.cpp.o\x1b[0m\n'}
+[6.719098] (-) TimerEvent: {}
+[6.739258] (dms_interfaces) StdoutLine: {'line': b'[ 67%] Built target dms_interfaces__rosidl_typesupport_introspection_c\n'}
+[6.764947] (dms_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libdms_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.819230] (-) TimerEvent: {}
+[6.841467] (dms_interfaces) StdoutLine: {'line': b'[ 70%] Built target dms_interfaces__rosidl_typesupport_c\n'}
+[6.880433] (dms_interfaces) StdoutLine: {'line': b'[ 70%] Built target dms_interfaces\n'}
+[6.919351] (-) TimerEvent: {}
+[6.924460] (dms_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.019637] (-) TimerEvent: {}
+[7.120032] (-) TimerEvent: {}
+[7.220361] (-) TimerEvent: {}
+[7.320676] (-) TimerEvent: {}
+[7.421043] (-) TimerEvent: {}
+[7.521471] (dms_interfaces) StdoutLine: {'line': b'[ 74%] Built target dms_interfaces__py\n'}
+[7.521795] (-) TimerEvent: {}
+[7.559845] (dms_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/dms_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dms_interfaces/srv/_pub_res_cmd_vel_s.c.o\x1b[0m\n'}
+[7.621916] (-) TimerEvent: {}
+[7.722277] (-) TimerEvent: {}
+[7.782167] (dms_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dms_interfaces/libdms_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[7.822394] (-) TimerEvent: {}
+[7.877803] (dms_interfaces) StdoutLine: {'line': b'[ 80%] Built target dms_interfaces__rosidl_generator_py\n'}
+[7.922516] (-) TimerEvent: {}
+[7.931597] (dms_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/dms_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dms_interfaces/_dms_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.933417] (dms_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/dms_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dms_interfaces/_dms_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.933882] (dms_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/dms_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dms_interfaces/_dms_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.022638] (-) TimerEvent: {}
+[8.118856] (dms_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dms_interfaces/dms_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.122768] (-) TimerEvent: {}
+[8.193017] (dms_interfaces) StdoutLine: {'line': b'[ 93%] Built target dms_interfaces__rosidl_typesupport_c__pyext\n'}
+[8.216401] (dms_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dms_interfaces/dms_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.216710] (dms_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dms_interfaces/dms_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.222876] (-) TimerEvent: {}
+[8.288633] (dms_interfaces) StdoutLine: {'line': b'[100%] Built target dms_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.288938] (dms_interfaces) StdoutLine: {'line': b'[100%] Built target dms_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[8.308120] (dms_interfaces) CommandEnded: {'returncode': 0}
+[8.322994] (-) TimerEvent: {}
+[8.423333] (-) TimerEvent: {}
+[8.428927] (dms_interfaces) JobProgress: {'identifier': 'dms_interfaces', 'progress': 'install'}
+[8.444891] (dms_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/denis/diploma_ws/build/dms_interfaces'], 'cwd': '/home/denis/diploma_ws/build/dms_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'denis'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/denis/diploma_ws/install/groot/lib:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/denis'), ('OLDPWD', '/home/denis/diploma_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '1313'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/denis/diploma_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'denis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'denis'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:/home/denis/diploma_ws/install/behaviortree_cpp/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/denis-asus:@/tmp/.ICE-unix/1068,unix/denis-asus:/tmp/.ICE-unix/1068'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f3aa0167_5f4a_4ead_a6f0_00402c51aaff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OENPM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.607'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/denis/diploma_ws/build/dms_interfaces'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble')]), 'shell': False}
+[8.460724] (dms_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.461226] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/ament_index/resource_index/rosidl_interfaces/dms_interfaces\n'}
+[8.461632] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces\n'}
+[8.461904] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv\n'}
+[8.462220] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/pub_res_cmd_vel.h\n'}
+[8.462477] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail\n'}
+[8.462607] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__functions.c\n'}
+[8.462833] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__type_support.h\n'}
+[8.462982] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__functions.h\n'}
+[8.463146] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__struct.h\n'}
+[8.463296] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/msg\n'}
+[8.463440] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.463770] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/environment/library_path.sh\n'}
+[8.464227] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/environment/library_path.dsv\n'}
+[8.464565] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_generator_c.so\n'}
+[8.465502] (dms_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_generator_c.so" to ""\n'}
+[8.465764] (dms_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces\n'}
+[8.466034] (dms_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv\n'}
+[8.466209] (dms_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail\n'}
+[8.466369] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__rosidl_typesupport_fastrtps_c.h\n'}
+[8.466662] (dms_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/msg\n'}
+[8.466823] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.466970] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[8.467457] (dms_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.467794] (dms_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces\n'}
+[8.467993] (dms_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv\n'}
+[8.468169] (dms_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail\n'}
+[8.468270] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__rosidl_typesupport_introspection_c.h\n'}
+[8.468390] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__type_support.c\n'}
+[8.468602] (dms_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/msg\n'}
+[8.468907] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.469131] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.469700] (dms_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.469875] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_typesupport_c.so\n'}
+[8.470629] (dms_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[8.470825] (dms_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces\n'}
+[8.470997] (dms_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv\n'}
+[8.471093] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/pub_res_cmd_vel.hpp\n'}
+[8.471349] (dms_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail\n'}
+[8.471546] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__traits.hpp\n'}
+[8.471786] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__struct.hpp\n'}
+[8.472034] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__builder.hpp\n'}
+[8.472332] (dms_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces\n'}
+[8.472535] (dms_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv\n'}
+[8.472747] (dms_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail\n'}
+[8.472950] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/dds_fastrtps\n'}
+[8.473220] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.473501] (dms_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/msg\n'}
+[8.473782] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.474077] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.474596] (dms_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.474891] (dms_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces\n'}
+[8.475211] (dms_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv\n'}
+[8.475524] (dms_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail\n'}
+[8.475755] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.476055] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__type_support.cpp\n'}
+[8.476268] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[8.477122] (dms_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.477413] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_typesupport_cpp.so\n'}
+[8.478184] (dms_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[8.478455] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/environment/pythonpath.sh\n'}
+[8.478715] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/environment/pythonpath.dsv\n'}
+[8.478961] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces-0.0.0-py3.10.egg-info\n'}
+[8.479253] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[8.479561] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[8.479841] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[8.480113] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[8.480424] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces\n'}
+[8.480710] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/dms_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.480992] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/srv\n'}
+[8.481252] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/srv/_pub_res_cmd_vel.py\n'}
+[8.481504] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/srv/__init__.py\n'}
+[8.481768] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/srv/_pub_res_cmd_vel_s.c\n'}
+[8.482003] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/dms_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.482267] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/dms_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.482522] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/_dms_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[8.482803] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/libdms_interfaces__rosidl_generator_py.so\n'}
+[8.483102] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/__init__.py\n'}
+[8.483370] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/_dms_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.483645] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/_dms_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.523471] (-) TimerEvent: {}
+[8.535847] (dms_interfaces) StdoutLine: {'line': b"Listing '/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces'...\n"}
+[8.536122] (dms_interfaces) StdoutLine: {'line': b"Compiling '/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/__init__.py'...\n"}
+[8.536263] (dms_interfaces) StdoutLine: {'line': b"Listing '/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/srv'...\n"}
+[8.536358] (dms_interfaces) StdoutLine: {'line': b"Compiling '/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/srv/__init__.py'...\n"}
+[8.536449] (dms_interfaces) StdoutLine: {'line': b"Compiling '/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/srv/_pub_res_cmd_vel.py'...\n"}
+[8.543065] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/dms_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.543879] (dms_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/dms_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.544389] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/dms_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.545223] (dms_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/dms_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.545711] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/dms_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.546528] (dms_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/dms_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.546894] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_generator_py.so\n'}
+[8.547562] (dms_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_generator_py.so" to ""\n'}
+[8.547832] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/srv/PubResCmdVel.idl\n'}
+[8.548104] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/srv/PubResCmdVel.srv\n'}
+[8.548373] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/srv/PubResCmdVel_Request.msg\n'}
+[8.548746] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/srv/PubResCmdVel_Response.msg\n'}
+[8.549128] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/ament_index/resource_index/package_run_dependencies/dms_interfaces\n'}
+[8.549535] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/ament_index/resource_index/parent_prefix_path/dms_interfaces\n'}
+[8.549839] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/environment/ament_prefix_path.sh\n'}
+[8.550161] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/environment/ament_prefix_path.dsv\n'}
+[8.550484] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/environment/path.sh\n'}
+[8.550784] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/environment/path.dsv\n'}
+[8.551073] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/local_setup.bash\n'}
+[8.551373] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/local_setup.sh\n'}
+[8.551685] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/local_setup.zsh\n'}
+[8.552002] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/local_setup.dsv\n'}
+[8.552313] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/package.dsv\n'}
+[8.552697] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/ament_index/resource_index/packages/dms_interfaces\n'}
+[8.553118] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/export_dms_interfaces__rosidl_generator_cExport.cmake\n'}
+[8.553481] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/export_dms_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.553835] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/export_dms_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.554144] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/export_dms_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.554481] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/dms_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.554796] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/dms_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.555145] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/dms_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[8.555471] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/dms_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.555806] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/export_dms_interfaces__rosidl_generator_cppExport.cmake\n'}
+[8.556145] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/export_dms_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.556469] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/export_dms_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.556809] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/dms_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.557138] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/dms_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.557476] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/dms_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[8.557790] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/dms_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.558142] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/export_dms_interfaces__rosidl_generator_pyExport.cmake\n'}
+[8.558467] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/export_dms_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.558774] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[8.559080] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.559395] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.559708] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.560078] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.560388] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.560654] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.560968] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/dms_interfacesConfig.cmake\n'}
+[8.561264] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/dms_interfacesConfig-version.cmake\n'}
+[8.561539] (dms_interfaces) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/package.xml\n'}
+[8.565413] (dms_interfaces) CommandEnded: {'returncode': 0}
+[8.623596] (-) TimerEvent: {}
+[8.722761] (dms_interfaces) JobEnded: {'identifier': 'dms_interfaces', 'rc': 0}
+[8.723780] (-) TimerEvent: {}
+[8.723903] (-) EventReactorShutdown: {}

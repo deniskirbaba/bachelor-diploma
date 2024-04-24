@@ -1,0 +1,10 @@
+/home/denis/diploma_ws/build/bsu/CMakeFiles/uninstall.dir
+/home/denis/diploma_ws/build/bsu/CMakeFiles/bsu_uninstall.dir
+/home/denis/diploma_ws/build/bsu/CMakeFiles/battery_simulation_unit.dir
+/home/denis/diploma_ws/build/bsu/CMakeFiles/test.dir
+/home/denis/diploma_ws/build/bsu/CMakeFiles/edit_cache.dir
+/home/denis/diploma_ws/build/bsu/CMakeFiles/rebuild_cache.dir
+/home/denis/diploma_ws/build/bsu/CMakeFiles/list_install_components.dir
+/home/denis/diploma_ws/build/bsu/CMakeFiles/install.dir
+/home/denis/diploma_ws/build/bsu/CMakeFiles/install/local.dir
+/home/denis/diploma_ws/build/bsu/CMakeFiles/install/strip.dir

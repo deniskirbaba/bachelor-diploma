@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target navigation_services_provider_unit[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/navigation_services_provider_unit.dir/src/navigation_services_provider_unit.cpp.o[0m
+[01m[K/home/denis/diploma_ws/src/nspu/src/navigation_services_provider_unit.cpp:[m[K In member function ‘[01m[Kvoid NavigationServicesProviderUnit::get_goal_distance_srv_cb(dms_interfaces::srv::GetGoalDistance_Request_<std::allocator<void> >::SharedPtr, dms_interfaces::srv::GetGoalDistance_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/denis/diploma_ws/src/nspu/src/navigation_services_provider_unit.cpp:47:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   47 |     [01;35m[Kconst dms_interfaces::srv::GetGoalDistance_Request::SharedPtr request[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable navigation_services_provider_unit[0m
+[100%] Built target navigation_services_provider_unit
+-- Install configuration: ""
+-- Installing: /home/denis/diploma_ws/install/nspu/lib/nspu/navigation_services_provider_unit
+-- Set runtime path of "/home/denis/diploma_ws/install/nspu/lib/nspu/navigation_services_provider_unit" to ""
+-- Installing: /home/denis/diploma_ws/install/nspu/share/nspu/launch
+-- Installing: /home/denis/diploma_ws/install/nspu/share/nspu/launch/navigation_services_provider_unit.launch.py
+-- Installing: /home/denis/diploma_ws/install/nspu/share/ament_index/resource_index/package_run_dependencies/nspu
+-- Installing: /home/denis/diploma_ws/install/nspu/share/ament_index/resource_index/parent_prefix_path/nspu
+-- Installing: /home/denis/diploma_ws/install/nspu/share/nspu/environment/ament_prefix_path.sh
+-- Installing: /home/denis/diploma_ws/install/nspu/share/nspu/environment/ament_prefix_path.dsv
+-- Installing: /home/denis/diploma_ws/install/nspu/share/nspu/environment/path.sh
+-- Installing: /home/denis/diploma_ws/install/nspu/share/nspu/environment/path.dsv
+-- Installing: /home/denis/diploma_ws/install/nspu/share/nspu/local_setup.bash
+-- Installing: /home/denis/diploma_ws/install/nspu/share/nspu/local_setup.sh
+-- Installing: /home/denis/diploma_ws/install/nspu/share/nspu/local_setup.zsh
+-- Installing: /home/denis/diploma_ws/install/nspu/share/nspu/local_setup.dsv
+-- Installing: /home/denis/diploma_ws/install/nspu/share/nspu/package.dsv
+-- Installing: /home/denis/diploma_ws/install/nspu/share/ament_index/resource_index/packages/nspu
+-- Installing: /home/denis/diploma_ws/install/nspu/share/nspu/cmake/nspuConfig.cmake
+-- Installing: /home/denis/diploma_ws/install/nspu/share/nspu/cmake/nspuConfig-version.cmake
+-- Installing: /home/denis/diploma_ws/install/nspu/share/nspu/package.xml

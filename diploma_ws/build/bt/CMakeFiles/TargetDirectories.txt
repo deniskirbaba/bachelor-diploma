@@ -1,0 +1,15 @@
+/home/denis/diploma_ws/build/bt/CMakeFiles/uninstall.dir
+/home/denis/diploma_ws/build/bt/CMakeFiles/bt_uninstall.dir
+/home/denis/diploma_ws/build/bt/CMakeFiles/lidar_bt.dir
+/home/denis/diploma_ws/build/bt/CMakeFiles/imu_bt.dir
+/home/denis/diploma_ws/build/bt/CMakeFiles/odom_bt.dir
+/home/denis/diploma_ws/build/bt/CMakeFiles/sensors_bt.dir
+/home/denis/diploma_ws/build/bt/CMakeFiles/battery_bt.dir
+/home/denis/diploma_ws/build/bt/CMakeFiles/main_bt.dir
+/home/denis/diploma_ws/build/bt/CMakeFiles/test.dir
+/home/denis/diploma_ws/build/bt/CMakeFiles/edit_cache.dir
+/home/denis/diploma_ws/build/bt/CMakeFiles/rebuild_cache.dir
+/home/denis/diploma_ws/build/bt/CMakeFiles/list_install_components.dir
+/home/denis/diploma_ws/build/bt/CMakeFiles/install.dir
+/home/denis/diploma_ws/build/bt/CMakeFiles/install/local.dir
+/home/denis/diploma_ws/build/bt/CMakeFiles/install/strip.dir

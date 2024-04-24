@@ -1,0 +1,130 @@
+[0.588s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/denis/diploma_ws']
+[0.588s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/denis/diploma_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7d081ca494b0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7d081ca48a00>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7d081ca48a00>>)
+[2.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.380s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/denis/diploma_ws'
+[2.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws) by extensions ['ignore', 'ignore_ament_install']
+[2.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws) by extension 'ignore'
+[2.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws) by extension 'ignore_ament_install'
+[2.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws) by extensions ['colcon_pkg']
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws) by extension 'colcon_pkg'
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws) by extensions ['colcon_meta']
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws) by extension 'colcon_meta'
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws) by extensions ['ros']
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws) by extension 'ros'
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws) by extensions ['cmake', 'python']
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws) by extension 'cmake'
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws) by extension 'python'
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws) by extensions ['python_setup_py']
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws) by extension 'python_setup_py'
+[2.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/build) by extension 'ignore'
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/build) ignored
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/install) by extension 'ignore'
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/install) ignored
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/log) by extension 'ignore'
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/log) ignored
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[2.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src) by extension 'ignore'
+[2.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src) by extension 'ignore_ament_install'
+[2.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src) by extensions ['colcon_pkg']
+[2.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src) by extension 'colcon_pkg'
+[2.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src) by extensions ['colcon_meta']
+[2.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src) by extension 'colcon_meta'
+[2.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src) by extensions ['ros']
+[2.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src) by extension 'ros'
+[2.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src) by extensions ['cmake', 'python']
+[2.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src) by extension 'cmake'
+[2.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src) by extension 'python'
+[2.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src) by extensions ['python_setup_py']
+[2.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src) by extension 'python_setup_py'
+[2.529s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/bt) by extensions ['ignore', 'ignore_ament_install']
+[2.535s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/bt) by extension 'ignore'
+[2.535s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/bt) by extension 'ignore_ament_install'
+[2.535s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/bt) by extensions ['colcon_pkg']
+[2.535s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/bt) by extension 'colcon_pkg'
+[2.536s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/bt) by extensions ['colcon_meta']
+[2.536s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/bt) by extension 'colcon_meta'
+[2.536s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/bt) by extensions ['ros']
+[2.536s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/bt) by extension 'ros'
+[2.556s] DEBUG:colcon.colcon_core.package_identification:Package '/home/denis/diploma_ws/src/bt' with type 'ros.ament_cmake' and name 'bt'
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/csu) by extensions ['ignore', 'ignore_ament_install']
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/csu) by extension 'ignore'
+[2.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/csu) by extension 'ignore_ament_install'
+[2.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/csu) by extensions ['colcon_pkg']
+[2.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/csu) by extension 'colcon_pkg'
+[2.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/csu) by extensions ['colcon_meta']
+[2.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/csu) by extension 'colcon_meta'
+[2.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/csu) by extensions ['ros']
+[2.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/csu) by extension 'ros'
+[2.572s] DEBUG:colcon.colcon_core.package_identification:Package '/home/denis/diploma_ws/src/csu' with type 'ros.ament_cmake' and name 'csu'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/fsu) by extensions ['ignore', 'ignore_ament_install']
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/fsu) by extension 'ignore'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/fsu) by extension 'ignore_ament_install'
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/fsu) by extensions ['colcon_pkg']
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/fsu) by extension 'colcon_pkg'
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/fsu) by extensions ['colcon_meta']
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/fsu) by extension 'colcon_meta'
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/fsu) by extensions ['ros']
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/fsu) by extension 'ros'
+[2.574s] DEBUG:colcon.colcon_core.package_identification:Package '/home/denis/diploma_ws/src/fsu' with type 'ros.ament_cmake' and name 'fsu'
+[2.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/ssu) by extensions ['ignore', 'ignore_ament_install']
+[2.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/ssu) by extension 'ignore'
+[2.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/ssu) by extension 'ignore_ament_install'
+[2.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/ssu) by extensions ['colcon_pkg']
+[2.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/ssu) by extension 'colcon_pkg'
+[2.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/ssu) by extensions ['colcon_meta']
+[2.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/ssu) by extension 'colcon_meta'
+[2.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/ssu) by extensions ['ros']
+[2.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/ssu) by extension 'ros'
+[2.621s] DEBUG:colcon.colcon_core.package_identification:Package '/home/denis/diploma_ws/src/ssu' with type 'ros.ament_cmake' and name 'ssu'
+[2.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[2.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations) by extension 'ignore'
+[2.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations) by extension 'ignore_ament_install'
+[2.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations) by extensions ['colcon_pkg']
+[2.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations) by extension 'colcon_pkg'
+[2.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations) by extensions ['colcon_meta']
+[2.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations) by extension 'colcon_meta'
+[2.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations) by extensions ['ros']
+[2.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations) by extension 'ros'
+[2.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations) by extensions ['cmake', 'python']
+[2.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations) by extension 'cmake'
+[2.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations) by extension 'python'
+[2.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations) by extensions ['python_setup_py']
+[2.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations) by extension 'python_setup_py'
+[2.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ignore', 'ignore_ament_install']
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore'
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore_ament_install'
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_pkg']
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_pkg'
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_meta']
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_meta'
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ros']
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ros'
+[2.629s] DEBUG:colcon.colcon_core.package_identification:Package '/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_fake_node' with type 'ros.ament_cmake' and name 'turtlebot3_fake_node'
+[2.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[2.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore'
+[2.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[2.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[2.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_pkg'
+[2.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_meta']
+[2.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_meta'
+[2.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ros']
+[2.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ros'
+[2.634s] DEBUG:colcon.colcon_core.package_identification:Package '/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[2.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[2.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore'
+[2.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore_ament_install'
+[2.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_pkg']
+[2.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_pkg'
+[2.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_meta']
+[2.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_meta'
+[2.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ros']
+[2.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ros'
+[2.637s] DEBUG:colcon.colcon_core.package_identification:Package '/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[2.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

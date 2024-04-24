@@ -1,0 +1,159 @@
+[0.070s] Invoking command in '/home/denis/diploma_ws/src/build/behaviortree_cpp_v3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/src/build/behaviortree_cpp_v3 -- -j4 -l4
+[0.309s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.342s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.379s] [35m[1mConsolidate compiler generated dependencies of target behaviortree_cpp_v3[0m
+[0.400s] [  2%] Built target gtest
+[0.408s] [  4%] Built target gtest_main
+[0.668s] [ 38%] Built target behaviortree_cpp_v3
+[0.709s] [35m[1mConsolidate compiler generated dependencies of target bt_sample_nodes[0m
+[0.787s] [ 42%] Built target bt_sample_nodes
+[0.804s] [ 43%] [32mBuilding CXX object sample_nodes/CMakeFiles/crossdoor_nodes_dyn.dir/crossdoor_nodes.cpp.o[0m
+[0.829s] [ 44%] [32mBuilding CXX object sample_nodes/CMakeFiles/dummy_nodes_dyn.dir/dummy_nodes.cpp.o[0m
+[0.866s] [35m[1mConsolidate compiler generated dependencies of target movebase_node_dyn[0m
+[0.967s] [ 46%] Built target movebase_node_dyn
+[0.998s] [35m[1mConsolidate compiler generated dependencies of target bt3_log_cat[0m
+[1.043s] [ 48%] Built target bt3_log_cat
+[1.077s] [35m[1mConsolidate compiler generated dependencies of target bt3_recorder[0m
+[1.132s] [ 51%] Built target bt3_recorder
+[1.174s] [35m[1mConsolidate compiler generated dependencies of target bt3_plugin_manifest[0m
+[1.258s] [35m[1mConsolidate compiler generated dependencies of target t01_first_tree_static[0m
+[1.275s] [ 53%] Built target bt3_plugin_manifest
+[1.360s] [35m[1mConsolidate compiler generated dependencies of target t01_first_tree_dynamic[0m
+[1.361s] [ 55%] Built target t01_first_tree_static
+[1.464s] [35m[1mConsolidate compiler generated dependencies of target t02_basic_ports[0m
+[1.487s] [ 57%] Built target t01_first_tree_dynamic
+[1.579s] [ 59%] Built target t02_basic_ports
+[1.584s] [35m[1mConsolidate compiler generated dependencies of target t03_generic_ports[0m
+[1.645s] [ 61%] Built target t03_generic_ports
+[1.674s] [35m[1mConsolidate compiler generated dependencies of target t04_reactive_sequence[0m
+[1.711s] [35m[1mConsolidate compiler generated dependencies of target t05_crossdoor[0m
+[1.782s] [ 63%] Built target t04_reactive_sequence
+[1.824s] [ 65%] Built target t05_crossdoor
+[1.824s] [35m[1mConsolidate compiler generated dependencies of target t06_subtree_port_remapping[0m
+[1.936s] [35m[1mConsolidate compiler generated dependencies of target t07_load_multiple_xml[0m
+[1.936s] [ 67%] Built target t06_subtree_port_remapping
+[1.978s] [35m[1mConsolidate compiler generated dependencies of target t08_additional_node_args[0m
+[2.033s] [ 69%] Built target t07_load_multiple_xml
+[2.070s] [ 71%] Built target t08_additional_node_args
+[2.146s] [35m[1mConsolidate compiler generated dependencies of target ex01_wrap_legacy[0m
+[2.154s] [35m[1mConsolidate compiler generated dependencies of target ex02_runtime_ports[0m
+[2.242s] [ 73%] Built target ex01_wrap_legacy
+[2.262s] [ 75%] Built target ex02_runtime_ports
+[2.312s] [35m[1mConsolidate compiler generated dependencies of target ex03_ncurses_manual_selector[0m
+[2.370s] [35m[1mConsolidate compiler generated dependencies of target ex04_waypoints[0m
+[2.444s] [ 77%] Built target ex03_ncurses_manual_selector
+[2.519s] [ 79%] Built target ex04_waypoints
+[2.564s] [35m[1mConsolidate compiler generated dependencies of target behaviortree_cpp_v3_test[0m
+[2.838s] [ 80%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_v3_test.dir/gtest_wakeup.cpp.o[0m
+[2.852s] [ 81%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_v3_test.dir/gtest_logger_zmq.cpp.o[0m
+[4.531s] [ 82%] [32m[1mLinking CXX shared library bin/libcrossdoor_nodes_dyn.so[0m
+[4.996s] [ 82%] Built target crossdoor_nodes_dyn
+[6.053s] [ 83%] [32m[1mLinking CXX shared library bin/libdummy_nodes_dyn.so[0m
+[6.488s] [ 83%] Built target dummy_nodes_dyn
+[8.073s] [ 84%] [32m[1mLinking CXX executable behaviortree_cpp_v3_test[0m
+[9.022s] [100%] Built target behaviortree_cpp_v3_test
+[9.050s] Invoked command in '/home/denis/diploma_ws/src/build/behaviortree_cpp_v3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/src/build/behaviortree_cpp_v3 -- -j4 -l4
+[9.382s] Invoking command in '/home/denis/diploma_ws/src/build/behaviortree_cpp_v3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/src/build/behaviortree_cpp_v3
+[9.399s] -- Install configuration: ""
+[9.400s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/environment/library_path.sh
+[9.400s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/environment/library_path.dsv
+[9.403s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/share/ament_index/resource_index/package_run_dependencies/behaviortree_cpp_v3
+[9.403s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/share/ament_index/resource_index/parent_prefix_path/behaviortree_cpp_v3
+[9.404s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/environment/ament_prefix_path.sh
+[9.404s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/environment/ament_prefix_path.dsv
+[9.409s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/environment/path.sh
+[9.409s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/environment/path.dsv
+[9.409s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/local_setup.bash
+[9.409s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/local_setup.sh
+[9.409s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/local_setup.zsh
+[9.410s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/local_setup.dsv
+[9.410s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/package.dsv
+[9.410s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/share/ament_index/resource_index/packages/behaviortree_cpp_v3
+[9.410s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.411s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.411s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/cmake/ament_cmake_export_libraries-extras.cmake
+[9.411s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/cmake/behaviortree_cpp_v3Config.cmake
+[9.412s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/cmake/behaviortree_cpp_v3Config-version.cmake
+[9.412s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/package.xml
+[9.412s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include
+[9.412s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3
+[9.413s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/bt_factory.h
+[9.413s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/behavior_tree.h
+[9.413s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/decorators
+[9.413s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/decorators/force_failure_node.h
+[9.414s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/decorators/delay_node.h
+[9.414s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/decorators/subtree_node.h
+[9.414s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/decorators/retry_node.h
+[9.414s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/decorators/repeat_node.h
+[9.415s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/decorators/timeout_node.h
+[9.415s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/decorators/keep_running_until_failure_node.h
+[9.415s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/decorators/force_success_node.h
+[9.415s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/decorators/inverter_node.h
+[9.415s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/decorators/consume_queue.h
+[9.416s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/decorators/timer_queue.h
+[9.416s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/decorators/blackboard_precondition.h
+[9.416s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/flatbuffers
+[9.416s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/flatbuffers/stl_emulation.h
+[9.417s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/flatbuffers/bt_flatbuffer_helper.h
+[9.417s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/flatbuffers/BT_logger_generated.h
+[9.417s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/flatbuffers/flatbuffers.h
+[9.418s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/flatbuffers/base.h
+[9.418s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/action_node.h
+[9.418s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/decorator_node.h
+[9.419s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/xml_parsing.h
+[9.419s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/blackboard.h
+[9.419s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/loggers
+[9.420s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/loggers/bt_file_logger.h
+[9.420s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/loggers/bt_cout_logger.h
+[9.420s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/loggers/abstract_logger.h
+[9.421s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/loggers/bt_minitrace_logger.h
+[9.421s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/loggers/bt_zmq_publisher.h
+[9.421s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/control_node.h
+[9.422s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/exceptions.h
+[9.423s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/controls
+[9.423s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/controls/if_then_else_node.h
+[9.423s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/controls/sequence_node.h
+[9.424s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/controls/reactive_sequence.h
+[9.424s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/controls/reactive_fallback.h
+[9.424s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/controls/while_do_else_node.h
+[9.425s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/controls/fallback_node.h
+[9.425s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/controls/manual_node.h
+[9.425s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/controls/parallel_node.h
+[9.425s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/controls/sequence_star_node.h
+[9.426s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/controls/switch_node.h
+[9.426s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/actions
+[9.426s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/actions/always_success_node.h
+[9.426s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/actions/set_blackboard_node.h
+[9.426s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/actions/always_failure_node.h
+[9.427s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/actions/pop_from_queue.hpp
+[9.427s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/bt_parser.h
+[9.427s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/leaf_node.h
+[9.427s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/tree_node.h
+[9.427s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/utils
+[9.428s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/utils/strcat.hpp
+[9.428s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/utils/platform.hpp
+[9.428s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/utils/string_view.hpp
+[9.428s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/utils/any.hpp
+[9.429s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/utils/signal.h
+[9.429s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/utils/simple_string.hpp
+[9.429s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/utils/safe_any.hpp
+[9.429s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/utils/expected.hpp
+[9.429s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/utils/make_unique.hpp
+[9.430s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/utils/shared_library.h
+[9.430s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/utils/demangle_util.h
+[9.430s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/utils/convert_impl.hpp
+[9.430s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/utils/wakeup_signal.hpp
+[9.430s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/basic_types.h
+[9.430s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/include/behaviortree_cpp_v3/condition_node.h
+[9.430s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/lib/libbehaviortree_cpp_v3.so
+[9.444s] -- Set runtime path of "/home/denis/diploma_ws/src/install/behaviortree_cpp_v3/lib/libbehaviortree_cpp_v3.so" to ""
+[9.444s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/lib/cmake/behaviortree_cpp_v3/behaviortree_cpp_v3Targets.cmake
+[9.445s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/lib/cmake/behaviortree_cpp_v3/behaviortree_cpp_v3Targets-noconfig.cmake
+[9.445s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/lib/cmake/behaviortree_cpp_v3/behaviortree_cpp_v3Config.cmake
+[9.447s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/bin/bt3_log_cat
+[9.449s] -- Set runtime path of "/home/denis/diploma_ws/src/install/behaviortree_cpp_v3/bin/bt3_log_cat" to ""
+[9.449s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/bin/bt3_recorder
+[9.450s] -- Set runtime path of "/home/denis/diploma_ws/src/install/behaviortree_cpp_v3/bin/bt3_recorder" to ""
+[9.451s] -- Installing: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3/bin/bt3_plugin_manifest
+[9.452s] -- Set runtime path of "/home/denis/diploma_ws/src/install/behaviortree_cpp_v3/bin/bt3_plugin_manifest" to ""
+[9.464s] Invoked command in '/home/denis/diploma_ws/src/build/behaviortree_cpp_v3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/src/build/behaviortree_cpp_v3

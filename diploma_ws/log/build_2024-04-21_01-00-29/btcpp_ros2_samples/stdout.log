@@ -1,0 +1,5 @@
+[ 18%] Built target sleep_plugin
+[ 45%] Built target sleep_client
+[ 63%] Built target sleep_server
+[ 81%] Built target subscriber_test
+[100%] Built target sleep_client_dyn

@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/control_switching_unit.dir/src/control_switching_unit.cpp.o[0m
+[100%] [32m[1mLinking CXX executable control_switching_unit[0m
+[100%] Built target control_switching_unit
+-- Install configuration: ""
+-- Installing: /home/denis/diploma_ws/install/csu/lib/csu/control_switching_unit
+-- Set runtime path of "/home/denis/diploma_ws/install/csu/lib/csu/control_switching_unit" to ""
+-- Up-to-date: /home/denis/diploma_ws/install/csu/share/ament_index/resource_index/package_run_dependencies/csu
+-- Up-to-date: /home/denis/diploma_ws/install/csu/share/ament_index/resource_index/parent_prefix_path/csu
+-- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/environment/ament_prefix_path.sh
+-- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/environment/path.sh
+-- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/environment/path.dsv
+-- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/local_setup.bash
+-- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/local_setup.sh
+-- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/local_setup.zsh
+-- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/local_setup.dsv
+-- Installing: /home/denis/diploma_ws/install/csu/share/csu/package.dsv
+-- Up-to-date: /home/denis/diploma_ws/install/csu/share/ament_index/resource_index/packages/csu
+-- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/cmake/csuConfig.cmake
+-- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/cmake/csuConfig-version.cmake
+-- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/package.xml

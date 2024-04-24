@@ -1,0 +1,54 @@
+[0.021s] Invoking command in '/home/denis/diploma_ws/build/bt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/bt -- -j4 -l4
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target lidar_bt[0m
+[0.134s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_bt.dir/src/lidar_bt.cpp.o[0m
+[5.245s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.246s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.246s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.246s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.246s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.246s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.246s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.247s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.247s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.247s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.247s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.247s]                  from [01m[K/home/denis/diploma_ws/src/bt/include/bt/lidar_check.hpp:5[m[K,
+[5.247s]                  from [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:1[m[K:
+[5.247s] [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[5.248s] [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:43:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[KBT::NodeStatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.248s]    43 |         RCLCPP_INFO(rclcpp::get_logger("root"), [01;35m[K"BT Status: %d"[m[K, [32m[Kstatus[m[K);
+[5.248s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~[m[K
+[5.248s]       |                                                                  [32m[K|[m[K
+[5.248s]       |                                                                  [32m[KBT::NodeStatus[m[K
+[5.248s] [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:43:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.249s]    43 |         RCLCPP_INFO(rclcpp::get_logger("root"), "BT Status: [01;36m[K%d[m[K", status);
+[5.249s]       |                                                             [01;36m[K~^[m[K
+[5.249s]       |                                                              [01;36m[K|[m[K
+[5.249s]       |                                                              [01;36m[Kint[m[K
+[7.938s] [100%] [32m[1mLinking CXX executable lidar_bt[0m
+[8.199s] [100%] Built target lidar_bt
+[8.219s] Invoked command in '/home/denis/diploma_ws/build/bt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/bt -- -j4 -l4
+[8.265s] Invoking command in '/home/denis/diploma_ws/build/bt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/bt
+[8.278s] -- Install configuration: ""
+[8.278s] -- Installing: /home/denis/diploma_ws/install/bt/lib/bt/lidar_bt
+[8.280s] -- Set runtime path of "/home/denis/diploma_ws/install/bt/lib/bt/lidar_bt" to ""
+[8.281s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources
+[8.281s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources/lidar_bt.xml
+[8.281s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch
+[8.281s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch/lidar_bt.launch.py
+[8.281s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/ament_index/resource_index/package_run_dependencies/bt
+[8.282s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/ament_index/resource_index/parent_prefix_path/bt
+[8.282s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/ament_prefix_path.sh
+[8.282s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/ament_prefix_path.dsv
+[8.282s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/path.sh
+[8.282s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/path.dsv
+[8.282s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.bash
+[8.283s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.sh
+[8.283s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.zsh
+[8.283s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.dsv
+[8.283s] -- Installing: /home/denis/diploma_ws/install/bt/share/bt/package.dsv
+[8.283s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/ament_index/resource_index/packages/bt
+[8.283s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/cmake/btConfig.cmake
+[8.283s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/cmake/btConfig-version.cmake
+[8.283s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/package.xml
+[8.285s] Invoked command in '/home/denis/diploma_ws/build/bt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/bt

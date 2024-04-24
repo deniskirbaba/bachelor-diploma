@@ -1,0 +1,54 @@
+[0.034s] Invoking command in '/home/denis/diploma_ws/build/bt': CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/bt:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp/lib:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/denis/diploma_ws/build/bt -- -j4 -l4
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target lidar_bt_2[0m
+[0.153s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_bt_2.dir/src/lidar_bt_2.cpp.o[0m
+[4.825s] In file included from [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt_2.cpp:1[m[K:
+[4.825s] [01m[K/home/denis/diploma_ws/src/bt/include/bt/lidar_check_2.hpp:[m[K In constructor ‘[01m[KLidarCheck::LidarCheck(const string&, const BT::NodeConfig&, const BT::RosNodeParams&)[m[K’:
+[4.825s] [01m[K/home/denis/diploma_ws/src/bt/include/bt/lidar_check_2.hpp:13:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kis_lidar_up[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.825s]    13 |         bool [01;35m[Kis_lidar_up[m[K = true;
+[4.825s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[4.828s] [01m[K/home/denis/diploma_ws/src/bt/include/bt/lidar_check_2.hpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus LidarCheck::onResponseReceived(const SharedPtr&)[m[K’:
+[4.829s] [01m[K/home/denis/diploma_ws/src/bt/include/bt/lidar_check_2.hpp:29:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LidarCheck[m[K’ has no member named ‘[01m[Kis_lidar_up[m[K’
+[4.829s]    29 |         this->[01;31m[Kis_lidar_up[m[K = response->success;
+[4.829s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[4.839s] [01m[K/home/denis/diploma_ws/src/bt/include/bt/lidar_check_2.hpp:31:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_lidar_up[m[K’ was not declared in this scope
+[4.839s]    31 |         if ([01;31m[Kis_lidar_up[m[K)
+[4.839s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[4.848s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.849s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.849s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.849s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.849s]                  from [01m[K/home/denis/diploma_ws/install/behaviortree_ros2/include/behaviortree_ros2/bt_service_node.hpp:20[m[K,
+[4.849s]                  from [01m[K/home/denis/diploma_ws/src/bt/include/bt/lidar_check_2.hpp:1[m[K,
+[4.849s]                  from [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt_2.cpp:1[m[K:
+[4.849s] [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt_2.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[4.849s] [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt_2.cpp:30:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[KBT::NodeStatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[4.849s]    30 |         RCLCPP_INFO(rclcpp::get_logger("root"), [01;35m[K"BT Status: %d"[m[K, [32m[Kstatus[m[K);
+[4.849s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~[m[K
+[4.849s]       |                                                                  [32m[K|[m[K
+[4.849s]       |                                                                  [32m[KBT::NodeStatus[m[K
+[4.850s] [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt_2.cpp:30:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[4.850s]    30 |         RCLCPP_INFO(rclcpp::get_logger("root"), "BT Status: [01;36m[K%d[m[K", status);
+[4.850s]       |                                                             [01;36m[K~^[m[K
+[4.850s]       |                                                              [01;36m[K|[m[K
+[4.850s]       |                                                              [01;36m[Kint[m[K
+[5.098s] In file included from [01m[K/home/denis/diploma_ws/install/behaviortree_ros2/include/behaviortree_ros2/bt_service_node.hpp:22[m[K,
+[5.098s]                  from [01m[K/home/denis/diploma_ws/src/bt/include/bt/lidar_check_2.hpp:1[m[K,
+[5.098s]                  from [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt_2.cpp:1[m[K:
+[5.098s] /home/denis/diploma_ws/install/behaviortree_cpp/include/behaviortree_cpp/bt_factory.h: In instantiation of ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&, ExtraArgs ...) [with T = LidarCheck; ExtraArgs = {BT::RosNodeParams}; std::string = std::__cxx11::basic_string<char>][m[K’:
+[5.098s] [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt_2.cpp:16:41:[m[K   required from here
+[5.098s] [01m[K/home/denis/diploma_ws/install/behaviortree_cpp/include/behaviortree_cpp/bt_factory.h:375:21:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: [registerNode]: you MUST implement the static method:
+[5.098s]   PortsList providedPorts();
+[5.098s] 
+[5.098s]   375 |       static_assert([01;31m[K!(param_constructable && !has_static_ports_list)[m[K,
+[5.099s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.099s] [01m[K/home/denis/diploma_ws/install/behaviortree_cpp/include/behaviortree_cpp/bt_factory.h:375:21:[m[K [01;36m[Knote: [m[K‘[01m[K((!(bool)param_constructable) || ((bool)has_static_ports_list))[m[K’ evaluates to false
+[7.400s] gmake[2]: *** [CMakeFiles/lidar_bt_2.dir/build.make:76: CMakeFiles/lidar_bt_2.dir/src/lidar_bt_2.cpp.o] Error 1
+[7.400s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_bt_2.dir/all] Error 2
+[7.400s] gmake: *** [Makefile:146: all] Error 2
+[7.404s] Invoked command in '/home/denis/diploma_ws/build/bt' returned '2': CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/bt:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp/lib:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/denis/diploma_ws/build/bt -- -j4 -l4

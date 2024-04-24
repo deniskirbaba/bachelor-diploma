@@ -1,0 +1,10 @@
+/home/denis/diploma_ws/build/csu/CMakeFiles/uninstall.dir
+/home/denis/diploma_ws/build/csu/CMakeFiles/csu_uninstall.dir
+/home/denis/diploma_ws/build/csu/CMakeFiles/control_switching_unit.dir
+/home/denis/diploma_ws/build/csu/CMakeFiles/test.dir
+/home/denis/diploma_ws/build/csu/CMakeFiles/edit_cache.dir
+/home/denis/diploma_ws/build/csu/CMakeFiles/rebuild_cache.dir
+/home/denis/diploma_ws/build/csu/CMakeFiles/list_install_components.dir
+/home/denis/diploma_ws/build/csu/CMakeFiles/install.dir
+/home/denis/diploma_ws/build/csu/CMakeFiles/install/local.dir
+/home/denis/diploma_ws/build/csu/CMakeFiles/install/strip.dir

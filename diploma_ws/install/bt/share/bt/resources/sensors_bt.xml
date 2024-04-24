@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<root BTCPP_format="4" >
+    <BehaviorTree ID="main_bt">
+        <Sequence name="root_sequence">
+            <Fallback name="lidar_fallback">
+                <LidarCheck name="lidar_check"/>
+                <Sequence name="lidar_first_recover_seq">
+                    <SpeedReduce name="speed_reduce"/>
+                    <LidarRestart name="lidar_restart"/>
+                    <SpeedRestore name="speed_restore"/>
+                </Sequence>
+                <Sequence name="lidar_second_recover_seq">
+                    <FullStop name="full_stop"/>
+                    <RetryUntilSuccessful num_attempts="2">
+                        <LidarRestart name="lidar_restart"/>
+                    </RetryUntilSuccessful>
+                    <SpeedRestore name="speed_restore"/>
+                </Sequence>
+                <Sequence name="lidar_complete_failure_seq">
+                    <CancelTask name="cancel_task"/>
+                    <SetLidarFailureState name="set_lidar_failure_state"/>
+                </Sequence>
+            </Fallback>
+            <Fallback name="imu_fallback">
+                <ImuCheck name="imu_check"/>
+                <Sequence name="imu_first_recover_seq">
+                    <SpeedReduce name="speed_reduce"/>
+                    <ImuRestart name="imu_restart"/>
+                    <SpeedRestore name="speed_restore"/>
+                </Sequence>
+                <Sequence name="imu_second_recover_seq">
+                    <FullStop name="full_stop"/>
+                    <RetryUntilSuccessful num_attempts="2">
+                        <ImuRestart name="imu_restart"/>
+                    </RetryUntilSuccessful>
+                    <SpeedRestore name="speed_restore"/>
+                </Sequence>
+                <Sequence name="imu_complete_failure_seq">
+                    <CancelTask name="cancel_task"/>
+                    <SetImuFailureState name="set_imu_failure_state"/>
+                </Sequence>
+            </Fallback>
+            <Fallback name="odom_fallback">
+                <OdomCheck name="odom_check"/>
+                <Sequence name="odom_first_recover_seq">
+                    <SpeedReduce name="speed_reduce"/>
+                    <OdomRestart name="odom_restart"/>
+                    <SpeedRestore name="speed_restore"/>
+                </Sequence>
+                <Sequence name="odom_second_recover_seq">
+                    <FullStop name="full_stop"/>
+                    <RetryUntilSuccessful num_attempts="2">
+                        <OdomRestart name="odom_restart"/>
+                    </RetryUntilSuccessful>
+                    <SpeedRestore name="speed_restore"/>
+                </Sequence>
+                <Sequence name="odom_complete_failure_seq">
+                    <CancelTask name="cancel_task"/>
+                    <SetOdomFailureState name="set_odom_failure_state"/>
+                </Sequence>
+            </Fallback>
+        </Sequence>
+    </BehaviorTree>
+
+    <!-- the BT executor don't require this, but Groot does -->     
+    <TreeNodeModel>
+        <Condition ID="LidarCheck"/>
+        <Action ID="LidarRestart"/>
+        <Action ID="SetLidarFailureState"/>
+
+        <Condition ID="ImuCheck"/>
+        <Action ID="ImuRestart"/>
+        <Action ID="SetImuFailureState"/>
+
+        <Condition ID="OdomCheck"/>
+        <Action ID="OdomRestart"/>
+        <Action ID="SetOdomFailureState"/>
+
+        <Action ID="SpeedReduce"/>
+        <Action ID="SpeedRestore"/>
+        <Action ID="FullStop"/>
+
+        <Action ID="CancelTask"/> 
+    </TreeNodeModel>
+</root>

@@ -1,0 +1,4 @@
+Invoking command in '/home/denis/diploma_ws/src/build/ssu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/src/build/ssu -- -j4 -l4
+Invoked command in '/home/denis/diploma_ws/src/build/ssu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/src/build/ssu -- -j4 -l4
+Invoking command in '/home/denis/diploma_ws/src/build/ssu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/src/build/ssu
+Invoked command in '/home/denis/diploma_ws/src/build/ssu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/src/build/ssu

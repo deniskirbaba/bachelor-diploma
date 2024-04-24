@@ -1,0 +1,155 @@
+[0.028s] Invoking command in '/home/denis/diploma_ws/build/bt': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/dms_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} PYTHONPATH=/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/denis/diploma_ws/build/bt -- -j4 -l4
+[0.103s] [35m[1mConsolidate compiler generated dependencies of target lidar_bt[0m
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target imu_bt[0m
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target odom_bt[0m
+[0.166s] [ 10%] [32mBuilding CXX object CMakeFiles/odom_bt.dir/src/odom_bt.cpp.o[0m
+[0.168s] [ 20%] [32mBuilding CXX object CMakeFiles/lidar_bt.dir/src/lidar_bt.cpp.o[0m
+[0.173s] [ 30%] [32mBuilding CXX object CMakeFiles/imu_bt.dir/src/imu_bt.cpp.o[0m
+[1.188s] [35m[1mConsolidate compiler generated dependencies of target sensors_bt[0m
+[1.296s] [ 40%] [32mBuilding CXX object CMakeFiles/sensors_bt.dir/src/sensors_bt.cpp.o[0m
+[10.278s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[10.279s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[10.279s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[10.279s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[10.279s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[10.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[10.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[10.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[10.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[10.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[10.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.281s]                  from [01m[K/home/denis/diploma_ws/src/bt/include/bt/imu_check.hpp:6[m[K,
+[10.281s]                  from [01m[K/home/denis/diploma_ws/src/bt/src/imu_bt.cpp:1[m[K:
+[10.281s] [01m[K/home/denis/diploma_ws/src/bt/src/imu_bt.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[10.281s] [01m[K/home/denis/diploma_ws/src/bt/src/imu_bt.cpp:56:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[KBT::NodeStatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[10.281s]    56 |         RCLCPP_INFO(rclcpp::get_logger("root"), [01;35m[K"BT Status: %d"[m[K, [32m[Kstatus[m[K);
+[10.282s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~[m[K
+[10.282s]       |                                                                  [32m[K|[m[K
+[10.282s]       |                                                                  [32m[KBT::NodeStatus[m[K
+[10.282s] [01m[K/home/denis/diploma_ws/src/bt/src/imu_bt.cpp:56:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[10.282s]    56 |         RCLCPP_INFO(rclcpp::get_logger("root"), "BT Status: [01;36m[K%d[m[K", status);
+[10.282s]       |                                                             [01;36m[K~^[m[K
+[10.283s]       |                                                              [01;36m[K|[m[K
+[10.283s]       |                                                              [01;36m[Kint[m[K
+[10.312s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[10.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[10.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[10.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[10.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[10.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[10.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[10.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[10.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[10.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[10.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.314s]                  from [01m[K/home/denis/diploma_ws/src/bt/include/bt/lidar_check.hpp:6[m[K,
+[10.314s]                  from [01m[K/home/denis/diploma_ws/src/bt/src/sensors_bt.cpp:1[m[K:
+[10.314s] [01m[K/home/denis/diploma_ws/src/bt/src/sensors_bt.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[10.314s] [01m[K/home/denis/diploma_ws/src/bt/src/sensors_bt.cpp:68:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[KBT::NodeStatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[10.314s]    68 |         RCLCPP_INFO(rclcpp::get_logger("root"), [01;35m[K"BT Status: %d"[m[K, [32m[Kstatus[m[K);
+[10.314s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~[m[K
+[10.315s]       |                                                                  [32m[K|[m[K
+[10.315s]       |                                                                  [32m[KBT::NodeStatus[m[K
+[10.315s] [01m[K/home/denis/diploma_ws/src/bt/src/sensors_bt.cpp:68:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[10.315s]    68 |         RCLCPP_INFO(rclcpp::get_logger("root"), "BT Status: [01;36m[K%d[m[K", status);
+[10.315s]       |                                                             [01;36m[K~^[m[K
+[10.315s]       |                                                              [01;36m[K|[m[K
+[10.316s]       |                                                              [01;36m[Kint[m[K
+[10.611s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[10.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[10.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[10.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[10.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[10.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[10.613s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[10.613s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[10.613s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[10.613s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[10.613s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.613s]                  from [01m[K/home/denis/diploma_ws/src/bt/include/bt/odom_check.hpp:6[m[K,
+[10.614s]                  from [01m[K/home/denis/diploma_ws/src/bt/src/odom_bt.cpp:1[m[K:
+[10.614s] [01m[K/home/denis/diploma_ws/src/bt/src/odom_bt.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[10.614s] [01m[K/home/denis/diploma_ws/src/bt/src/odom_bt.cpp:56:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[KBT::NodeStatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[10.614s]    56 |         RCLCPP_INFO(rclcpp::get_logger("root"), [01;35m[K"BT Status: %d"[m[K, [32m[Kstatus[m[K);
+[10.614s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~[m[K
+[10.614s]       |                                                                  [32m[K|[m[K
+[10.615s]       |                                                                  [32m[KBT::NodeStatus[m[K
+[10.615s] [01m[K/home/denis/diploma_ws/src/bt/src/odom_bt.cpp:56:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[10.615s]    56 |         RCLCPP_INFO(rclcpp::get_logger("root"), "BT Status: [01;36m[K%d[m[K", status);
+[10.615s]       |                                                             [01;36m[K~^[m[K
+[10.615s]       |                                                              [01;36m[K|[m[K
+[10.615s]       |                                                              [01;36m[Kint[m[K
+[10.784s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[10.785s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[10.785s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[10.785s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[10.785s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[10.785s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[10.786s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[10.786s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[10.786s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[10.786s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[10.786s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.786s]                  from [01m[K/home/denis/diploma_ws/src/bt/include/bt/lidar_check.hpp:6[m[K,
+[10.787s]                  from [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:1[m[K:
+[10.787s] [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[10.787s] [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:56:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[KBT::NodeStatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[10.787s]    56 |         RCLCPP_INFO(rclcpp::get_logger("root"), [01;35m[K"BT Status: %d"[m[K, [32m[Kstatus[m[K);
+[10.787s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~[m[K
+[10.787s]       |                                                                  [32m[K|[m[K
+[10.788s]       |                                                                  [32m[KBT::NodeStatus[m[K
+[10.788s] [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:56:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[10.788s]    56 |         RCLCPP_INFO(rclcpp::get_logger("root"), "BT Status: [01;36m[K%d[m[K", status);
+[10.788s]       |                                                             [01;36m[K~^[m[K
+[10.788s]       |                                                              [01;36m[K|[m[K
+[10.789s]       |                                                              [01;36m[Kint[m[K
+[18.774s] [ 50%] [32m[1mLinking CXX executable odom_bt[0m
+[19.362s] [ 60%] [32m[1mLinking CXX executable imu_bt[0m
+[19.738s] [ 60%] Built target odom_bt
+[19.949s] [ 70%] [32m[1mLinking CXX executable lidar_bt[0m
+[20.179s] [ 70%] Built target imu_bt
+[20.318s] [ 80%] [32m[1mLinking CXX executable sensors_bt[0m
+[20.687s] [ 80%] Built target lidar_bt
+[20.935s] [ 80%] Built target sensors_bt
+[20.962s] [35m[1mConsolidate compiler generated dependencies of target battery_bt[0m
+[20.996s] [100%] Built target battery_bt
+[21.015s] Invoked command in '/home/denis/diploma_ws/build/bt' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/dms_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} PYTHONPATH=/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/denis/diploma_ws/build/bt -- -j4 -l4
+[21.095s] Invoking command in '/home/denis/diploma_ws/build/bt': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/dms_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} PYTHONPATH=/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/denis/diploma_ws/build/bt
+[21.108s] -- Install configuration: ""
+[21.110s] -- Installing: /home/denis/diploma_ws/install/bt/lib/bt/lidar_bt
+[21.114s] -- Set runtime path of "/home/denis/diploma_ws/install/bt/lib/bt/lidar_bt" to ""
+[21.116s] -- Installing: /home/denis/diploma_ws/install/bt/lib/bt/imu_bt
+[21.119s] -- Set runtime path of "/home/denis/diploma_ws/install/bt/lib/bt/imu_bt" to ""
+[21.120s] -- Installing: /home/denis/diploma_ws/install/bt/lib/bt/odom_bt
+[21.124s] -- Set runtime path of "/home/denis/diploma_ws/install/bt/lib/bt/odom_bt" to ""
+[21.125s] -- Installing: /home/denis/diploma_ws/install/bt/lib/bt/sensors_bt
+[21.129s] -- Set runtime path of "/home/denis/diploma_ws/install/bt/lib/bt/sensors_bt" to ""
+[21.131s] -- Up-to-date: /home/denis/diploma_ws/install/bt/lib/bt/battery_bt
+[21.131s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources
+[21.132s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources/imu_bt.xml
+[21.132s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources/sensors_bt.xml
+[21.132s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources/lidar_bt.xml
+[21.133s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources/odom_bt.xml
+[21.133s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources/battery_bt.xml
+[21.133s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch
+[21.133s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch/lidar_bt.launch.py
+[21.133s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch/odom_bt.launch.py
+[21.133s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch/sensors_bt.launch.py
+[21.134s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch/battery_bt.launch.py
+[21.134s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch/imu_bt.launch.py
+[21.134s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/ament_index/resource_index/package_run_dependencies/bt
+[21.134s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/ament_index/resource_index/parent_prefix_path/bt
+[21.134s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/ament_prefix_path.sh
+[21.134s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/ament_prefix_path.dsv
+[21.134s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/path.sh
+[21.135s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/path.dsv
+[21.135s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.bash
+[21.135s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.sh
+[21.135s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.zsh
+[21.135s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.dsv
+[21.136s] -- Installing: /home/denis/diploma_ws/install/bt/share/bt/package.dsv
+[21.136s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/ament_index/resource_index/packages/bt
+[21.137s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/cmake/btConfig.cmake
+[21.137s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/cmake/btConfig-version.cmake
+[21.137s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/package.xml
+[21.138s] Invoked command in '/home/denis/diploma_ws/build/bt' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/dms_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} PYTHONPATH=/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/denis/diploma_ws/build/bt

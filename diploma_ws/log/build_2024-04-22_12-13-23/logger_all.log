@@ -1,0 +1,912 @@
+[0.163s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.163s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74512d138d30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74512d1387f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74512d1387f0>>)
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.430s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/denis/diploma_ws'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.CPP-3.8) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.CPP-3.8) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.CPP-3.8) by extension 'ignore_ament_install'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.CPP-3.8) by extensions ['colcon_pkg']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.CPP-3.8) by extension 'colcon_pkg'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.CPP-3.8) by extensions ['colcon_meta']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.CPP-3.8) by extension 'colcon_meta'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.CPP-3.8) by extensions ['ros']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.CPP-3.8) by extension 'ros'
+[0.482s] DEBUG:colcon.colcon_core.package_identification:Package 'src/BehaviorTree.CPP-3.8' with type 'ros.ament_cmake' and name 'behaviortree_cpp_v3'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/Groot) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/Groot) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/Groot) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/Groot) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/Groot) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/Groot) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/Groot) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/Groot) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/Groot) by extension 'ros'
+[0.493s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Groot' with type 'ros.ament_cmake' and name 'groot'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt) by extension 'ros'
+[0.497s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bt' with type 'ros.ament_cmake' and name 'bt'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/csu) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/csu) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/csu) by extension 'ignore_ament_install'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/csu) by extensions ['colcon_pkg']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/csu) by extension 'colcon_pkg'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/csu) by extensions ['colcon_meta']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/csu) by extension 'colcon_meta'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/csu) by extensions ['ros']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/csu) by extension 'ros'
+[0.502s] DEBUG:colcon.colcon_core.package_identification:Package 'src/csu' with type 'ros.ament_cmake' and name 'csu'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/dms_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/dms_interfaces) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/dms_interfaces) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/dms_interfaces) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/dms_interfaces) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/dms_interfaces) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/dms_interfaces) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/dms_interfaces) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/dms_interfaces) by extension 'ros'
+[0.505s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dms_interfaces' with type 'ros.ament_cmake' and name 'dms_interfaces'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsu) by extensions ['ignore', 'ignore_ament_install']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsu) by extension 'ignore'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsu) by extension 'ignore_ament_install'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsu) by extensions ['colcon_pkg']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsu) by extension 'colcon_pkg'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsu) by extensions ['colcon_meta']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsu) by extension 'colcon_meta'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsu) by extensions ['ros']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsu) by extension 'ros'
+[0.509s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fsu' with type 'ros.ament_cmake' and name 'fsu'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extension 'ignore_ament_install'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extensions ['colcon_pkg']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extension 'ros'
+[0.526s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_bringup' with type 'ros.ament_cmake' and name 'nav2_bringup'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssu) by extensions ['ignore', 'ignore_ament_install']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssu) by extension 'ignore'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssu) by extension 'ignore_ament_install'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssu) by extensions ['colcon_pkg']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssu) by extension 'colcon_pkg'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssu) by extensions ['colcon_meta']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssu) by extension 'colcon_meta'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssu) by extensions ['ros']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssu) by extension 'ros'
+[0.529s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ssu' with type 'ros.ament_cmake' and name 'ssu'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_navigation2) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_navigation2) by extension 'ignore_ament_install'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_navigation2) by extensions ['colcon_pkg']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_navigation2) by extension 'colcon_pkg'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_navigation2) by extensions ['colcon_meta']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_navigation2) by extension 'colcon_meta'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_navigation2) by extensions ['ros']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_navigation2) by extension 'ros'
+[0.530s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_navigation2' with type 'ros.ament_cmake' and name 'turtlebot3_navigation2'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_meta'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ros']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ros'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['cmake', 'python']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'cmake'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'python'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['python_setup_py']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'python_setup_py'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore_ament_install'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_pkg']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_pkg'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_meta']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_meta'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ros']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ros'
+[0.536s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_fake_node' with type 'ros.ament_cmake' and name 'turtlebot3_fake_node'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_pkg'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_meta']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_meta'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ros']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ros'
+[0.538s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_meta'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ros']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ros'
+[0.540s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.573s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.573s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.577s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/denis/diploma_ws/src/install
+[0.580s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 356 installed packages in /opt/ros/humble
+[0.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.678s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlebot3_navigation2' is in: /home/denis/diploma_ws/src/install/turtlebot3_navigation2, /opt/ros/humble
+	'behaviortree_cpp_v3' is in: /home/denis/diploma_ws/src/install/behaviortree_cpp_v3, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding behaviortree_cpp_v3 turtlebot3_navigation2
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'behaviortree_cpp_v3' build argument 'cmake_args' from command line to 'None'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'behaviortree_cpp_v3' build argument 'cmake_target' from command line to 'None'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'behaviortree_cpp_v3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'behaviortree_cpp_v3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'behaviortree_cpp_v3' build argument 'cmake_clean_first' from command line to 'False'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'behaviortree_cpp_v3' build argument 'cmake_force_configure' from command line to 'False'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'behaviortree_cpp_v3' build argument 'ament_cmake_args' from command line to 'None'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'behaviortree_cpp_v3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'behaviortree_cpp_v3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.680s] DEBUG:colcon.colcon_core.verb:Building package 'behaviortree_cpp_v3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denis/diploma_ws/build/behaviortree_cpp_v3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denis/diploma_ws/install/behaviortree_cpp_v3', 'merge_install': False, 'path': '/home/denis/diploma_ws/src/BehaviorTree.CPP-3.8', 'symlink_install': False, 'test_result_base': None}
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'dms_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'dms_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'dms_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'dms_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'dms_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'dms_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'dms_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'dms_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'dms_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.681s] DEBUG:colcon.colcon_core.verb:Building package 'dms_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denis/diploma_ws/build/dms_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denis/diploma_ws/install/dms_interfaces', 'merge_install': False, 'path': '/home/denis/diploma_ws/src/dms_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'fsu' build argument 'cmake_args' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'fsu' build argument 'cmake_target' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'fsu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'fsu' build argument 'cmake_clean_cache' from command line to 'False'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'fsu' build argument 'cmake_clean_first' from command line to 'False'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'fsu' build argument 'cmake_force_configure' from command line to 'False'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'fsu' build argument 'ament_cmake_args' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'fsu' build argument 'catkin_cmake_args' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'fsu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.682s] DEBUG:colcon.colcon_core.verb:Building package 'fsu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denis/diploma_ws/build/fsu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denis/diploma_ws/install/fsu', 'merge_install': False, 'path': '/home/denis/diploma_ws/src/fsu', 'symlink_install': False, 'test_result_base': None}
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'cmake_target' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'nav2_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.684s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denis/diploma_ws/build/nav2_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denis/diploma_ws/install/nav2_bringup', 'merge_install': False, 'path': '/home/denis/diploma_ws/src/nav2_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'ssu' build argument 'cmake_args' from command line to 'None'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'ssu' build argument 'cmake_target' from command line to 'None'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'ssu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'ssu' build argument 'cmake_clean_cache' from command line to 'False'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'ssu' build argument 'cmake_clean_first' from command line to 'False'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'ssu' build argument 'cmake_force_configure' from command line to 'False'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'ssu' build argument 'ament_cmake_args' from command line to 'None'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'ssu' build argument 'catkin_cmake_args' from command line to 'None'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'ssu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.685s] DEBUG:colcon.colcon_core.verb:Building package 'ssu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denis/diploma_ws/build/ssu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denis/diploma_ws/install/ssu', 'merge_install': False, 'path': '/home/denis/diploma_ws/src/ssu', 'symlink_install': False, 'test_result_base': None}
+[0.686s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_args' from command line to 'None'
+[0.686s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target' from command line to 'None'
+[0.686s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.686s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.686s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.686s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.686s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.686s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.686s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.686s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_fake_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denis/diploma_ws/build/turtlebot3_fake_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denis/diploma_ws/install/turtlebot3_fake_node', 'merge_install': False, 'path': '/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_fake_node', 'symlink_install': False, 'test_result_base': None}
+[0.687s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.687s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.687s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.687s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.687s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.687s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.687s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.687s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.687s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.687s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denis/diploma_ws/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denis/diploma_ws/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.687s] Level 5:colcon.colcon_core.verb:set package 'bt' build argument 'cmake_args' from command line to 'None'
+[0.687s] Level 5:colcon.colcon_core.verb:set package 'bt' build argument 'cmake_target' from command line to 'None'
+[0.688s] Level 5:colcon.colcon_core.verb:set package 'bt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.688s] Level 5:colcon.colcon_core.verb:set package 'bt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.688s] Level 5:colcon.colcon_core.verb:set package 'bt' build argument 'cmake_clean_first' from command line to 'False'
+[0.688s] Level 5:colcon.colcon_core.verb:set package 'bt' build argument 'cmake_force_configure' from command line to 'False'
+[0.688s] Level 5:colcon.colcon_core.verb:set package 'bt' build argument 'ament_cmake_args' from command line to 'None'
+[0.688s] Level 5:colcon.colcon_core.verb:set package 'bt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.688s] Level 5:colcon.colcon_core.verb:set package 'bt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.688s] DEBUG:colcon.colcon_core.verb:Building package 'bt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denis/diploma_ws/build/bt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denis/diploma_ws/install/bt', 'merge_install': False, 'path': '/home/denis/diploma_ws/src/bt', 'symlink_install': False, 'test_result_base': None}
+[0.688s] Level 5:colcon.colcon_core.verb:set package 'csu' build argument 'cmake_args' from command line to 'None'
+[0.688s] Level 5:colcon.colcon_core.verb:set package 'csu' build argument 'cmake_target' from command line to 'None'
+[0.688s] Level 5:colcon.colcon_core.verb:set package 'csu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.689s] Level 5:colcon.colcon_core.verb:set package 'csu' build argument 'cmake_clean_cache' from command line to 'False'
+[0.689s] Level 5:colcon.colcon_core.verb:set package 'csu' build argument 'cmake_clean_first' from command line to 'False'
+[0.689s] Level 5:colcon.colcon_core.verb:set package 'csu' build argument 'cmake_force_configure' from command line to 'False'
+[0.689s] Level 5:colcon.colcon_core.verb:set package 'csu' build argument 'ament_cmake_args' from command line to 'None'
+[0.689s] Level 5:colcon.colcon_core.verb:set package 'csu' build argument 'catkin_cmake_args' from command line to 'None'
+[0.689s] Level 5:colcon.colcon_core.verb:set package 'csu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.689s] DEBUG:colcon.colcon_core.verb:Building package 'csu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denis/diploma_ws/build/csu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denis/diploma_ws/install/csu', 'merge_install': False, 'path': '/home/denis/diploma_ws/src/csu', 'symlink_install': False, 'test_result_base': None}
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'groot' build argument 'cmake_args' from command line to 'None'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'groot' build argument 'cmake_target' from command line to 'None'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'groot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'groot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'groot' build argument 'cmake_clean_first' from command line to 'False'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'groot' build argument 'cmake_force_configure' from command line to 'False'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'groot' build argument 'ament_cmake_args' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'groot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'groot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.691s] DEBUG:colcon.colcon_core.verb:Building package 'groot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denis/diploma_ws/build/groot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denis/diploma_ws/install/groot', 'merge_install': False, 'path': '/home/denis/diploma_ws/src/Groot', 'symlink_install': False, 'test_result_base': None}
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_args' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.692s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denis/diploma_ws/build/turtlebot3_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denis/diploma_ws/install/turtlebot3_navigation2', 'merge_install': False, 'path': '/home/denis/diploma_ws/src/turtlebot3_navigation2', 'symlink_install': False, 'test_result_base': None}
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.692s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denis/diploma_ws/build/turtlebot3_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denis/diploma_ws/install/turtlebot3_simulations', 'merge_install': False, 'path': '/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_simulations', 'symlink_install': False, 'test_result_base': None}
+[0.693s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.694s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.694s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/denis/diploma_ws/src/BehaviorTree.CPP-3.8' with build type 'ament_cmake'
+[0.695s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/denis/diploma_ws/src/BehaviorTree.CPP-3.8'
+[0.699s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.699s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.699s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.709s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/denis/diploma_ws/src/dms_interfaces' with build type 'ament_cmake'
+[0.710s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/denis/diploma_ws/src/dms_interfaces'
+[0.710s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.711s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.719s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/denis/diploma_ws/src/nav2_bringup' with build type 'ament_cmake'
+[0.719s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/denis/diploma_ws/src/nav2_bringup'
+[0.720s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.720s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.727s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_fake_node' with build type 'ament_cmake'
+[0.727s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_fake_node'
+[0.728s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.728s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/behaviortree_cpp_v3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/behaviortree_cpp_v3 -- -j4 -l4
+[0.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/dms_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/dms_interfaces -- -j4 -l4
+[0.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/nav2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/nav2_bringup -- -j4 -l4
+[0.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/turtlebot3_fake_node -- -j4 -l4
+[0.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/nav2_bringup -- -j4 -l4
+[1.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/turtlebot3_fake_node -- -j4 -l4
+[1.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/nav2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/nav2_bringup
+[1.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_bringup)
+[1.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/nav2_bringup
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/nav2_bringup' for CMake module files
+[1.218s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/nav2_bringup' for CMake config files
+[1.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_bringup', 'cmake_prefix_path')
+[1.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/hook/cmake_prefix_path.ps1'
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/hook/cmake_prefix_path.dsv'
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/hook/cmake_prefix_path.sh'
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/nav2_bringup/bin'
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/nav2_bringup/lib/pkgconfig/nav2_bringup.pc'
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/nav2_bringup/lib/python3.10/site-packages'
+[1.234s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/nav2_bringup/bin'
+[1.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/package.ps1'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/package.dsv'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/package.sh'
+[1.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/package.bash'
+[1.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/package.zsh'
+[1.248s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/nav2_bringup/share/colcon-core/packages/nav2_bringup)
+[1.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/turtlebot3_fake_node
+[1.348s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_fake_node' for CMake module files
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_fake_node' for CMake config files
+[1.351s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[1.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[1.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[1.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[1.355s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_fake_node/lib'
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_fake_node/bin'
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_fake_node/lib/python3.10/site-packages'
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_fake_node/bin'
+[1.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/turtlebot3_fake_node
+[1.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[1.364s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[1.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[1.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[1.374s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[1.445s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_bringup)
+[1.446s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/nav2_bringup' for CMake module files
+[1.447s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/nav2_bringup' for CMake config files
+[1.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_bringup', 'cmake_prefix_path')
+[1.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/hook/cmake_prefix_path.ps1'
+[1.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/hook/cmake_prefix_path.dsv'
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/hook/cmake_prefix_path.sh'
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/nav2_bringup/bin'
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/nav2_bringup/lib/pkgconfig/nav2_bringup.pc'
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/nav2_bringup/lib/python3.10/site-packages'
+[1.454s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/nav2_bringup/bin'
+[1.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/package.ps1'
+[1.456s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/package.dsv'
+[1.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/package.sh'
+[1.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/package.bash'
+[1.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/package.zsh'
+[1.463s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/nav2_bringup/share/colcon-core/packages/nav2_bringup)
+[1.464s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_gazebo' with build type 'ament_cmake'
+[1.471s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_gazebo'
+[1.472s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.472s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/turtlebot3_gazebo -- -j4 -l4
+[1.582s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[1.582s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_fake_node' for CMake module files
+[1.583s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_fake_node' for CMake config files
+[1.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[1.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[1.585s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[1.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_fake_node/lib'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_fake_node/bin'
+[1.588s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[1.588s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_fake_node/lib/python3.10/site-packages'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_fake_node/bin'
+[1.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[1.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[1.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[1.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[1.603s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/denis/diploma_ws/src/fsu' with build type 'ament_cmake'
+[1.603s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/denis/diploma_ws/src/fsu'
+[1.604s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.605s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/fsu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/fsu -- -j4 -l4
+[1.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/behaviortree_cpp_v3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/behaviortree_cpp_v3 -- -j4 -l4
+[1.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/turtlebot3_gazebo -- -j4 -l4
+[2.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/turtlebot3_gazebo
+[2.161s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[2.162s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_gazebo' for CMake module files
+[2.163s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_gazebo' for CMake config files
+[2.165s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[2.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[2.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/turtlebot3_gazebo
+[2.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[2.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_gazebo/lib'
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_gazebo/bin'
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_gazebo/bin'
+[2.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[2.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[2.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[2.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[2.187s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[2.299s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[2.300s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_gazebo' for CMake module files
+[2.301s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_gazebo' for CMake config files
+[2.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[2.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[2.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[2.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[2.313s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_gazebo/lib'
+[2.313s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_gazebo/bin'
+[2.313s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[2.313s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[2.314s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_gazebo/bin'
+[2.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[2.316s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[2.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[2.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[2.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[2.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[2.321s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/denis/diploma_ws/src/ssu' with build type 'ament_cmake'
+[2.321s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/denis/diploma_ws/src/ssu'
+[2.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/dms_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/dms_interfaces -- -j4 -l4
+[2.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/behaviortree_cpp_v3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/behaviortree_cpp_v3
+[2.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/ssu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/ssu -- -j4 -l4
+[2.407s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(behaviortree_cpp_v3)
+[2.408s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/behaviortree_cpp_v3' for CMake module files
+[2.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/behaviortree_cpp_v3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/behaviortree_cpp_v3
+[2.411s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/behaviortree_cpp_v3' for CMake config files
+[2.413s] Level 1:colcon.colcon_core.shell:create_environment_hook('behaviortree_cpp_v3', 'cmake_prefix_path')
+[2.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/cmake_prefix_path.ps1'
+[2.415s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/cmake_prefix_path.dsv'
+[2.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/cmake_prefix_path.sh'
+[2.417s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib'
+[2.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('behaviortree_cpp_v3', 'ld_library_path_lib')
+[2.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/ld_library_path_lib.ps1'
+[2.419s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/ld_library_path_lib.dsv'
+[2.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/ld_library_path_lib.sh'
+[2.421s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin'
+[2.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('behaviortree_cpp_v3', 'path')
+[2.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/path.ps1'
+[2.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/path.dsv'
+[2.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/path.sh'
+[2.425s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib/pkgconfig/behaviortree_cpp_v3.pc'
+[2.426s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib/python3.10/site-packages'
+[2.426s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin'
+[2.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('behaviortree_cpp_v3', 'pythonscriptspath')
+[2.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/pythonscriptspath.ps1'
+[2.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/pythonscriptspath.dsv'
+[2.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/pythonscriptspath.sh'
+[2.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/package.ps1'
+[2.435s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/package.dsv'
+[2.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/package.sh'
+[2.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/package.bash'
+[2.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/package.zsh'
+[2.440s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/colcon-core/packages/behaviortree_cpp_v3)
+[2.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/dms_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/dms_interfaces
+[2.726s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dms_interfaces)
+[2.727s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/dms_interfaces' for CMake module files
+[2.729s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/dms_interfaces' for CMake config files
+[2.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/dms_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/dms_interfaces
+[2.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('dms_interfaces', 'cmake_prefix_path')
+[2.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/hook/cmake_prefix_path.ps1'
+[2.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/hook/cmake_prefix_path.dsv'
+[2.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/hook/cmake_prefix_path.sh'
+[2.735s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/dms_interfaces/lib'
+[2.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('dms_interfaces', 'ld_library_path_lib')
+[2.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/hook/ld_library_path_lib.ps1'
+[2.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/hook/ld_library_path_lib.dsv'
+[2.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/hook/ld_library_path_lib.sh'
+[2.739s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/dms_interfaces/bin'
+[2.739s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/dms_interfaces/lib/pkgconfig/dms_interfaces.pc'
+[2.739s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/dms_interfaces/lib/python3.10/site-packages'
+[2.740s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/dms_interfaces/bin'
+[2.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/package.ps1'
+[2.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/package.dsv'
+[2.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/package.sh'
+[2.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/package.bash'
+[2.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/package.zsh'
+[2.746s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/dms_interfaces/share/colcon-core/packages/dms_interfaces)
+[2.824s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(behaviortree_cpp_v3)
+[2.825s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/behaviortree_cpp_v3' for CMake module files
+[2.827s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/behaviortree_cpp_v3' for CMake config files
+[2.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('behaviortree_cpp_v3', 'cmake_prefix_path')
+[2.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/cmake_prefix_path.ps1'
+[2.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/cmake_prefix_path.dsv'
+[2.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/cmake_prefix_path.sh'
+[2.831s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib'
+[2.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('behaviortree_cpp_v3', 'ld_library_path_lib')
+[2.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/ld_library_path_lib.ps1'
+[2.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/ld_library_path_lib.dsv'
+[2.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/ld_library_path_lib.sh'
+[2.835s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin'
+[2.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('behaviortree_cpp_v3', 'path')
+[2.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/path.ps1'
+[2.838s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/path.dsv'
+[2.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/path.sh'
+[2.841s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib/pkgconfig/behaviortree_cpp_v3.pc'
+[2.841s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib/python3.10/site-packages'
+[2.842s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin'
+[2.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('behaviortree_cpp_v3', 'pythonscriptspath')
+[2.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/pythonscriptspath.ps1'
+[2.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/pythonscriptspath.dsv'
+[2.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/hook/pythonscriptspath.sh'
+[2.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/package.ps1'
+[2.848s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/package.dsv'
+[2.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/package.sh'
+[2.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/package.bash'
+[2.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/behaviortree_cpp_v3/package.zsh'
+[2.859s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/behaviortree_cpp_v3/share/colcon-core/packages/behaviortree_cpp_v3)
+[2.860s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/denis/diploma_ws/src/bt' with build type 'ament_cmake'
+[2.861s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/denis/diploma_ws/src/bt'
+[2.862s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.862s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/bt': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake --build /home/denis/diploma_ws/build/bt -- -j4 -l4
+[2.915s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dms_interfaces)
+[2.916s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/dms_interfaces' for CMake module files
+[2.918s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/dms_interfaces' for CMake config files
+[2.919s] Level 1:colcon.colcon_core.shell:create_environment_hook('dms_interfaces', 'cmake_prefix_path')
+[2.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/hook/cmake_prefix_path.ps1'
+[2.920s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/hook/cmake_prefix_path.dsv'
+[2.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/hook/cmake_prefix_path.sh'
+[2.923s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/dms_interfaces/lib'
+[2.923s] Level 1:colcon.colcon_core.shell:create_environment_hook('dms_interfaces', 'ld_library_path_lib')
+[2.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/hook/ld_library_path_lib.ps1'
+[2.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/hook/ld_library_path_lib.dsv'
+[2.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/hook/ld_library_path_lib.sh'
+[2.927s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/dms_interfaces/bin'
+[2.927s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/dms_interfaces/lib/pkgconfig/dms_interfaces.pc'
+[2.928s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/dms_interfaces/lib/python3.10/site-packages'
+[2.929s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/dms_interfaces/bin'
+[2.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/package.ps1'
+[2.937s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/package.dsv'
+[2.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/package.sh'
+[2.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/package.bash'
+[2.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/package.zsh'
+[2.944s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/dms_interfaces/share/colcon-core/packages/dms_interfaces)
+[2.946s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/denis/diploma_ws/src/csu' with build type 'ament_cmake'
+[2.946s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/denis/diploma_ws/src/csu'
+[2.947s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.947s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/csu': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/dms_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/denis/diploma_ws/build/csu -- -j4 -l4
+[4.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/fsu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/fsu -- -j4 -l4
+[4.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/fsu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/fsu
+[4.481s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fsu)
+[4.482s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/fsu' for CMake module files
+[4.484s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/fsu' for CMake config files
+[4.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('fsu', 'cmake_prefix_path')
+[4.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/fsu/share/fsu/hook/cmake_prefix_path.ps1'
+[4.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/fsu/share/fsu/hook/cmake_prefix_path.dsv'
+[4.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/fsu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/fsu
+[4.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/fsu/share/fsu/hook/cmake_prefix_path.sh'
+[4.489s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/fsu/lib'
+[4.489s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/fsu/bin'
+[4.498s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/fsu/lib/pkgconfig/fsu.pc'
+[4.498s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/fsu/lib/python3.10/site-packages'
+[4.499s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/fsu/bin'
+[4.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/fsu/share/fsu/package.ps1'
+[4.501s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/fsu/share/fsu/package.dsv'
+[4.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/fsu/share/fsu/package.sh'
+[4.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/fsu/share/fsu/package.bash'
+[4.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/fsu/share/fsu/package.zsh'
+[4.504s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/fsu/share/colcon-core/packages/fsu)
+[4.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fsu)
+[4.577s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/fsu' for CMake module files
+[4.578s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/fsu' for CMake config files
+[4.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('fsu', 'cmake_prefix_path')
+[4.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/fsu/share/fsu/hook/cmake_prefix_path.ps1'
+[4.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/fsu/share/fsu/hook/cmake_prefix_path.dsv'
+[4.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/fsu/share/fsu/hook/cmake_prefix_path.sh'
+[4.583s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/fsu/lib'
+[4.583s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/fsu/bin'
+[4.583s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/fsu/lib/pkgconfig/fsu.pc'
+[4.584s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/fsu/lib/python3.10/site-packages'
+[4.584s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/fsu/bin'
+[4.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/fsu/share/fsu/package.ps1'
+[4.587s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/fsu/share/fsu/package.dsv'
+[4.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/fsu/share/fsu/package.sh'
+[4.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/fsu/share/fsu/package.bash'
+[4.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/fsu/share/fsu/package.zsh'
+[4.591s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/fsu/share/colcon-core/packages/fsu)
+[4.594s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/denis/diploma_ws/src/Groot' with build type 'ament_cmake'
+[4.594s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/denis/diploma_ws/src/Groot'
+[4.595s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.595s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/groot': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake --build /home/denis/diploma_ws/build/groot -- -j4 -l4
+[4.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/ssu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/ssu -- -j4 -l4
+[4.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/ssu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/ssu
+[5.017s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ssu)
+[5.018s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/ssu' for CMake module files
+[5.019s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/ssu' for CMake config files
+[5.020s] Level 1:colcon.colcon_core.shell:create_environment_hook('ssu', 'cmake_prefix_path')
+[5.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/ssu/share/ssu/hook/cmake_prefix_path.ps1'
+[5.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/ssu/share/ssu/hook/cmake_prefix_path.dsv'
+[5.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/ssu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/ssu
+[5.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/ssu/share/ssu/hook/cmake_prefix_path.sh'
+[5.026s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/ssu/lib'
+[5.026s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/ssu/bin'
+[5.026s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/ssu/lib/pkgconfig/ssu.pc'
+[5.027s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/ssu/lib/python3.10/site-packages'
+[5.028s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/ssu/bin'
+[5.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/ssu/share/ssu/package.ps1'
+[5.030s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/ssu/share/ssu/package.dsv'
+[5.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/ssu/share/ssu/package.sh'
+[5.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/ssu/share/ssu/package.bash'
+[5.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/ssu/share/ssu/package.zsh'
+[5.036s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/ssu/share/colcon-core/packages/ssu)
+[5.121s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ssu)
+[5.122s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/ssu' for CMake module files
+[5.123s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/ssu' for CMake config files
+[5.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('ssu', 'cmake_prefix_path')
+[5.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/ssu/share/ssu/hook/cmake_prefix_path.ps1'
+[5.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/ssu/share/ssu/hook/cmake_prefix_path.dsv'
+[5.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/ssu/share/ssu/hook/cmake_prefix_path.sh'
+[5.131s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/ssu/lib'
+[5.132s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/ssu/bin'
+[5.132s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/ssu/lib/pkgconfig/ssu.pc'
+[5.132s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/ssu/lib/python3.10/site-packages'
+[5.134s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/ssu/bin'
+[5.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/ssu/share/ssu/package.ps1'
+[5.143s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/ssu/share/ssu/package.dsv'
+[5.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/ssu/share/ssu/package.sh'
+[5.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/ssu/share/ssu/package.bash'
+[5.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/ssu/share/ssu/package.zsh'
+[5.149s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/ssu/share/colcon-core/packages/ssu)
+[5.150s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/denis/diploma_ws/src/turtlebot3_navigation2' with build type 'ament_cmake'
+[5.151s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/denis/diploma_ws/src/turtlebot3_navigation2'
+[5.152s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.152s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/turtlebot3_navigation2': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/nav2_bringup:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/nav2_bringup:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[5.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/turtlebot3_navigation2' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/nav2_bringup:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/nav2_bringup:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[5.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/turtlebot3_navigation2': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/nav2_bringup:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/nav2_bringup:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/turtlebot3_navigation2
+[5.491s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_navigation2)
+[5.491s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_navigation2' for CMake module files
+[5.493s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_navigation2' for CMake config files
+[5.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_navigation2', 'cmake_prefix_path')
+[5.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.ps1'
+[5.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/turtlebot3_navigation2' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/nav2_bringup:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/nav2_bringup:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/turtlebot3_navigation2
+[5.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.dsv'
+[5.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.sh'
+[5.498s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_navigation2/bin'
+[5.498s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_navigation2/lib/pkgconfig/turtlebot3_navigation2.pc'
+[5.498s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_navigation2/lib/python3.10/site-packages'
+[5.499s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_navigation2/bin'
+[5.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.ps1'
+[5.501s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv'
+[5.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.sh'
+[5.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.bash'
+[5.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.zsh'
+[5.504s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/turtlebot3_navigation2/share/colcon-core/packages/turtlebot3_navigation2)
+[5.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/groot' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake --build /home/denis/diploma_ws/build/groot -- -j4 -l4
+[5.650s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_navigation2)
+[5.650s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_navigation2' for CMake module files
+[5.652s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_navigation2' for CMake config files
+[5.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_navigation2', 'cmake_prefix_path')
+[5.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.ps1'
+[5.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.dsv'
+[5.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.sh'
+[5.656s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_navigation2/bin'
+[5.657s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_navigation2/lib/pkgconfig/turtlebot3_navigation2.pc'
+[5.657s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_navigation2/lib/python3.10/site-packages'
+[5.658s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_navigation2/bin'
+[5.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.ps1'
+[5.660s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv'
+[5.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.sh'
+[5.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.bash'
+[5.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.zsh'
+[5.664s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/turtlebot3_navigation2/share/colcon-core/packages/turtlebot3_navigation2)
+[5.666s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_simulations' with build type 'ament_cmake'
+[5.667s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_simulations'
+[5.668s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.668s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/turtlebot3_simulations -- -j4 -l4
+[5.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/turtlebot3_simulations -- -j4 -l4
+[5.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/groot': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake --install /home/denis/diploma_ws/build/groot
+[5.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/turtlebot3_simulations
+[5.936s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(groot)
+[5.937s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/groot' for CMake module files
+[5.938s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/groot' for CMake config files
+[5.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('groot', 'cmake_prefix_path')
+[5.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/groot/share/groot/hook/cmake_prefix_path.ps1'
+[5.941s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/groot/share/groot/hook/cmake_prefix_path.dsv'
+[5.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/groot/share/groot/hook/cmake_prefix_path.sh'
+[5.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/groot' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake --install /home/denis/diploma_ws/build/groot
+[5.946s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/groot/lib'
+[5.946s] Level 1:colcon.colcon_core.shell:create_environment_hook('groot', 'ld_library_path_lib')
+[5.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/groot/share/groot/hook/ld_library_path_lib.ps1'
+[5.949s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/groot/share/groot/hook/ld_library_path_lib.dsv'
+[5.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/groot/share/groot/hook/ld_library_path_lib.sh'
+[5.951s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/groot/bin'
+[5.951s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/groot/lib/pkgconfig/groot.pc'
+[5.952s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/groot/lib/python3.10/site-packages'
+[5.952s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/groot/bin'
+[5.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/groot/share/groot/package.ps1'
+[5.954s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/groot/share/groot/package.dsv'
+[5.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/groot/share/groot/package.sh'
+[5.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/groot/share/groot/package.bash'
+[5.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/groot/share/groot/package.zsh'
+[5.957s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/groot/share/colcon-core/packages/groot)
+[5.961s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[5.961s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_simulations' for CMake module files
+[5.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/turtlebot3_simulations
+[5.963s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_simulations' for CMake config files
+[5.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[5.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[5.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[5.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[5.967s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_simulations/bin'
+[5.967s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[5.968s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_simulations/lib/python3.10/site-packages'
+[5.968s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_simulations/bin'
+[5.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[5.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[5.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[5.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[5.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[5.974s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[6.031s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[6.032s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_simulations' for CMake module files
+[6.033s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_simulations' for CMake config files
+[6.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[6.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[6.035s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[6.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[6.037s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_simulations/bin'
+[6.038s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[6.038s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_simulations/lib/python3.10/site-packages'
+[6.039s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/turtlebot3_simulations/bin'
+[6.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[6.041s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[6.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[6.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[6.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[6.045s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[6.183s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(groot)
+[6.184s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/groot' for CMake module files
+[6.185s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/groot' for CMake config files
+[6.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('groot', 'cmake_prefix_path')
+[6.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/groot/share/groot/hook/cmake_prefix_path.ps1'
+[6.187s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/groot/share/groot/hook/cmake_prefix_path.dsv'
+[6.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/groot/share/groot/hook/cmake_prefix_path.sh'
+[6.190s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/groot/lib'
+[6.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('groot', 'ld_library_path_lib')
+[6.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/groot/share/groot/hook/ld_library_path_lib.ps1'
+[6.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/groot/share/groot/hook/ld_library_path_lib.dsv'
+[6.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/groot/share/groot/hook/ld_library_path_lib.sh'
+[6.193s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/groot/bin'
+[6.193s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/groot/lib/pkgconfig/groot.pc'
+[6.194s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/groot/lib/python3.10/site-packages'
+[6.194s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/groot/bin'
+[6.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/groot/share/groot/package.ps1'
+[6.197s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/groot/share/groot/package.dsv'
+[6.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/groot/share/groot/package.sh'
+[6.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/groot/share/groot/package.bash'
+[6.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/groot/share/groot/package.zsh'
+[6.201s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/groot/share/colcon-core/packages/groot)
+[11.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/bt' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake --build /home/denis/diploma_ws/build/bt -- -j4 -l4
+[11.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/bt': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake --install /home/denis/diploma_ws/build/bt
+[11.775s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bt)
+[11.776s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/bt' for CMake module files
+[11.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/bt' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake --install /home/denis/diploma_ws/build/bt
+[11.777s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/bt' for CMake config files
+[11.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('bt', 'cmake_prefix_path')
+[11.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/bt/share/bt/hook/cmake_prefix_path.ps1'
+[11.778s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/bt/share/bt/hook/cmake_prefix_path.dsv'
+[11.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/bt/share/bt/hook/cmake_prefix_path.sh'
+[11.780s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/bt/lib'
+[11.780s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/bt/bin'
+[11.780s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/bt/lib/pkgconfig/bt.pc'
+[11.780s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/bt/lib/python3.10/site-packages'
+[11.780s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/bt/bin'
+[11.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/bt/share/bt/package.ps1'
+[11.782s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/bt/share/bt/package.dsv'
+[11.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/bt/share/bt/package.sh'
+[11.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/bt/share/bt/package.bash'
+[11.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/bt/share/bt/package.zsh'
+[11.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/bt/share/colcon-core/packages/bt)
+[11.830s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bt)
+[11.831s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/bt' for CMake module files
+[11.832s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/bt' for CMake config files
+[11.833s] Level 1:colcon.colcon_core.shell:create_environment_hook('bt', 'cmake_prefix_path')
+[11.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/bt/share/bt/hook/cmake_prefix_path.ps1'
+[11.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/bt/share/bt/hook/cmake_prefix_path.dsv'
+[11.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/bt/share/bt/hook/cmake_prefix_path.sh'
+[11.836s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/bt/lib'
+[11.836s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/bt/bin'
+[11.836s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/bt/lib/pkgconfig/bt.pc'
+[11.836s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/bt/lib/python3.10/site-packages'
+[11.837s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/bt/bin'
+[11.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/bt/share/bt/package.ps1'
+[11.838s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/bt/share/bt/package.dsv'
+[11.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/bt/share/bt/package.sh'
+[11.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/bt/share/bt/package.bash'
+[11.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/bt/share/bt/package.zsh'
+[11.842s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/bt/share/colcon-core/packages/bt)
+[20.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/csu' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/dms_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/denis/diploma_ws/build/csu -- -j4 -l4
+[20.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denis/diploma_ws/build/csu': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/dms_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/denis/diploma_ws/build/csu
+[20.905s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(csu)
+[20.905s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/csu' for CMake module files
+[20.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denis/diploma_ws/build/csu' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/dms_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/denis/diploma_ws/build/csu
+[20.907s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/csu' for CMake config files
+[20.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('csu', 'cmake_prefix_path')
+[20.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/csu/share/csu/hook/cmake_prefix_path.ps1'
+[20.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/csu/share/csu/hook/cmake_prefix_path.dsv'
+[20.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/csu/share/csu/hook/cmake_prefix_path.sh'
+[20.911s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/csu/lib'
+[20.911s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/csu/bin'
+[20.911s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/csu/lib/pkgconfig/csu.pc'
+[20.912s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/csu/lib/python3.10/site-packages'
+[20.912s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/csu/bin'
+[20.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/csu/share/csu/package.ps1'
+[20.914s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/csu/share/csu/package.dsv'
+[20.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/csu/share/csu/package.sh'
+[20.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/csu/share/csu/package.bash'
+[20.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/csu/share/csu/package.zsh'
+[20.916s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/csu/share/colcon-core/packages/csu)
+[20.965s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(csu)
+[20.965s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/csu' for CMake module files
+[20.966s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/csu' for CMake config files
+[20.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('csu', 'cmake_prefix_path')
+[20.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/csu/share/csu/hook/cmake_prefix_path.ps1'
+[20.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denis/diploma_ws/install/csu/share/csu/hook/cmake_prefix_path.dsv'
+[20.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denis/diploma_ws/install/csu/share/csu/hook/cmake_prefix_path.sh'
+[20.970s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/csu/lib'
+[20.970s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/csu/bin'
+[20.970s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/csu/lib/pkgconfig/csu.pc'
+[20.971s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/csu/lib/python3.10/site-packages'
+[20.971s] Level 1:colcon.colcon_core.environment:checking '/home/denis/diploma_ws/install/csu/bin'
+[20.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/csu/share/csu/package.ps1'
+[20.972s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denis/diploma_ws/install/csu/share/csu/package.dsv'
+[20.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/csu/share/csu/package.sh'
+[20.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/csu/share/csu/package.bash'
+[20.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/denis/diploma_ws/install/csu/share/csu/package.zsh'
+[20.975s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denis/diploma_ws/install/csu/share/colcon-core/packages/csu)
+[20.975s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.976s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.976s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[20.976s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.985s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.985s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.985s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.999s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[21.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/denis/diploma_ws/install/local_setup.ps1'
+[21.001s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/denis/diploma_ws/install/_local_setup_util_ps1.py'
+[21.003s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/denis/diploma_ws/install/setup.ps1'
+[21.007s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/denis/diploma_ws/install/local_setup.sh'
+[21.009s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/denis/diploma_ws/install/_local_setup_util_sh.py'
+[21.010s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/denis/diploma_ws/install/setup.sh'
+[21.014s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/denis/diploma_ws/install/local_setup.bash'
+[21.014s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/denis/diploma_ws/install/setup.bash'
+[21.018s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/denis/diploma_ws/install/local_setup.zsh'
+[21.019s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/denis/diploma_ws/install/setup.zsh'

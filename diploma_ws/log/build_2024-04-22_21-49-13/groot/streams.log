@@ -1,0 +1,42 @@
+[0.037s] Invoking command in '/home/denis/diploma_ws/build/groot': CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/nav2_bringup:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/groot/lib:/home/denis/diploma_ws/install/dms_interfaces/lib:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/denis/diploma_ws/build/groot -- -j4 -l4
+[0.195s] [  1%] [34m[1mAutomatic MOC and UIC for target QtNodeEditor[0m
+[0.256s] [  1%] Built target QtNodeEditor_autogen
+[0.397s] [ 57%] Built target QtNodeEditor
+[0.445s] [ 58%] [34m[1mAutomatic MOC and UIC for target behavior_tree_editor[0m
+[0.506s] [ 58%] Built target behavior_tree_editor_autogen
+[0.597s] [ 74%] Built target behavior_tree_editor
+[0.640s] [ 75%] [34m[1mAutomatic MOC and UIC for target Groot[0m
+[0.642s] [ 76%] [34m[1mAutomatic MOC and UIC for target replay_test[0m
+[0.649s] [ 76%] [34m[1mAutomatic MOC and UIC for target editor_test[0m
+[0.684s] [ 76%] Built target Groot_autogen
+[0.695s] [ 76%] Built target editor_test_autogen
+[0.697s] [ 76%] Built target replay_test_autogen
+[0.748s] [ 82%] Built target Groot
+[0.764s] [ 91%] Built target editor_test
+[0.765s] [100%] Built target replay_test
+[0.787s] Invoked command in '/home/denis/diploma_ws/build/groot' returned '0': CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/nav2_bringup:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/groot/lib:/home/denis/diploma_ws/install/dms_interfaces/lib:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/denis/diploma_ws/build/groot -- -j4 -l4
+[0.951s] Invoking command in '/home/denis/diploma_ws/build/groot': CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/nav2_bringup:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/groot/lib:/home/denis/diploma_ws/install/dms_interfaces/lib:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/denis/diploma_ws/build/groot
+[0.967s] -- Install configuration: ""
+[0.968s] -- Up-to-date: /home/denis/diploma_ws/install/groot/lib/libbehavior_tree_editor.so
+[0.968s] -- Up-to-date: /home/denis/diploma_ws/install/groot/lib/groot/Groot
+[0.969s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/environment/library_path.sh
+[0.969s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/environment/library_path.dsv
+[0.970s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/ament_index/resource_index/package_run_dependencies/groot
+[0.970s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/ament_index/resource_index/parent_prefix_path/groot
+[0.970s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/environment/ament_prefix_path.sh
+[0.970s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/environment/ament_prefix_path.dsv
+[0.970s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/environment/path.sh
+[0.971s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/environment/path.dsv
+[0.971s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/local_setup.bash
+[0.971s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/local_setup.sh
+[0.971s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/local_setup.zsh
+[0.971s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/local_setup.dsv
+[0.971s] -- Installing: /home/denis/diploma_ws/install/groot/share/groot/package.dsv
+[0.971s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/ament_index/resource_index/packages/groot
+[0.971s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.971s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.972s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/cmake/ament_cmake_export_libraries-extras.cmake
+[0.972s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/cmake/grootConfig.cmake
+[0.972s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/cmake/grootConfig-version.cmake
+[0.972s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/package.xml
+[0.976s] Invoked command in '/home/denis/diploma_ws/build/groot' returned '0': CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/nav2_bringup:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/groot/lib:/home/denis/diploma_ws/install/dms_interfaces/lib:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/denis/diploma_ws/build/groot

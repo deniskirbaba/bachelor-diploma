@@ -1,0 +1,10 @@
+/home/denis/diploma_ws/src/build/fsu/CMakeFiles/uninstall.dir
+/home/denis/diploma_ws/src/build/fsu/CMakeFiles/fsu_uninstall.dir
+/home/denis/diploma_ws/src/build/fsu/CMakeFiles/lidar_remapping_node.dir
+/home/denis/diploma_ws/src/build/fsu/CMakeFiles/test.dir
+/home/denis/diploma_ws/src/build/fsu/CMakeFiles/edit_cache.dir
+/home/denis/diploma_ws/src/build/fsu/CMakeFiles/rebuild_cache.dir
+/home/denis/diploma_ws/src/build/fsu/CMakeFiles/list_install_components.dir
+/home/denis/diploma_ws/src/build/fsu/CMakeFiles/install.dir
+/home/denis/diploma_ws/src/build/fsu/CMakeFiles/install/local.dir
+/home/denis/diploma_ws/src/build/fsu/CMakeFiles/install/strip.dir

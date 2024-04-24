@@ -1,0 +1,6 @@
+[ 20%] Built target odom_bt
+[ 40%] Built target sensors_bt
+[ 60%] Built target imu_bt
+[ 80%] Built target lidar_bt
+[35m[1mConsolidate compiler generated dependencies of target battery_bt[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/battery_bt.dir/src/battery_bt.cpp.o[0m

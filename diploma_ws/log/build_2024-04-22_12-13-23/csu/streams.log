@@ -1,0 +1,54 @@
+[0.042s] Invoking command in '/home/denis/diploma_ws/build/csu': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/dms_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/denis/diploma_ws/build/csu -- -j4 -l4
+[0.119s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.439s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.518s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.525s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.541s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.573s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.620s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.791s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.796s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.136s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.648s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.781s] -- Found dms_interfaces: 0.0.0 (/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake)
+[1.931s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[1.989s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.188s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.189s] -- Configured cppcheck include dirs: /home/denis/diploma_ws/src/csu/include/csu;$<BUILD_INTERFACE:/home/denis/diploma_ws/src/csu/include>
+[2.189s] -- Configured cppcheck exclude dirs and/or files: 
+[2.190s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.193s] -- Added test 'lint_cmake' to check CMake code style
+[2.193s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.195s] -- Added test 'uncrustify' to check C / C++ code style
+[2.195s] -- Configured uncrustify additional arguments: 
+[2.196s] -- Added test 'xmllint' to check XML markup files
+[2.198s] -- Configuring done
+[2.232s] -- Generating done
+[2.236s] -- Build files have been written to: /home/denis/diploma_ws/build/csu
+[2.307s] [35m[1mConsolidate compiler generated dependencies of target control_switching_unit[0m
+[2.400s] [ 50%] [32mBuilding CXX object CMakeFiles/control_switching_unit.dir/src/control_switching_unit.cpp.o[0m
+[17.089s] [100%] [32m[1mLinking CXX executable control_switching_unit[0m
+[17.861s] [100%] Built target control_switching_unit
+[17.880s] Invoked command in '/home/denis/diploma_ws/build/csu' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/dms_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/denis/diploma_ws/build/csu -- -j4 -l4
+[17.931s] Invoking command in '/home/denis/diploma_ws/build/csu': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/dms_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/denis/diploma_ws/build/csu
+[17.944s] -- Install configuration: ""
+[17.945s] -- Installing: /home/denis/diploma_ws/install/csu/lib/csu/control_switching_unit
+[17.954s] -- Set runtime path of "/home/denis/diploma_ws/install/csu/lib/csu/control_switching_unit" to ""
+[17.954s] -- Installing: /home/denis/diploma_ws/install/csu/share/csu/launch
+[17.954s] -- Installing: /home/denis/diploma_ws/install/csu/share/csu/launch/control_switching_unit.launch.py
+[17.954s] -- Installing: /home/denis/diploma_ws/install/csu/share/ament_index/resource_index/package_run_dependencies/csu
+[17.954s] -- Installing: /home/denis/diploma_ws/install/csu/share/ament_index/resource_index/parent_prefix_path/csu
+[17.955s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/environment/ament_prefix_path.sh
+[17.955s] -- Installing: /home/denis/diploma_ws/install/csu/share/csu/environment/ament_prefix_path.dsv
+[17.955s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/environment/path.sh
+[17.955s] -- Installing: /home/denis/diploma_ws/install/csu/share/csu/environment/path.dsv
+[17.955s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/local_setup.bash
+[17.956s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/local_setup.sh
+[17.956s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/local_setup.zsh
+[17.956s] -- Installing: /home/denis/diploma_ws/install/csu/share/csu/local_setup.dsv
+[17.956s] -- Installing: /home/denis/diploma_ws/install/csu/share/csu/package.dsv
+[17.956s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/ament_index/resource_index/packages/csu
+[17.957s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/cmake/csuConfig.cmake
+[17.957s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/cmake/csuConfig-version.cmake
+[17.957s] -- Installing: /home/denis/diploma_ws/install/csu/share/csu/package.xml
+[17.961s] Invoked command in '/home/denis/diploma_ws/build/csu' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/src/install/dms_interfaces:/home/denis/diploma_ws/src/install/turtlebot3_simulations:/home/denis/diploma_ws/src/install/turtlebot3_navigation2:/home/denis/diploma_ws/src/install/turtlebot3_gazebo:/home/denis/diploma_ws/src/install/turtlebot3_fake_node:/home/denis/diploma_ws/src/install/ssu:/home/denis/diploma_ws/src/install/nav2_bringup:/home/denis/diploma_ws/src/install/groot:/home/denis/diploma_ws/src/install/fsu:/home/denis/diploma_ws/src/install/csu:/home/denis/diploma_ws/src/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/src/install/bt:/home/denis/diploma_ws/src/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/dms_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/denis/diploma_ws/build/csu

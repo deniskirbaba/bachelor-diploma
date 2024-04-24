@@ -1,0 +1,146 @@
+[0.039s] Invoking command in '/home/denis/diploma_ws/build/btcpp_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/btcpp_ros2_interfaces -- -j4 -l4
+[0.242s] [  9%] Built target btcpp_ros2_interfaces__rosidl_generator_c
+[0.264s] [ 12%] Built target btcpp_ros2_interfaces__cpp
+[0.354s] [ 12%] Built target ament_cmake_python_copy_btcpp_ros2_interfaces
+[0.377s] [ 22%] Built target btcpp_ros2_interfaces__rosidl_typesupport_c
+[0.415s] [ 32%] Built target btcpp_ros2_interfaces__rosidl_typesupport_introspection_c
+[0.422s] [ 41%] Built target btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c
+[0.504s] [ 51%] Built target btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.524s] [ 61%] Built target btcpp_ros2_interfaces__rosidl_typesupport_introspection_cpp
+[0.530s] [ 70%] Built target btcpp_ros2_interfaces__rosidl_typesupport_cpp
+[0.582s] [ 70%] Built target btcpp_ros2_interfaces
+[0.664s] [ 74%] Built target btcpp_ros2_interfaces__py
+[0.752s] [ 80%] Built target btcpp_ros2_interfaces__rosidl_generator_py
+[0.860s] [ 87%] Built target btcpp_ros2_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.872s] [ 93%] Built target btcpp_ros2_interfaces__rosidl_typesupport_c__pyext
+[0.913s] [100%] Built target btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.432s] running egg_info
+[1.434s] writing btcpp_ros2_interfaces.egg-info/PKG-INFO
+[1.439s] writing dependency_links to btcpp_ros2_interfaces.egg-info/dependency_links.txt
+[1.439s] writing top-level names to btcpp_ros2_interfaces.egg-info/top_level.txt
+[1.445s] reading manifest file 'btcpp_ros2_interfaces.egg-info/SOURCES.txt'
+[1.455s] writing manifest file 'btcpp_ros2_interfaces.egg-info/SOURCES.txt'
+[1.533s] [100%] Built target ament_cmake_python_build_btcpp_ros2_interfaces_egg
+[1.569s] Invoked command in '/home/denis/diploma_ws/build/btcpp_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/btcpp_ros2_interfaces -- -j4 -l4
+[1.917s] Invoking command in '/home/denis/diploma_ws/build/btcpp_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/btcpp_ros2_interfaces
+[1.940s] -- Install configuration: ""
+[1.940s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/ament_index/resource_index/rosidl_interfaces/btcpp_ros2_interfaces
+[1.941s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces
+[1.941s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action
+[1.941s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/sleep.h
+[1.941s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail
+[1.941s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__struct.h
+[1.941s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__type_support.h
+[1.942s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__functions.h
+[1.942s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__functions.c
+[1.942s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg
+[1.942s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.943s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/library_path.sh
+[1.943s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/library_path.dsv
+[1.943s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_generator_c.so
+[1.943s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces
+[1.944s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action
+[1.944s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail
+[1.944s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__rosidl_typesupport_fastrtps_c.h
+[1.944s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg
+[1.944s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.945s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.945s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces
+[1.945s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action
+[1.946s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail
+[1.946s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__rosidl_typesupport_introspection_c.h
+[1.946s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__type_support.c
+[1.946s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg
+[1.946s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.947s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_introspection_c.so
+[1.947s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_c.so
+[1.947s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces
+[1.952s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action
+[1.953s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/sleep.hpp
+[1.953s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail
+[1.953s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__traits.hpp
+[1.953s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__struct.hpp
+[1.954s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__builder.hpp
+[1.954s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces
+[1.955s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action
+[1.955s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail
+[1.955s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/dds_fastrtps
+[1.956s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__rosidl_typesupport_fastrtps_cpp.hpp
+[1.956s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg
+[1.956s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.956s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.956s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces
+[1.957s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action
+[1.957s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail
+[1.957s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__rosidl_typesupport_introspection_cpp.hpp
+[1.958s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__type_support.cpp
+[1.959s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.959s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_cpp.so
+[1.960s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/pythonpath.sh
+[1.960s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/pythonpath.dsv
+[1.962s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces-0.2.0-py3.10.egg-info
+[1.962s] -- Installing: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces-0.2.0-py3.10.egg-info/SOURCES.txt
+[1.963s] -- Installing: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces-0.2.0-py3.10.egg-info/dependency_links.txt
+[1.963s] -- Installing: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces-0.2.0-py3.10.egg-info/PKG-INFO
+[1.967s] -- Installing: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces-0.2.0-py3.10.egg-info/top_level.txt
+[1.968s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces
+[1.968s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.980s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.980s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.980s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/action
+[1.980s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/action/_sleep_s.c
+[1.980s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/action/__init__.py
+[1.981s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/action/_sleep.py
+[1.981s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/_btcpp_ros2_interfaces_s.ep.rosidl_typesupport_c.c
+[1.981s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/_btcpp_ros2_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.982s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/__init__.py
+[1.982s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/_btcpp_ros2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.982s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/libbtcpp_ros2_interfaces__rosidl_generator_py.so
+[2.107s] Listing '/home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces'...
+[2.108s] Listing '/home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/action'...
+[2.121s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.122s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.122s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.123s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_generator_py.so
+[2.123s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/action/Sleep.idl
+[2.124s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/action/Sleep.action
+[2.124s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/ament_index/resource_index/package_run_dependencies/btcpp_ros2_interfaces
+[2.124s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/ament_index/resource_index/parent_prefix_path/btcpp_ros2_interfaces
+[2.125s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/ament_prefix_path.sh
+[2.125s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/ament_prefix_path.dsv
+[2.126s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/path.sh
+[2.126s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/path.dsv
+[2.126s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/local_setup.bash
+[2.126s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/local_setup.sh
+[2.128s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/local_setup.zsh
+[2.129s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/local_setup.dsv
+[2.129s] -- Installing: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/package.dsv
+[2.131s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/ament_index/resource_index/packages/btcpp_ros2_interfaces
+[2.131s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_generator_cExport.cmake
+[2.131s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.131s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.132s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.132s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.132s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.132s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_cExport.cmake
+[2.133s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.133s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_generator_cppExport.cmake
+[2.133s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.134s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.134s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.134s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.134s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_cppExport.cmake
+[2.134s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.135s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_generator_pyExport.cmake
+[2.135s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.135s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.135s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.151s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.151s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.152s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.152s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.152s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.152s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfacesConfig.cmake
+[2.153s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfacesConfig-version.cmake
+[2.153s] -- Up-to-date: /home/denis/diploma_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/package.xml
+[2.153s] Invoked command in '/home/denis/diploma_ws/build/btcpp_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/btcpp_ros2_interfaces

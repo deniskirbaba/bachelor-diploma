@@ -1,0 +1,3 @@
+/home/denis/diploma_ws/build/dms_interfaces/rosidl_adapter/dms_interfaces:srv/PubResCmdVel.idl
+/home/denis/diploma_ws/build/dms_interfaces/rosidl_adapter/dms_interfaces:srv/GetBatteryLevel.idl
+/home/denis/diploma_ws/build/dms_interfaces/rosidl_adapter/dms_interfaces:srv/GetGoalDistance.idl

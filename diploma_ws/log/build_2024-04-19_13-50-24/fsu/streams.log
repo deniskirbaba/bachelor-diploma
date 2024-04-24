@@ -1,0 +1,25 @@
+[0.065s] Invoking command in '/home/denis/diploma_ws/build/fsu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/fsu -- -j4 -l4
+[0.203s] [35m[1mConsolidate compiler generated dependencies of target lidar_remapping_node[0m
+[0.253s] [100%] Built target lidar_remapping_node
+[0.326s] Invoked command in '/home/denis/diploma_ws/build/fsu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/fsu -- -j4 -l4
+[0.435s] Invoking command in '/home/denis/diploma_ws/build/fsu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/fsu
+[0.453s] -- Install configuration: ""
+[0.454s] -- Up-to-date: /home/denis/diploma_ws/install/fsu/lib/fsu/lidar_remapping_node
+[0.455s] -- Up-to-date: /home/denis/diploma_ws/install/fsu/share/fsu/launch
+[0.455s] -- Up-to-date: /home/denis/diploma_ws/install/fsu/share/fsu/launch/fsu.launch.py
+[0.455s] -- Up-to-date: /home/denis/diploma_ws/install/fsu/share/ament_index/resource_index/package_run_dependencies/fsu
+[0.456s] -- Up-to-date: /home/denis/diploma_ws/install/fsu/share/ament_index/resource_index/parent_prefix_path/fsu
+[0.456s] -- Up-to-date: /home/denis/diploma_ws/install/fsu/share/fsu/environment/ament_prefix_path.sh
+[0.456s] -- Up-to-date: /home/denis/diploma_ws/install/fsu/share/fsu/environment/ament_prefix_path.dsv
+[0.456s] -- Up-to-date: /home/denis/diploma_ws/install/fsu/share/fsu/environment/path.sh
+[0.456s] -- Up-to-date: /home/denis/diploma_ws/install/fsu/share/fsu/environment/path.dsv
+[0.457s] -- Up-to-date: /home/denis/diploma_ws/install/fsu/share/fsu/local_setup.bash
+[0.457s] -- Up-to-date: /home/denis/diploma_ws/install/fsu/share/fsu/local_setup.sh
+[0.457s] -- Up-to-date: /home/denis/diploma_ws/install/fsu/share/fsu/local_setup.zsh
+[0.457s] -- Up-to-date: /home/denis/diploma_ws/install/fsu/share/fsu/local_setup.dsv
+[0.457s] -- Installing: /home/denis/diploma_ws/install/fsu/share/fsu/package.dsv
+[0.457s] -- Up-to-date: /home/denis/diploma_ws/install/fsu/share/ament_index/resource_index/packages/fsu
+[0.458s] -- Up-to-date: /home/denis/diploma_ws/install/fsu/share/fsu/cmake/fsuConfig.cmake
+[0.458s] -- Up-to-date: /home/denis/diploma_ws/install/fsu/share/fsu/cmake/fsuConfig-version.cmake
+[0.458s] -- Up-to-date: /home/denis/diploma_ws/install/fsu/share/fsu/package.xml
+[0.460s] Invoked command in '/home/denis/diploma_ws/build/fsu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/fsu

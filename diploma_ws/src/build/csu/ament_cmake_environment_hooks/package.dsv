@@ -1,0 +1,4 @@
+source;share/csu/local_setup.bash
+source;share/csu/local_setup.dsv
+source;share/csu/local_setup.sh
+source;share/csu/local_setup.zsh

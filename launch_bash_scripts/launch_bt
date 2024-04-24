@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+SESSION_NAME="launch_bt"
+
+
+cd ~/diploma_ws/
+source install/local_setup.bash
+export TURTLEBOT3_MODEL=waffle_pi
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/opt/ros/humble/share/turtlebot3_gazebo/models
+
+
+tmux new-session -d -s $SESSION_NAME
+
+tmux send-keys -t $SESSION_NAME.0 "ros2 launch bt main_bt.launch.py" Enter
+
+tmux a -t $SESSION_NAME

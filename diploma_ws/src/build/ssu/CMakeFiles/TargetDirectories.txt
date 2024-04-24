@@ -1,0 +1,10 @@
+/home/denis/diploma_ws/src/build/ssu/CMakeFiles/uninstall.dir
+/home/denis/diploma_ws/src/build/ssu/CMakeFiles/ssu_uninstall.dir
+/home/denis/diploma_ws/src/build/ssu/CMakeFiles/sensor_supervisitory_unit.dir
+/home/denis/diploma_ws/src/build/ssu/CMakeFiles/test.dir
+/home/denis/diploma_ws/src/build/ssu/CMakeFiles/edit_cache.dir
+/home/denis/diploma_ws/src/build/ssu/CMakeFiles/rebuild_cache.dir
+/home/denis/diploma_ws/src/build/ssu/CMakeFiles/list_install_components.dir
+/home/denis/diploma_ws/src/build/ssu/CMakeFiles/install.dir
+/home/denis/diploma_ws/src/build/ssu/CMakeFiles/install/local.dir
+/home/denis/diploma_ws/src/build/ssu/CMakeFiles/install/strip.dir

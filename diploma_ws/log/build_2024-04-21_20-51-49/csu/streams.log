@@ -1,0 +1,25 @@
+[0.040s] Invoking command in '/home/denis/diploma_ws/build/csu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/csu -- -j4 -l4
+[0.194s] [ 50%] [32mBuilding CXX object CMakeFiles/control_switching_unit.dir/src/control_switching_unit.cpp.o[0m
+[14.436s] [100%] [32m[1mLinking CXX executable control_switching_unit[0m
+[15.201s] [100%] Built target control_switching_unit
+[15.221s] Invoked command in '/home/denis/diploma_ws/build/csu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/csu -- -j4 -l4
+[15.274s] Invoking command in '/home/denis/diploma_ws/build/csu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/csu
+[15.287s] -- Install configuration: ""
+[15.288s] -- Installing: /home/denis/diploma_ws/install/csu/lib/csu/control_switching_unit
+[15.296s] -- Set runtime path of "/home/denis/diploma_ws/install/csu/lib/csu/control_switching_unit" to ""
+[15.296s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/ament_index/resource_index/package_run_dependencies/csu
+[15.297s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/ament_index/resource_index/parent_prefix_path/csu
+[15.297s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/environment/ament_prefix_path.sh
+[15.297s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/environment/ament_prefix_path.dsv
+[15.297s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/environment/path.sh
+[15.298s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/environment/path.dsv
+[15.298s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/local_setup.bash
+[15.298s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/local_setup.sh
+[15.298s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/local_setup.zsh
+[15.298s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/local_setup.dsv
+[15.298s] -- Installing: /home/denis/diploma_ws/install/csu/share/csu/package.dsv
+[15.299s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/ament_index/resource_index/packages/csu
+[15.299s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/cmake/csuConfig.cmake
+[15.299s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/cmake/csuConfig-version.cmake
+[15.299s] -- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/package.xml
+[15.301s] Invoked command in '/home/denis/diploma_ws/build/csu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/csu

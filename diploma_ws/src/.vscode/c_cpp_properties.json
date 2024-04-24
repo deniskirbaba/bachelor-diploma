@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/denis/diploma_ws/install/turtlebot3_gazebo/include/**",
+        "/home/denis/diploma_ws/install/turtlebot3_fake_node/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/denis/diploma_ws/src/bt/include/**",
+        "/home/denis/diploma_ws/src/csu/include/**",
+        "/home/denis/diploma_ws/src/fsu/include/**",
+        "/home/denis/diploma_ws/src/ssu/include/**",
+        "/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/**",
+        "/home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

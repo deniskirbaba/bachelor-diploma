@@ -1,0 +1,79 @@
+[0.027s] Invoking command in '/home/denis/diploma_ws/build/bt': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:/home/denis/diploma_ws/install/behaviortree_cpp/bin:${PATH} /usr/bin/cmake --build /home/denis/diploma_ws/build/bt -- -j4 -l4
+[0.082s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.346s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.426s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.431s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.442s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.466s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.495s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.599s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.601s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.652s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.943s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[0.992s] -- Found behaviortree_ros2: 0.2.0 (/home/denis/diploma_ws/install/behaviortree_ros2/share/behaviortree_ros2/cmake)
+[1.199s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.320s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.320s] -- Configured cppcheck include dirs: /home/denis/diploma_ws/src/bt/include/bt
+[1.321s] -- Configured cppcheck exclude dirs and/or files: 
+[1.321s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.322s] -- Added test 'lint_cmake' to check CMake code style
+[1.323s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.325s] -- Added test 'uncrustify' to check C / C++ code style
+[1.325s] -- Configured uncrustify additional arguments: 
+[1.326s] -- Added test 'xmllint' to check XML markup files
+[1.327s] -- Configuring done
+[1.353s] -- Generating done
+[1.355s] -- Build files have been written to: /home/denis/diploma_ws/build/bt
+[1.396s] [35m[1mConsolidate compiler generated dependencies of target lidar_bt[0m
+[1.428s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_bt.dir/src/lidar_bt.cpp.o[0m
+[6.062s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.064s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.064s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.064s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.064s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.064s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.064s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.065s]                  from [01m[K/home/denis/diploma_ws/src/bt/include/bt/lidar_check.hpp:5[m[K,
+[6.065s]                  from [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:1[m[K:
+[6.065s] [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[6.065s] [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:49:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[KBT::NodeStatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[6.065s]    49 |         RCLCPP_INFO(rclcpp::get_logger("root"), [01;35m[K"BT Status: %d"[m[K, [32m[Kstatus[m[K);
+[6.065s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~[m[K
+[6.066s]       |                                                                  [32m[K|[m[K
+[6.066s]       |                                                                  [32m[KBT::NodeStatus[m[K
+[6.066s] [01m[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:49:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[6.066s]    49 |         RCLCPP_INFO(rclcpp::get_logger("root"), "BT Status: [01;36m[K%d[m[K", status);
+[6.066s]       |                                                             [01;36m[K~^[m[K
+[6.066s]       |                                                              [01;36m[K|[m[K
+[6.067s]       |                                                              [01;36m[Kint[m[K
+[9.865s] [100%] [32m[1mLinking CXX executable lidar_bt[0m
+[10.453s] [100%] Built target lidar_bt
+[10.473s] Invoked command in '/home/denis/diploma_ws/build/bt' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:/home/denis/diploma_ws/install/behaviortree_cpp/bin:${PATH} /usr/bin/cmake --build /home/denis/diploma_ws/build/bt -- -j4 -l4
+[10.546s] Invoking command in '/home/denis/diploma_ws/build/bt': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:/home/denis/diploma_ws/install/behaviortree_cpp/bin:${PATH} /usr/bin/cmake --install /home/denis/diploma_ws/build/bt
+[10.561s] -- Install configuration: ""
+[10.562s] -- Installing: /home/denis/diploma_ws/install/bt/lib/bt/lidar_bt
+[10.570s] -- Set runtime path of "/home/denis/diploma_ws/install/bt/lib/bt/lidar_bt" to ""
+[10.570s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources
+[10.571s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources/lidar_bt.xml
+[10.571s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch
+[10.571s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch/lidar_bt.launch.py
+[10.571s] -- Installing: /home/denis/diploma_ws/install/bt/share/ament_index/resource_index/package_run_dependencies/bt
+[10.572s] -- Installing: /home/denis/diploma_ws/install/bt/share/ament_index/resource_index/parent_prefix_path/bt
+[10.573s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/ament_prefix_path.sh
+[10.573s] -- Installing: /home/denis/diploma_ws/install/bt/share/bt/environment/ament_prefix_path.dsv
+[10.573s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/path.sh
+[10.574s] -- Installing: /home/denis/diploma_ws/install/bt/share/bt/environment/path.dsv
+[10.574s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.bash
+[10.574s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.sh
+[10.574s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.zsh
+[10.577s] -- Installing: /home/denis/diploma_ws/install/bt/share/bt/local_setup.dsv
+[10.577s] -- Installing: /home/denis/diploma_ws/install/bt/share/bt/package.dsv
+[10.579s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/ament_index/resource_index/packages/bt
+[10.579s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/cmake/btConfig.cmake
+[10.579s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/cmake/btConfig-version.cmake
+[10.579s] -- Installing: /home/denis/diploma_ws/install/bt/share/bt/package.xml
+[10.588s] Invoked command in '/home/denis/diploma_ws/build/bt' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:/home/denis/diploma_ws/install/behaviortree_cpp/bin:${PATH} /usr/bin/cmake --install /home/denis/diploma_ws/build/bt

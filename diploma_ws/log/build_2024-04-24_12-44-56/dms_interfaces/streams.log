@@ -1,0 +1,190 @@
+[0.049s] Invoking command in '/home/denis/diploma_ws/build/dms_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/denis/install/diploma_1:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/dms_interfaces -- -j4 -l4
+[0.231s] [  2%] Built target dms_interfaces__cpp
+[0.246s] [ 12%] Built target dms_interfaces__rosidl_generator_c
+[0.319s] [ 12%] Built target ament_cmake_python_copy_dms_interfaces
+[0.375s] [ 23%] Built target dms_interfaces__rosidl_typesupport_introspection_cpp
+[0.380s] [ 34%] Built target dms_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.391s] [ 44%] Built target dms_interfaces__rosidl_typesupport_cpp
+[0.473s] [ 55%] Built target dms_interfaces__rosidl_typesupport_fastrtps_c
+[0.494s] [ 65%] Built target dms_interfaces__rosidl_typesupport_introspection_c
+[0.548s] [ 76%] Built target dms_interfaces__rosidl_typesupport_c
+[0.638s] [ 76%] Built target dms_interfaces
+[0.744s] [ 78%] Built target dms_interfaces__py
+[0.902s] [ 87%] Built target dms_interfaces__rosidl_generator_py
+[1.028s] [ 91%] Built target dms_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.067s] [ 95%] Built target dms_interfaces__rosidl_typesupport_c__pyext
+[1.113s] [100%] Built target dms_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.454s] running egg_info
+[1.456s] writing dms_interfaces.egg-info/PKG-INFO
+[1.456s] writing dependency_links to dms_interfaces.egg-info/dependency_links.txt
+[1.457s] writing top-level names to dms_interfaces.egg-info/top_level.txt
+[1.463s] reading manifest file 'dms_interfaces.egg-info/SOURCES.txt'
+[1.465s] writing manifest file 'dms_interfaces.egg-info/SOURCES.txt'
+[1.572s] [100%] Built target ament_cmake_python_build_dms_interfaces_egg
+[1.579s] Invoked command in '/home/denis/diploma_ws/build/dms_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/denis/install/diploma_1:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/dms_interfaces -- -j4 -l4
+[1.924s] Invoking command in '/home/denis/diploma_ws/build/dms_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/denis/install/diploma_1:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/dms_interfaces
+[1.949s] -- Install configuration: ""
+[1.949s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/ament_index/resource_index/rosidl_interfaces/dms_interfaces
+[1.949s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces
+[1.950s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv
+[1.950s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/pub_res_cmd_vel.h
+[1.950s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail
+[1.950s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_goal_distance__functions.h
+[1.951s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_goal_distance__type_support.h
+[1.951s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__functions.c
+[1.951s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__type_support.h
+[1.951s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_battery_level__functions.c
+[1.952s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_goal_distance__functions.c
+[1.952s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_battery_level__type_support.h
+[1.952s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__functions.h
+[1.952s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_goal_distance__struct.h
+[1.952s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__struct.h
+[1.953s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_battery_level__struct.h
+[1.953s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_battery_level__functions.h
+[1.953s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/get_battery_level.h
+[1.953s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/get_goal_distance.h
+[1.955s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/msg
+[1.956s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.957s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/environment/library_path.sh
+[1.957s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/environment/library_path.dsv
+[1.957s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_generator_c.so
+[1.957s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces
+[1.959s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv
+[1.959s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail
+[1.962s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_battery_level__rosidl_typesupport_fastrtps_c.h
+[1.963s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_goal_distance__rosidl_typesupport_fastrtps_c.h
+[1.963s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__rosidl_typesupport_fastrtps_c.h
+[1.963s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/msg
+[1.963s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.964s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.964s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces
+[1.964s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv
+[1.964s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail
+[1.964s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__rosidl_typesupport_introspection_c.h
+[1.964s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_battery_level__type_support.c
+[1.965s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__type_support.c
+[1.965s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_goal_distance__type_support.c
+[1.965s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_battery_level__rosidl_typesupport_introspection_c.h
+[1.965s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_goal_distance__rosidl_typesupport_introspection_c.h
+[1.966s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/msg
+[1.966s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.966s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_typesupport_introspection_c.so
+[1.966s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_typesupport_c.so
+[1.967s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces
+[1.967s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv
+[1.973s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/pub_res_cmd_vel.hpp
+[1.973s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/get_battery_level.hpp
+[1.973s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail
+[1.974s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__traits.hpp
+[1.974s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__struct.hpp
+[1.974s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_goal_distance__traits.hpp
+[1.974s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_goal_distance__builder.hpp
+[1.974s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_battery_level__struct.hpp
+[1.974s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_battery_level__builder.hpp
+[1.974s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__builder.hpp
+[1.975s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_battery_level__traits.hpp
+[1.975s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_goal_distance__struct.hpp
+[1.975s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/get_goal_distance.hpp
+[1.975s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces
+[1.976s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv
+[1.976s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail
+[1.976s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/dds_fastrtps
+[1.976s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__rosidl_typesupport_fastrtps_cpp.hpp
+[1.976s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_goal_distance__rosidl_typesupport_fastrtps_cpp.hpp
+[1.976s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_battery_level__rosidl_typesupport_fastrtps_cpp.hpp
+[1.976s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/msg
+[1.977s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.977s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.977s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces
+[1.978s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv
+[1.978s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail
+[1.978s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_battery_level__type_support.cpp
+[1.979s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_goal_distance__rosidl_typesupport_introspection_cpp.hpp
+[1.979s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_battery_level__rosidl_typesupport_introspection_cpp.hpp
+[1.979s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/get_goal_distance__type_support.cpp
+[1.979s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__rosidl_typesupport_introspection_cpp.hpp
+[1.979s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/include/dms_interfaces/dms_interfaces/srv/detail/pub_res_cmd_vel__type_support.cpp
+[1.979s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.980s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_typesupport_cpp.so
+[1.982s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/environment/pythonpath.sh
+[1.983s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/environment/pythonpath.dsv
+[1.983s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces-0.0.0-py3.10.egg-info
+[1.983s] -- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.983s] -- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.983s] -- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.983s] -- Installing: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.984s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces
+[1.984s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/dms_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.984s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/srv
+[1.984s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/srv/_get_battery_level_s.c
+[1.984s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/srv/_pub_res_cmd_vel.py
+[1.984s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/srv/_get_goal_distance.py
+[1.985s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/srv/_get_battery_level.py
+[1.985s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/srv/_get_goal_distance_s.c
+[1.985s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/srv/__init__.py
+[1.985s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/srv/_pub_res_cmd_vel_s.c
+[1.985s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/dms_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.985s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/dms_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.985s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/_dms_interfaces_s.ep.rosidl_typesupport_c.c
+[1.986s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/libdms_interfaces__rosidl_generator_py.so
+[1.986s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/__init__.py
+[1.986s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/_dms_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.986s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/_dms_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.069s] Listing '/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces'...
+[2.070s] Listing '/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/srv'...
+[2.080s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/dms_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.081s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/dms_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.084s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages/dms_interfaces/dms_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.084s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/lib/libdms_interfaces__rosidl_generator_py.so
+[2.085s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/srv/PubResCmdVel.idl
+[2.086s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/srv/GetBatteryLevel.idl
+[2.086s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/srv/GetGoalDistance.idl
+[2.087s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/srv/PubResCmdVel.srv
+[2.087s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/srv/PubResCmdVel_Request.msg
+[2.088s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/srv/PubResCmdVel_Response.msg
+[2.088s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/srv/GetBatteryLevel.srv
+[2.089s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/srv/GetBatteryLevel_Request.msg
+[2.089s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/srv/GetBatteryLevel_Response.msg
+[2.090s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/srv/GetGoalDistance.srv
+[2.090s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/srv/GetGoalDistance_Request.msg
+[2.091s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/srv/GetGoalDistance_Response.msg
+[2.091s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/ament_index/resource_index/package_run_dependencies/dms_interfaces
+[2.092s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/ament_index/resource_index/parent_prefix_path/dms_interfaces
+[2.092s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/environment/ament_prefix_path.sh
+[2.093s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/environment/ament_prefix_path.dsv
+[2.093s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/environment/path.sh
+[2.094s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/environment/path.dsv
+[2.094s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/local_setup.bash
+[2.095s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/local_setup.sh
+[2.095s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/local_setup.zsh
+[2.096s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/local_setup.dsv
+[2.096s] -- Installing: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/package.dsv
+[2.097s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/ament_index/resource_index/packages/dms_interfaces
+[2.099s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/export_dms_interfaces__rosidl_generator_cExport.cmake
+[2.099s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/export_dms_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.100s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/export_dms_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.101s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/export_dms_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.101s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/dms_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.102s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/dms_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.102s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/dms_interfaces__rosidl_typesupport_cExport.cmake
+[2.103s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/dms_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.104s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/export_dms_interfaces__rosidl_generator_cppExport.cmake
+[2.105s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/export_dms_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.105s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/export_dms_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.106s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/dms_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.107s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/dms_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.108s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/dms_interfaces__rosidl_typesupport_cppExport.cmake
+[2.108s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/dms_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.108s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/export_dms_interfaces__rosidl_generator_pyExport.cmake
+[2.109s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/export_dms_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.109s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.109s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.110s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.110s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.110s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.110s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.111s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.111s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/dms_interfacesConfig.cmake
+[2.111s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake/dms_interfacesConfig-version.cmake
+[2.112s] -- Up-to-date: /home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/package.xml
+[2.114s] Invoked command in '/home/denis/diploma_ws/build/dms_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/denis/install/diploma_1:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/dms_interfaces

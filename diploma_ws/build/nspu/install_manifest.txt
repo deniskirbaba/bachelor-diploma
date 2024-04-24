@@ -1,0 +1,17 @@
+/home/denis/diploma_ws/install/nspu/lib/nspu/navigation_services_provider_unit
+/home/denis/diploma_ws/install/nspu/share/nspu/launch/navigation_services_provider_unit.launch.py
+/home/denis/diploma_ws/install/nspu/share/ament_index/resource_index/package_run_dependencies/nspu
+/home/denis/diploma_ws/install/nspu/share/ament_index/resource_index/parent_prefix_path/nspu
+/home/denis/diploma_ws/install/nspu/share/nspu/environment/ament_prefix_path.sh
+/home/denis/diploma_ws/install/nspu/share/nspu/environment/ament_prefix_path.dsv
+/home/denis/diploma_ws/install/nspu/share/nspu/environment/path.sh
+/home/denis/diploma_ws/install/nspu/share/nspu/environment/path.dsv
+/home/denis/diploma_ws/install/nspu/share/nspu/local_setup.bash
+/home/denis/diploma_ws/install/nspu/share/nspu/local_setup.sh
+/home/denis/diploma_ws/install/nspu/share/nspu/local_setup.zsh
+/home/denis/diploma_ws/install/nspu/share/nspu/local_setup.dsv
+/home/denis/diploma_ws/install/nspu/share/nspu/package.dsv
+/home/denis/diploma_ws/install/nspu/share/ament_index/resource_index/packages/nspu
+/home/denis/diploma_ws/install/nspu/share/nspu/cmake/nspuConfig.cmake
+/home/denis/diploma_ws/install/nspu/share/nspu/cmake/nspuConfig-version.cmake
+/home/denis/diploma_ws/install/nspu/share/nspu/package.xml

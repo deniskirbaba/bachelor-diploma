@@ -1,0 +1,32 @@
+{
+	"BUILD_DIR" : "/home/denis/diploma_ws/build/groot/test/editor_test_autogen",
+	"CMAKE_BINARY_DIR" : "/home/denis/diploma_ws/build/groot",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/denis/diploma_ws/build/groot/test",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/denis/diploma_ws/src/Groot/test",
+	"CMAKE_SOURCE_DIR" : "/home/denis/diploma_ws/src/Groot",
+	"INCLUDE_DIR" : "/home/denis/diploma_ws/build/groot/test/editor_test_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/denis/diploma_ws/src/Groot/test_data/crossdoor_trace.fbl",
+		"/home/denis/diploma_ws/src/Groot/test_data/subtree_test_fail.xml",
+		"/home/denis/diploma_ws/src/Groot/test_data/crossdoor_with_subtree.xml",
+		"/home/denis/diploma_ws/src/Groot/test_data/test_xml_key_reordering_issue.xml",
+		"/home/denis/diploma_ws/src/Groot/test_data/SystemSkillTest.skills.json",
+		"/home/denis/diploma_ws/src/Groot/test_data/simple_without_model.xml",
+		"/home/denis/diploma_ws/src/Groot/test_data/test_subtrees_issue_8.xml",
+		"/home/denis/diploma_ws/src/Groot/test_data/issue_24.xml",
+		"/home/denis/diploma_ws/src/Groot/test_data/crossdoor_palette.xml",
+		"/home/denis/diploma_ws/src/Groot/test_data/show_all.xml",
+		"/home/denis/diploma_ws/src/Groot/test_data/issue_3.xml"
+	],
+	"LOCK_FILE" : "/home/denis/diploma_ws/build/groot/test/CMakeFiles/editor_test_autogen.dir/AutoRcc_test_files_4L4FNCFPKD_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "test_files" ],
+	"OUTPUT_CHECKSUM" : "4L4FNCFPKD",
+	"OUTPUT_NAME" : "qrc_test_files.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/denis/diploma_ws/build/groot/test/CMakeFiles/editor_test_autogen.dir/AutoRcc_test_files_4L4FNCFPKD_Used.txt",
+	"SOURCE" : "/home/denis/diploma_ws/src/Groot/test_data/test_files.qrc",
+	"VERBOSITY" : 0
+}

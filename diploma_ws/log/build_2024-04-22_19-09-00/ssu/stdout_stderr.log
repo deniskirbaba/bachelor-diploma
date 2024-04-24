@@ -1,0 +1,32 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/sensor_supervisitory_unit.dir/src/sensor_supervisitory_unit.cpp.o[0m
+[01m[K/home/denis/diploma_ws/src/ssu/src/sensor_supervisitory_unit.cpp:[m[K In member function ‘[01m[Kvoid SensorSupervisitoryUnit::lidar_cb(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/denis/diploma_ws/src/ssu/src/sensor_supervisitory_unit.cpp:23:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   23 | isitoryUnit::lidar_cb([01;35m[Kconst sensor_msgs::msg::LaserScan::SharedPtr msg[m[K)
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+[01m[K/home/denis/diploma_ws/src/ssu/src/sensor_supervisitory_unit.cpp:[m[K In member function ‘[01m[Kvoid SensorSupervisitoryUnit::lidar_check_service_cb(std_srvs::srv::SetBool_Request_<std::allocator<void> >::SharedPtr, std_srvs::srv::SetBool_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/denis/diploma_ws/src/ssu/src/sensor_supervisitory_unit.cpp:31:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   31 |             [01;35m[Kconst std_srvs::srv::SetBool_Request::SharedPtr request[m[K,
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable sensor_supervisitory_unit[0m
+[100%] Built target sensor_supervisitory_unit
+-- Install configuration: ""
+-- Installing: /home/denis/diploma_ws/install/ssu/lib/ssu/sensor_supervisitory_unit
+-- Set runtime path of "/home/denis/diploma_ws/install/ssu/lib/ssu/sensor_supervisitory_unit" to ""
+-- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/launch
+-- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/launch/sensor_supervisitory_unit.launch.py
+-- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ament_index/resource_index/package_run_dependencies/ssu
+-- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ament_index/resource_index/parent_prefix_path/ssu
+-- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/environment/ament_prefix_path.sh
+-- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/environment/path.sh
+-- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/environment/path.dsv
+-- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/local_setup.bash
+-- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/local_setup.sh
+-- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/local_setup.zsh
+-- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/local_setup.dsv
+-- Installing: /home/denis/diploma_ws/install/ssu/share/ssu/package.dsv
+-- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ament_index/resource_index/packages/ssu
+-- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/cmake/ssuConfig.cmake
+-- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/cmake/ssuConfig-version.cmake
+-- Up-to-date: /home/denis/diploma_ws/install/ssu/share/ssu/package.xml

@@ -1,0 +1,73 @@
+[0.019s] Invoking command in '/home/denis/diploma_ws/build/nav2_bringup': CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble /usr/bin/cmake /home/denis/diploma_ws/src/nav2_bringup -DCMAKE_INSTALL_PREFIX=/home/denis/diploma_ws/install/nav2_bringup
+[0.205s] -- The C compiler identification is GNU 11.4.0
+[0.312s] -- The CXX compiler identification is GNU 11.4.0
+[0.326s] -- Detecting C compiler ABI info
+[0.452s] -- Detecting C compiler ABI info - done
+[0.463s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.463s] -- Detecting C compile features
+[0.465s] -- Detecting C compile features - done
+[0.470s] -- Detecting CXX compiler ABI info
+[0.607s] -- Detecting CXX compiler ABI info - done
+[0.619s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.619s] -- Detecting CXX compile features
+[0.620s] -- Detecting CXX compile features - done
+[0.630s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.879s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.070s] -- Found nav2_common: 1.1.14 (/opt/ros/humble/share/nav2_common/cmake)
+[1.077s] -- Found navigation2: 1.1.14 (/opt/ros/humble/share/navigation2/cmake)
+[1.077s] -- Setting build type to Release as none was specified.
+[1.083s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.307s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.315s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.317s] -- Added test 'lint_cmake' to check CMake code style
+[1.319s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.324s] -- Added test 'xmllint' to check XML markup files
+[1.326s] -- Configuring done
+[1.332s] -- Generating done
+[1.333s] -- Build files have been written to: /home/denis/diploma_ws/build/nav2_bringup
+[1.339s] Invoked command in '/home/denis/diploma_ws/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble /usr/bin/cmake /home/denis/diploma_ws/src/nav2_bringup -DCMAKE_INSTALL_PREFIX=/home/denis/diploma_ws/install/nav2_bringup
+[1.342s] Invoking command in '/home/denis/diploma_ws/build/nav2_bringup': CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/nav2_bringup -- -j4 -l4
+[1.409s] Invoked command in '/home/denis/diploma_ws/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/nav2_bringup -- -j4 -l4
+[1.468s] Invoking command in '/home/denis/diploma_ws/build/nav2_bringup': CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/nav2_bringup
+[1.482s] -- Install configuration: "Release"
+[1.482s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/launch
+[1.482s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/launch/navigation_launch.py
+[1.483s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/launch/tb3_simulation_launch.py
+[1.483s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/launch/unique_multi_tb3_simulation_launch.py
+[1.483s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/launch/bringup_launch.py
+[1.484s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/launch/rviz_launch.py
+[1.484s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/launch/slam_launch.py
+[1.484s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/launch/localization_launch.py
+[1.484s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/launch/cloned_multi_tb3_simulation_launch.py
+[1.485s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/maps
+[1.485s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/maps/turtlebot3_world.yaml
+[1.485s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/maps/turtlebot3_world.pgm
+[1.485s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/rviz
+[1.486s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/rviz/nav2_default_view.rviz
+[1.486s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/rviz/nav2_namespaced_view.rviz
+[1.486s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/worlds
+[1.487s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/worlds/waffle.model
+[1.487s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/worlds/world_only.model
+[1.487s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/params
+[1.487s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/params/nav2_multirobot_params_all.yaml
+[1.488s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/params/nav2_multirobot_params_2.yaml
+[1.488s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/params/nav2_multirobot_params_1.yaml
+[1.488s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/params/nav2_params.yaml
+[1.488s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/urdf
+[1.489s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/urdf/turtlebot3_waffle.urdf
+[1.489s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/ament_index/resource_index/package_run_dependencies/nav2_bringup
+[1.489s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/ament_index/resource_index/parent_prefix_path/nav2_bringup
+[1.490s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/environment/ament_prefix_path.sh
+[1.490s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/environment/ament_prefix_path.dsv
+[1.490s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/environment/path.sh
+[1.491s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/environment/path.dsv
+[1.491s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/local_setup.bash
+[1.491s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/local_setup.sh
+[1.492s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/local_setup.zsh
+[1.492s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/local_setup.dsv
+[1.492s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/package.dsv
+[1.493s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/ament_index/resource_index/packages/nav2_bringup
+[1.493s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/cmake/nav2_bringupConfig.cmake
+[1.493s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/cmake/nav2_bringupConfig-version.cmake
+[1.493s] -- Installing: /home/denis/diploma_ws/install/nav2_bringup/share/nav2_bringup/package.xml
+[1.497s] Invoked command in '/home/denis/diploma_ws/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/nav2_bringup

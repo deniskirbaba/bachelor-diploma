@@ -1,0 +1,202 @@
+[0.000000] (-) TimerEvent: {}
+[0.000724] (-) JobUnselected: {'identifier': 'behaviortree_cpp_v3'}
+[0.001146] (-) JobUnselected: {'identifier': 'bt'}
+[0.001255] (-) JobUnselected: {'identifier': 'dms_interfaces'}
+[0.001351] (-) JobUnselected: {'identifier': 'fsu'}
+[0.001587] (-) JobUnselected: {'identifier': 'groot'}
+[0.001705] (-) JobUnselected: {'identifier': 'ssu'}
+[0.001882] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.001988] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.002052] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.002112] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.002189] (csu) JobQueued: {'identifier': 'csu', 'dependencies': OrderedDict([('dms_interfaces', '/home/denis/diploma_ws/install/dms_interfaces')])}
+[0.002400] (csu) JobStarted: {'identifier': 'csu'}
+[0.026757] (csu) JobProgress: {'identifier': 'csu', 'progress': 'cmake'}
+[0.027736] (csu) JobProgress: {'identifier': 'csu', 'progress': 'build'}
+[0.029320] (csu) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/denis/diploma_ws/build/csu', '--', '-j4', '-l4'], 'cwd': '/home/denis/diploma_ws/build/csu', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'denis'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/denis/diploma_ws/install/dms_interfaces/lib:/home/denis/diploma_ws/install/groot/lib:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/denis'), ('OLDPWD', '/home/denis/diploma_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '1313'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/denis/diploma_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'denis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'denis'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:/home/denis/diploma_ws/install/behaviortree_cpp/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/denis-asus:@/tmp/.ICE-unix/1068,unix/denis-asus:/tmp/.ICE-unix/1068'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f3aa0167_5f4a_4ead_a6f0_00402c51aaff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OENPM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.607'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/denis/diploma_ws/build/csu'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble')]), 'shell': False}
+[0.099555] (-) TimerEvent: {}
+[0.108895] (csu) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target control_switching_unit\x1b[0m\n'}
+[0.150175] (csu) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/control_switching_unit.dir/src/control_switching_unit.cpp.o\x1b[0m\n'}
+[0.199627] (-) TimerEvent: {}
+[0.300017] (-) TimerEvent: {}
+[0.400400] (-) TimerEvent: {}
+[0.500782] (-) TimerEvent: {}
+[0.601161] (-) TimerEvent: {}
+[0.701536] (-) TimerEvent: {}
+[0.801896] (-) TimerEvent: {}
+[0.902293] (-) TimerEvent: {}
+[1.002664] (-) TimerEvent: {}
+[1.103056] (-) TimerEvent: {}
+[1.203463] (-) TimerEvent: {}
+[1.303910] (-) TimerEvent: {}
+[1.404301] (-) TimerEvent: {}
+[1.504705] (-) TimerEvent: {}
+[1.605113] (-) TimerEvent: {}
+[1.705496] (-) TimerEvent: {}
+[1.805891] (-) TimerEvent: {}
+[1.906307] (-) TimerEvent: {}
+[2.006735] (-) TimerEvent: {}
+[2.107177] (-) TimerEvent: {}
+[2.207566] (-) TimerEvent: {}
+[2.307918] (-) TimerEvent: {}
+[2.408274] (-) TimerEvent: {}
+[2.508712] (-) TimerEvent: {}
+[2.609004] (-) TimerEvent: {}
+[2.709356] (-) TimerEvent: {}
+[2.809753] (-) TimerEvent: {}
+[2.910173] (-) TimerEvent: {}
+[3.010572] (-) TimerEvent: {}
+[3.110978] (-) TimerEvent: {}
+[3.211343] (-) TimerEvent: {}
+[3.311688] (-) TimerEvent: {}
+[3.412023] (-) TimerEvent: {}
+[3.512401] (-) TimerEvent: {}
+[3.612744] (-) TimerEvent: {}
+[3.713208] (-) TimerEvent: {}
+[3.813540] (-) TimerEvent: {}
+[3.913856] (-) TimerEvent: {}
+[4.014271] (-) TimerEvent: {}
+[4.114597] (-) TimerEvent: {}
+[4.214935] (-) TimerEvent: {}
+[4.315264] (-) TimerEvent: {}
+[4.325781] (csu) StderrLine: {'line': b'\x1b[01m\x1b[K/home/denis/diploma_ws/src/csu/src/control_switching_unit.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ControlSwitchingUnit::nav2_cmd_vel_cb(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.326106] (csu) StderrLine: {'line': b'\x1b[01m\x1b[K/home/denis/diploma_ws/src/csu/src/control_switching_unit.cpp:76:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis \xe2\x80\x98\x1b[01m\x1b[Kelse\x1b[m\x1b[K\xe2\x80\x99 clause does not guard... [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation\x07-Wmisleading-indentation\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.326306] (csu) StderrLine: {'line': b'   76 |         \x1b[01;35m\x1b[Kelse\x1b[m\x1b[K\n'}
+[4.326474] (csu) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.326636] (csu) StderrLine: {'line': b'\x1b[01m\x1b[K/home/denis/diploma_ws/src/csu/src/control_switching_unit.cpp:78:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K...this statement, but the latter is misleadingly indented as if it were guarded by the \xe2\x80\x98\x1b[01m\x1b[Kelse\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.326805] (csu) StderrLine: {'line': b'   78 |             \x1b[01;36m\x1b[Ktwist_msg\x1b[m\x1b[K.angular.z = 0.0;\n'}
+[4.326966] (csu) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.415404] (-) TimerEvent: {}
+[4.515809] (-) TimerEvent: {}
+[4.616166] (-) TimerEvent: {}
+[4.716547] (-) TimerEvent: {}
+[4.816921] (-) TimerEvent: {}
+[4.917280] (-) TimerEvent: {}
+[5.017663] (-) TimerEvent: {}
+[5.118023] (-) TimerEvent: {}
+[5.218394] (-) TimerEvent: {}
+[5.318765] (-) TimerEvent: {}
+[5.419156] (-) TimerEvent: {}
+[5.519559] (-) TimerEvent: {}
+[5.619933] (-) TimerEvent: {}
+[5.720292] (-) TimerEvent: {}
+[5.820644] (-) TimerEvent: {}
+[5.921062] (-) TimerEvent: {}
+[6.021428] (-) TimerEvent: {}
+[6.121816] (-) TimerEvent: {}
+[6.222164] (-) TimerEvent: {}
+[6.322510] (-) TimerEvent: {}
+[6.422834] (-) TimerEvent: {}
+[6.523163] (-) TimerEvent: {}
+[6.623512] (-) TimerEvent: {}
+[6.723826] (-) TimerEvent: {}
+[6.824169] (-) TimerEvent: {}
+[6.924514] (-) TimerEvent: {}
+[7.024875] (-) TimerEvent: {}
+[7.125205] (-) TimerEvent: {}
+[7.225534] (-) TimerEvent: {}
+[7.325897] (-) TimerEvent: {}
+[7.426243] (-) TimerEvent: {}
+[7.526585] (-) TimerEvent: {}
+[7.626935] (-) TimerEvent: {}
+[7.727270] (-) TimerEvent: {}
+[7.827649] (-) TimerEvent: {}
+[7.927975] (-) TimerEvent: {}
+[8.028321] (-) TimerEvent: {}
+[8.128647] (-) TimerEvent: {}
+[8.228983] (-) TimerEvent: {}
+[8.329332] (-) TimerEvent: {}
+[8.429664] (-) TimerEvent: {}
+[8.530034] (-) TimerEvent: {}
+[8.630338] (-) TimerEvent: {}
+[8.730692] (-) TimerEvent: {}
+[8.831050] (-) TimerEvent: {}
+[8.931403] (-) TimerEvent: {}
+[9.031757] (-) TimerEvent: {}
+[9.132103] (-) TimerEvent: {}
+[9.232487] (-) TimerEvent: {}
+[9.332888] (-) TimerEvent: {}
+[9.433286] (-) TimerEvent: {}
+[9.533628] (-) TimerEvent: {}
+[9.633969] (-) TimerEvent: {}
+[9.734370] (-) TimerEvent: {}
+[9.834756] (-) TimerEvent: {}
+[9.935125] (-) TimerEvent: {}
+[10.035512] (-) TimerEvent: {}
+[10.135877] (-) TimerEvent: {}
+[10.236246] (-) TimerEvent: {}
+[10.336602] (-) TimerEvent: {}
+[10.436963] (-) TimerEvent: {}
+[10.537358] (-) TimerEvent: {}
+[10.637726] (-) TimerEvent: {}
+[10.738107] (-) TimerEvent: {}
+[10.838509] (-) TimerEvent: {}
+[10.938876] (-) TimerEvent: {}
+[11.039274] (-) TimerEvent: {}
+[11.139642] (-) TimerEvent: {}
+[11.240000] (-) TimerEvent: {}
+[11.340365] (-) TimerEvent: {}
+[11.440711] (-) TimerEvent: {}
+[11.541026] (-) TimerEvent: {}
+[11.641653] (-) TimerEvent: {}
+[11.742099] (-) TimerEvent: {}
+[11.842489] (-) TimerEvent: {}
+[11.942834] (-) TimerEvent: {}
+[12.043289] (-) TimerEvent: {}
+[12.143648] (-) TimerEvent: {}
+[12.244002] (-) TimerEvent: {}
+[12.344398] (-) TimerEvent: {}
+[12.444750] (-) TimerEvent: {}
+[12.545081] (-) TimerEvent: {}
+[12.645418] (-) TimerEvent: {}
+[12.745822] (-) TimerEvent: {}
+[12.846181] (-) TimerEvent: {}
+[12.946541] (-) TimerEvent: {}
+[13.046932] (-) TimerEvent: {}
+[13.147269] (-) TimerEvent: {}
+[13.247633] (-) TimerEvent: {}
+[13.347963] (-) TimerEvent: {}
+[13.448381] (-) TimerEvent: {}
+[13.548823] (-) TimerEvent: {}
+[13.649197] (-) TimerEvent: {}
+[13.749544] (-) TimerEvent: {}
+[13.849906] (-) TimerEvent: {}
+[13.950304] (-) TimerEvent: {}
+[14.050651] (-) TimerEvent: {}
+[14.151014] (-) TimerEvent: {}
+[14.251354] (-) TimerEvent: {}
+[14.299995] (csu) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable control_switching_unit\x1b[0m\n'}
+[14.351466] (-) TimerEvent: {}
+[14.451801] (-) TimerEvent: {}
+[14.552173] (-) TimerEvent: {}
+[14.652565] (-) TimerEvent: {}
+[14.752921] (-) TimerEvent: {}
+[14.853277] (-) TimerEvent: {}
+[14.953622] (-) TimerEvent: {}
+[15.053939] (-) TimerEvent: {}
+[15.058552] (csu) StdoutLine: {'line': b'[100%] Built target control_switching_unit\n'}
+[15.076690] (csu) CommandEnded: {'returncode': 0}
+[15.125740] (csu) JobProgress: {'identifier': 'csu', 'progress': 'install'}
+[15.141792] (csu) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/denis/diploma_ws/build/csu'], 'cwd': '/home/denis/diploma_ws/build/csu', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'denis'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/denis/diploma_ws/install/dms_interfaces/lib:/home/denis/diploma_ws/install/groot/lib:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/denis'), ('OLDPWD', '/home/denis/diploma_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '1313'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/denis/diploma_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'denis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'denis'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:/home/denis/diploma_ws/install/behaviortree_cpp/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/denis-asus:@/tmp/.ICE-unix/1068,unix/denis-asus:/tmp/.ICE-unix/1068'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f3aa0167_5f4a_4ead_a6f0_00402c51aaff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OENPM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.607'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/denis/diploma_ws/build/csu'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble')]), 'shell': False}
+[15.154072] (-) TimerEvent: {}
+[15.155055] (csu) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.155431] (csu) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/csu/lib/csu/control_switching_unit\n'}
+[15.162977] (csu) StdoutLine: {'line': b'-- Set runtime path of "/home/denis/diploma_ws/install/csu/lib/csu/control_switching_unit" to ""\n'}
+[15.163223] (csu) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/csu/share/ament_index/resource_index/package_run_dependencies/csu\n'}
+[15.163436] (csu) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/csu/share/ament_index/resource_index/parent_prefix_path/csu\n'}
+[15.163670] (csu) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/environment/ament_prefix_path.sh\n'}
+[15.163875] (csu) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/csu/share/csu/environment/ament_prefix_path.dsv\n'}
+[15.164118] (csu) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/environment/path.sh\n'}
+[15.164274] (csu) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/csu/share/csu/environment/path.dsv\n'}
+[15.164534] (csu) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/local_setup.bash\n'}
+[15.164681] (csu) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/local_setup.sh\n'}
+[15.164822] (csu) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/local_setup.zsh\n'}
+[15.165055] (csu) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/csu/share/csu/local_setup.dsv\n'}
+[15.165401] (csu) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/csu/share/csu/package.dsv\n'}
+[15.165612] (csu) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/csu/share/ament_index/resource_index/packages/csu\n'}
+[15.165813] (csu) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/cmake/csuConfig.cmake\n'}
+[15.165979] (csu) StdoutLine: {'line': b'-- Up-to-date: /home/denis/diploma_ws/install/csu/share/csu/cmake/csuConfig-version.cmake\n'}
+[15.166154] (csu) StdoutLine: {'line': b'-- Installing: /home/denis/diploma_ws/install/csu/share/csu/package.xml\n'}
+[15.168220] (csu) CommandEnded: {'returncode': 0}
+[15.239820] (csu) JobEnded: {'identifier': 'csu', 'rc': 0}
+[15.240932] (-) EventReactorShutdown: {}

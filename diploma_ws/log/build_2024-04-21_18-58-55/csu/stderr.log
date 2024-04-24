@@ -1,0 +1,16 @@
+[01m[K/home/denis/diploma_ws/src/csu/src/control_switching_unit.cpp:[m[K In member function ‘[01m[Kvoid ControlSwitchingUnit::nav2_cmd_vel_cb(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/denis/diploma_ws/src/csu/src/control_switching_unit.cpp:71:38:[m[K [01;31m[Kerror: [m[K‘[01m[KMIN_SPEED[m[K’ was not declared in this scope
+   71 |                 twist_msg.linear.x = [01;31m[KMIN_SPEED[m[K;
+      |                                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/denis/diploma_ws/src/csu/src/control_switching_unit.cpp:73:39:[m[K [01;31m[Kerror: [m[K‘[01m[KMIN_SPEED[m[K’ was not declared in this scope
+   73 |                 twist_msg.linear.x = -[01;31m[KMIN_SPEED[m[K;
+      |                                       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/denis/diploma_ws/src/csu/src/control_switching_unit.cpp:76:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kelse[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+   76 |         [01;35m[Kelse[m[K
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/denis/diploma_ws/src/csu/src/control_switching_unit.cpp:78:13:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kelse[m[K’
+   78 |             [01;36m[Ktwist_msg[m[K.angular.z = 0.0;
+      |             [01;36m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/control_switching_unit.dir/build.make:76: CMakeFiles/control_switching_unit.dir/src/control_switching_unit.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/control_switching_unit.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

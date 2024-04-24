@@ -1,0 +1,6 @@
+{
+  "package_name": "dms_interfaces",
+  "non_idl_tuples": [
+    "/home/denis/diploma_ws/src/dms_interfaces:srv/PubResCmdVel.srv"
+  ]
+}

@@ -1,0 +1,3 @@
+source;share/groot/environment/ament_prefix_path.sh
+source;share/groot/environment/library_path.sh
+source;share/groot/environment/path.sh

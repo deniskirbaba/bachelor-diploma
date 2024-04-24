@@ -1,0 +1,81 @@
+[0.052s] Invoking command in '/home/denis/diploma_ws/build/bt': CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/nspu:/home/denis/diploma_ws/install/nav2_bringup:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/bsu:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/dms_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/groot/lib:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/denis/diploma_ws/build/bt -- -j4 -l4
+[0.255s] [ 20%] Built target lidar_bt
+[0.342s] [ 40%] Built target sensors_bt
+[0.378s] [35m[1mConsolidate compiler generated dependencies of target battery_bt[0m
+[0.456s] [ 50%] [32mBuilding CXX object CMakeFiles/battery_bt.dir/src/battery_bt.cpp.o[0m
+[8.743s] In file included from [01m[K/home/denis/diploma_ws/src/bt/src/battery_bt.cpp:1[m[K:
+[8.743s] [01m[K/home/denis/diploma_ws/src/bt/include/bt/battery_check.hpp:[m[K In member function ‘[01m[Kbool BatteryCheck::get_battery_level_srv_call(float&, float&, float&)[m[K’:
+[8.744s] [01m[K/home/denis/diploma_ws/src/bt/include/bt/battery_check.hpp:61:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbattery_level[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.744s]    61 |         bool get_battery_level_srv_call([01;35m[Kfloat& battery_level[m[K, float& idle_consumption, float& drive_consumption)
+[8.744s]       |                                         [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[8.745s] [01m[K/home/denis/diploma_ws/src/bt/include/bt/battery_check.hpp:61:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kidle_consumption[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.746s]    61 |         bool get_battery_level_srv_call(float& battery_level, [01;35m[Kfloat& idle_consumption[m[K, float& drive_consumption)
+[8.746s]       |                                                               [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[8.747s] [01m[K/home/denis/diploma_ws/src/bt/include/bt/battery_check.hpp:61:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdrive_consumption[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.747s]    61 |         bool get_battery_level_srv_call(float& battery_level, float& idle_consumption, [01;35m[Kfloat& drive_consumption[m[K)
+[8.747s]       |                                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[9.777s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.777s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[9.778s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[9.778s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[9.778s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.778s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.778s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.778s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.779s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.779s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.780s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[9.780s]                  from [01m[K/home/denis/diploma_ws/src/bt/include/bt/battery_check.hpp:5[m[K,
+[9.780s]                  from [01m[K/home/denis/diploma_ws/src/bt/src/battery_bt.cpp:1[m[K:
+[9.781s] [01m[K/home/denis/diploma_ws/src/bt/src/battery_bt.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[9.781s] [01m[K/home/denis/diploma_ws/src/bt/src/battery_bt.cpp:48:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[KBT::NodeStatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.781s]    48 |         RCLCPP_INFO(rclcpp::get_logger("root"), [01;35m[K"BT Status: %d"[m[K, [32m[Kstatus[m[K);
+[9.782s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~[m[K
+[9.782s]       |                                                                  [32m[K|[m[K
+[9.783s]       |                                                                  [32m[KBT::NodeStatus[m[K
+[9.783s] [01m[K/home/denis/diploma_ws/src/bt/src/battery_bt.cpp:48:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[9.783s]    48 |         RCLCPP_INFO(rclcpp::get_logger("root"), "BT Status: [01;36m[K%d[m[K", status);
+[9.783s]       |                                                             [01;36m[K~^[m[K
+[9.783s]       |                                                              [01;36m[K|[m[K
+[9.784s]       |                                                              [01;36m[Kint[m[K
+[20.921s] [ 60%] [32m[1mLinking CXX executable battery_bt[0m
+[22.037s] [ 60%] Built target battery_bt
+[22.138s] [ 80%] Built target odom_bt
+[22.241s] [100%] Built target imu_bt
+[22.280s] Invoked command in '/home/denis/diploma_ws/build/bt' returned '0': CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/nspu:/home/denis/diploma_ws/install/nav2_bringup:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/bsu:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/dms_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/groot/lib:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/denis/diploma_ws/build/bt -- -j4 -l4
+[22.460s] Invoking command in '/home/denis/diploma_ws/build/bt': CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/nspu:/home/denis/diploma_ws/install/nav2_bringup:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/bsu:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/dms_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/groot/lib:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/denis/diploma_ws/build/bt
+[22.490s] -- Install configuration: ""
+[22.490s] -- Up-to-date: /home/denis/diploma_ws/install/bt/lib/bt/lidar_bt
+[22.491s] -- Up-to-date: /home/denis/diploma_ws/install/bt/lib/bt/imu_bt
+[22.492s] -- Up-to-date: /home/denis/diploma_ws/install/bt/lib/bt/odom_bt
+[22.494s] -- Up-to-date: /home/denis/diploma_ws/install/bt/lib/bt/sensors_bt
+[22.496s] -- Installing: /home/denis/diploma_ws/install/bt/lib/bt/battery_bt
+[22.503s] -- Set runtime path of "/home/denis/diploma_ws/install/bt/lib/bt/battery_bt" to ""
+[22.503s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources
+[22.504s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources/imu_bt.xml
+[22.504s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources/sensors_bt.xml
+[22.505s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources/lidar_bt.xml
+[22.507s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources/odom_bt.xml
+[22.507s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/resources/battery_bt.xml
+[22.507s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch
+[22.508s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch/lidar_bt.launch.py
+[22.508s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch/odom_bt.launch.py
+[22.508s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch/sensors_bt.launch.py
+[22.508s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch/battery_bt.launch.py
+[22.508s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/launch/imu_bt.launch.py
+[22.509s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/ament_index/resource_index/package_run_dependencies/bt
+[22.509s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/ament_index/resource_index/parent_prefix_path/bt
+[22.509s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/ament_prefix_path.sh
+[22.510s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/ament_prefix_path.dsv
+[22.511s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/path.sh
+[22.512s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/environment/path.dsv
+[22.512s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.bash
+[22.512s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.sh
+[22.513s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.zsh
+[22.513s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/local_setup.dsv
+[22.515s] -- Installing: /home/denis/diploma_ws/install/bt/share/bt/package.dsv
+[22.520s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/ament_index/resource_index/packages/bt
+[22.520s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/cmake/btConfig.cmake
+[22.521s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/cmake/btConfig-version.cmake
+[22.521s] -- Up-to-date: /home/denis/diploma_ws/install/bt/share/bt/package.xml
+[22.522s] Invoked command in '/home/denis/diploma_ws/build/bt' returned '0': CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/nspu:/home/denis/diploma_ws/install/nav2_bringup:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/bsu:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/dms_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/groot/lib:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/denis/diploma_ws/build/bt

@@ -1,0 +1,5 @@
+[0.024s] Invoking command in '/home/denis/diploma_ws/build/csu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/csu -- -j4 -l4
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target control_switching_unit[0m
+[0.166s] [ 50%] [32mBuilding CXX object CMakeFiles/control_switching_unit.dir/src/control_switching_unit.cpp.o[0m
+[14.219s] [100%] [32m[1mLinking CXX executable control_switching_unit[0m
+[14.948s] [100%] Built target control_switching_unit

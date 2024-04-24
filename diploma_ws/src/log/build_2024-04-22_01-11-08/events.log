@@ -1,0 +1,14 @@
+[0.000000] (-) TimerEvent: {}
+[0.000262] (-) JobUnselected: {'identifier': 'behaviortree_cpp_v3'}
+[0.000396] (-) JobUnselected: {'identifier': 'bt'}
+[0.000527] (-) JobUnselected: {'identifier': 'csu'}
+[0.000587] (-) JobUnselected: {'identifier': 'dms_interfaces'}
+[0.000615] (-) JobUnselected: {'identifier': 'fsu'}
+[0.000641] (-) JobUnselected: {'identifier': 'groot'}
+[0.000666] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.000690] (-) JobUnselected: {'identifier': 'ssu'}
+[0.000714] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000738] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000762] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.000786] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000811] (-) EventReactorShutdown: {}

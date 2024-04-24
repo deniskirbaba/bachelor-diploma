@@ -1,0 +1,78 @@
+[0.047s] Invoking command in '/home/denis/diploma_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/denis/diploma_ws/install/turtlebot3_fake_node
+[0.368s] -- The C compiler identification is GNU 11.4.0
+[0.701s] -- The CXX compiler identification is GNU 11.4.0
+[0.751s] -- Detecting C compiler ABI info
+[1.111s] -- Detecting C compiler ABI info - done
+[1.145s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.162s] -- Detecting C compile features
+[1.180s] -- Detecting C compile features - done
+[1.202s] -- Detecting CXX compiler ABI info
+[1.486s] -- Detecting CXX compiler ABI info - done
+[1.567s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.568s] -- Detecting CXX compile features
+[1.573s] -- Detecting CXX compile features - done
+[1.590s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.173s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.599s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.858s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.886s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.946s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.037s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.171s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.873s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.354s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[4.806s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.833s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.449s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.580s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.757s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.816s] -- Looking for pthread.h
+[6.112s] -- Looking for pthread.h - found
+[6.112s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.458s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.469s] -- Found Threads: TRUE  
+[6.795s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.011s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[7.045s] -- Found tf2_msgs: 0.25.6 (/opt/ros/humble/share/tf2_msgs/cmake)
+[7.542s] -- Found turtlebot3_msgs: 2.2.3 (/opt/ros/humble/share/turtlebot3_msgs/cmake)
+[7.848s] -- Configuring done
+[7.882s] -- Generating done
+[7.887s] -- Build files have been written to: /home/denis/diploma_ws/build/turtlebot3_fake_node
+[7.910s] Invoked command in '/home/denis/diploma_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/denis/diploma_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/denis/diploma_ws/install/turtlebot3_fake_node
+[7.913s] Invoking command in '/home/denis/diploma_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/turtlebot3_fake_node -- -j4 -l4
+[8.014s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[41.787s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[45.161s] [100%] Built target turtlebot3_fake_node
+[45.240s] Invoked command in '/home/denis/diploma_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/turtlebot3_fake_node -- -j4 -l4
+[45.316s] Invoking command in '/home/denis/diploma_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/turtlebot3_fake_node
+[45.337s] -- Install configuration: ""
+[45.340s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[45.381s] -- Set runtime path of "/home/denis/diploma_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node" to ""
+[45.383s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch
+[45.385s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[45.387s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[45.389s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param
+[45.390s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[45.392s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[45.394s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[45.395s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/include/
+[45.395s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node
+[45.398s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[45.400s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[45.401s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[45.402s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[45.405s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[45.406s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[45.407s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[45.408s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[45.414s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[45.416s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[45.417s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[45.417s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[45.418s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[45.419s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[45.420s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[45.421s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[45.422s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[45.423s] -- Installing: /home/denis/diploma_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[45.432s] Invoked command in '/home/denis/diploma_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/turtlebot3_fake_node

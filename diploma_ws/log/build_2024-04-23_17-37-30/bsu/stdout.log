@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target battery_simulation_unit[0m
+[100%] Built target battery_simulation_unit
+-- Install configuration: ""
+-- Up-to-date: /home/denis/diploma_ws/install/bsu/lib/bsu/battery_simulation_unit
+-- Up-to-date: /home/denis/diploma_ws/install/bsu/share/bsu/launch
+-- Up-to-date: /home/denis/diploma_ws/install/bsu/share/bsu/launch/battery_simulation_unit.launch.py
+-- Up-to-date: /home/denis/diploma_ws/install/bsu/share/ament_index/resource_index/package_run_dependencies/bsu
+-- Up-to-date: /home/denis/diploma_ws/install/bsu/share/ament_index/resource_index/parent_prefix_path/bsu
+-- Up-to-date: /home/denis/diploma_ws/install/bsu/share/bsu/environment/ament_prefix_path.sh
+-- Up-to-date: /home/denis/diploma_ws/install/bsu/share/bsu/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/denis/diploma_ws/install/bsu/share/bsu/environment/path.sh
+-- Up-to-date: /home/denis/diploma_ws/install/bsu/share/bsu/environment/path.dsv
+-- Up-to-date: /home/denis/diploma_ws/install/bsu/share/bsu/local_setup.bash
+-- Up-to-date: /home/denis/diploma_ws/install/bsu/share/bsu/local_setup.sh
+-- Up-to-date: /home/denis/diploma_ws/install/bsu/share/bsu/local_setup.zsh
+-- Up-to-date: /home/denis/diploma_ws/install/bsu/share/bsu/local_setup.dsv
+-- Installing: /home/denis/diploma_ws/install/bsu/share/bsu/package.dsv
+-- Up-to-date: /home/denis/diploma_ws/install/bsu/share/ament_index/resource_index/packages/bsu
+-- Up-to-date: /home/denis/diploma_ws/install/bsu/share/bsu/cmake/bsuConfig.cmake
+-- Up-to-date: /home/denis/diploma_ws/install/bsu/share/bsu/cmake/bsuConfig-version.cmake
+-- Up-to-date: /home/denis/diploma_ws/install/bsu/share/bsu/package.xml

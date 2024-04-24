@@ -1,0 +1,52 @@
+[0.023s] Invoking command in '/home/denis/diploma_ws/build/csu': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/dms_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/denis/diploma_ws/build/csu -- -j4 -l4
+[0.068s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.274s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.383s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.398s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.420s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.450s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.493s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.642s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.650s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.845s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.897s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.991s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.017s] -- Looking for pthread.h
+[1.144s] -- Looking for pthread.h - found
+[1.145s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.273s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.275s] -- Found Threads: TRUE  
+[1.576s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.648s] -- Found dms_interfaces: 0.0.0 (/home/denis/diploma_ws/install/dms_interfaces/share/dms_interfaces/cmake)
+[1.732s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[1.765s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.878s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.879s] -- Configured cppcheck include dirs: /home/denis/diploma_ws/src/csu/include/csu;$<BUILD_INTERFACE:/home/denis/diploma_ws/src/csu/include>
+[1.879s] -- Configured cppcheck exclude dirs and/or files: 
+[1.880s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.882s] -- Added test 'lint_cmake' to check CMake code style
+[1.882s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.884s] -- Added test 'uncrustify' to check C / C++ code style
+[1.885s] -- Configured uncrustify additional arguments: 
+[1.886s] -- Added test 'xmllint' to check XML markup files
+[1.888s] -- Configuring done
+[1.908s] -- Generating done
+[1.911s] -- Build files have been written to: /home/denis/diploma_ws/build/csu
+[1.975s] [ 50%] [32mBuilding CXX object CMakeFiles/control_switching_unit.dir/src/control_switching_unit.cpp.o[0m
+[5.658s] [01m[K/home/denis/diploma_ws/src/csu/src/control_switching_unit.cpp:[m[K In member function ‘[01m[Kvoid ControlSwitchingUnit::nav2_cmd_vel_cb(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.658s] [01m[K/home/denis/diploma_ws/src/csu/src/control_switching_unit.cpp:71:38:[m[K [01;31m[Kerror: [m[K‘[01m[KMIN_SPEED[m[K’ was not declared in this scope
+[5.659s]    71 |                 twist_msg.linear.x = [01;31m[KMIN_SPEED[m[K;
+[5.659s]       |                                      [01;31m[K^~~~~~~~~[m[K
+[5.667s] [01m[K/home/denis/diploma_ws/src/csu/src/control_switching_unit.cpp:73:39:[m[K [01;31m[Kerror: [m[K‘[01m[KMIN_SPEED[m[K’ was not declared in this scope
+[5.667s]    73 |                 twist_msg.linear.x = -[01;31m[KMIN_SPEED[m[K;
+[5.668s]       |                                       [01;31m[K^~~~~~~~~[m[K
+[5.668s] [01m[K/home/denis/diploma_ws/src/csu/src/control_switching_unit.cpp:76:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kelse[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[5.668s]    76 |         [01;35m[Kelse[m[K
+[5.668s]       |         [01;35m[K^~~~[m[K
+[5.668s] [01m[K/home/denis/diploma_ws/src/csu/src/control_switching_unit.cpp:78:13:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kelse[m[K’
+[5.669s]    78 |             [01;36m[Ktwist_msg[m[K.angular.z = 0.0;
+[5.669s]       |             [01;36m[K^~~~~~~~~[m[K
+[9.817s] gmake[2]: *** [CMakeFiles/control_switching_unit.dir/build.make:76: CMakeFiles/control_switching_unit.dir/src/control_switching_unit.cpp.o] Error 1
+[9.817s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/control_switching_unit.dir/all] Error 2
+[9.817s] gmake: *** [Makefile:146: all] Error 2
+[9.821s] Invoked command in '/home/denis/diploma_ws/build/csu' returned '2': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/dms_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/denis/diploma_ws/build/csu -- -j4 -l4

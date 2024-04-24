@@ -1,0 +1,42 @@
+[0.028s] Invoking command in '/home/denis/diploma_ws/build/groot': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake --build /home/denis/diploma_ws/build/groot -- -j4 -l4
+[0.152s] [  1%] [34m[1mAutomatic MOC and UIC for target QtNodeEditor[0m
+[0.244s] [  1%] Built target QtNodeEditor_autogen
+[0.443s] [ 57%] Built target QtNodeEditor
+[0.496s] [ 58%] [34m[1mAutomatic MOC and UIC for target behavior_tree_editor[0m
+[0.548s] [ 58%] Built target behavior_tree_editor_autogen
+[0.631s] [ 74%] Built target behavior_tree_editor
+[0.680s] [ 75%] [34m[1mAutomatic MOC and UIC for target Groot[0m
+[0.684s] [ 75%] [34m[1mAutomatic MOC and UIC for target editor_test[0m
+[0.687s] [ 76%] [34m[1mAutomatic MOC and UIC for target replay_test[0m
+[0.730s] [ 76%] Built target Groot_autogen
+[0.742s] [ 76%] Built target editor_test_autogen
+[0.745s] [ 76%] Built target replay_test_autogen
+[0.793s] [ 82%] Built target Groot
+[0.819s] [ 91%] Built target editor_test
+[0.839s] [100%] Built target replay_test
+[0.860s] Invoked command in '/home/denis/diploma_ws/build/groot' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake --build /home/denis/diploma_ws/build/groot -- -j4 -l4
+[0.997s] Invoking command in '/home/denis/diploma_ws/build/groot': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake --install /home/denis/diploma_ws/build/groot
+[1.016s] -- Install configuration: ""
+[1.017s] -- Up-to-date: /home/denis/diploma_ws/install/groot/lib/libbehavior_tree_editor.so
+[1.018s] -- Up-to-date: /home/denis/diploma_ws/install/groot/lib/groot/Groot
+[1.018s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/environment/library_path.sh
+[1.019s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/environment/library_path.dsv
+[1.019s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/ament_index/resource_index/package_run_dependencies/groot
+[1.020s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/ament_index/resource_index/parent_prefix_path/groot
+[1.020s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/environment/ament_prefix_path.sh
+[1.020s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/environment/ament_prefix_path.dsv
+[1.020s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/environment/path.sh
+[1.021s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/environment/path.dsv
+[1.021s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/local_setup.bash
+[1.021s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/local_setup.sh
+[1.021s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/local_setup.zsh
+[1.022s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/local_setup.dsv
+[1.022s] -- Installing: /home/denis/diploma_ws/install/groot/share/groot/package.dsv
+[1.022s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/ament_index/resource_index/packages/groot
+[1.022s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.022s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.022s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/cmake/ament_cmake_export_libraries-extras.cmake
+[1.023s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/cmake/grootConfig.cmake
+[1.023s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/cmake/grootConfig-version.cmake
+[1.023s] -- Up-to-date: /home/denis/diploma_ws/install/groot/share/groot/package.xml
+[1.026s] Invoked command in '/home/denis/diploma_ws/build/groot' returned '0': AMENT_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3:/opt/ros/humble LD_LIBRARY_PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:${LD_LIBRARY_PATH} PATH=/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:${PATH} /usr/bin/cmake --install /home/denis/diploma_ws/build/groot

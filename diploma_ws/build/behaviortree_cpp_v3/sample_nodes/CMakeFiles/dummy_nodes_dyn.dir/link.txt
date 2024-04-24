@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libdummy_nodes_dyn.so -o bin/libdummy_nodes_dyn.so CMakeFiles/dummy_nodes_dyn.dir/dummy_nodes.cpp.o  -Wl,-rpath,/home/denis/diploma_ws/build/behaviortree_cpp_v3:/opt/ros/humble/lib ../libbehaviortree_cpp_v3.so -ldl -Wl,-rpath-link,/opt/ros/humble/lib 

@@ -1,0 +1,20 @@
+[  1%] [34m[1mAutomatic MOC and UIC for target QtNodeEditor[0m
+[  1%] Built target QtNodeEditor_autogen
+[35m[1mConsolidate compiler generated dependencies of target QtNodeEditor[0m
+[ 57%] Built target QtNodeEditor
+[ 58%] [34m[1mAutomatic MOC and UIC for target behavior_tree_editor[0m
+[ 58%] Built target behavior_tree_editor_autogen
+[35m[1mConsolidate compiler generated dependencies of target behavior_tree_editor[0m
+[ 74%] Built target behavior_tree_editor
+[ 75%] [34m[1mAutomatic MOC and UIC for target Groot[0m
+[ 75%] [34m[1mAutomatic MOC and UIC for target editor_test[0m
+[ 76%] [34m[1mAutomatic MOC and UIC for target replay_test[0m
+[ 76%] Built target Groot_autogen
+[ 76%] Built target editor_test_autogen
+[ 76%] Built target replay_test_autogen
+[35m[1mConsolidate compiler generated dependencies of target Groot[0m
+[35m[1mConsolidate compiler generated dependencies of target editor_test[0m
+[35m[1mConsolidate compiler generated dependencies of target replay_test[0m
+[ 82%] Built target Groot
+[ 91%] Built target editor_test
+[100%] Built target replay_test

@@ -1,0 +1,42 @@
+[0.076s] Invoking command in '/home/denis/diploma_ws/build/fsu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/denis/diploma_ws/src/fsu -DCMAKE_INSTALL_PREFIX=/home/denis/diploma_ws/install/fsu
+[0.353s] -- The C compiler identification is GNU 11.4.0
+[0.586s] -- The CXX compiler identification is GNU 11.4.0
+[0.630s] -- Detecting C compiler ABI info
+[0.879s] -- Detecting C compiler ABI info - done
+[0.906s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.907s] -- Detecting C compile features
+[0.909s] -- Detecting C compile features - done
+[0.924s] -- Detecting CXX compiler ABI info
+[1.158s] -- Detecting CXX compiler ABI info - done
+[1.180s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.182s] -- Detecting CXX compile features
+[1.184s] -- Detecting CXX compile features - done
+[1.193s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.856s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.142s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.427s] -- Added test 'lint_cmake' to check CMake code style
+[2.430s] -- Added test 'xmllint' to check XML markup files
+[2.433s] -- Configuring done
+[2.439s] -- Generating done
+[2.441s] -- Build files have been written to: /home/denis/diploma_ws/build/fsu
+[2.458s] Invoked command in '/home/denis/diploma_ws/build/fsu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/denis/diploma_ws/src/fsu -DCMAKE_INSTALL_PREFIX=/home/denis/diploma_ws/install/fsu
+[2.459s] Invoking command in '/home/denis/diploma_ws/build/fsu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/fsu -- -j4 -l4
+[2.616s] Invoked command in '/home/denis/diploma_ws/build/fsu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/build/fsu -- -j4 -l4
+[2.700s] Invoking command in '/home/denis/diploma_ws/build/fsu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/fsu
+[2.736s] -- Install configuration: ""
+[2.736s] -- Installing: /home/denis/diploma_ws/install/fsu/share/ament_index/resource_index/package_run_dependencies/fsu
+[2.760s] -- Installing: /home/denis/diploma_ws/install/fsu/share/ament_index/resource_index/parent_prefix_path/fsu
+[2.760s] -- Installing: /home/denis/diploma_ws/install/fsu/share/fsu/environment/ament_prefix_path.sh
+[2.760s] -- Installing: /home/denis/diploma_ws/install/fsu/share/fsu/environment/ament_prefix_path.dsv
+[2.761s] -- Installing: /home/denis/diploma_ws/install/fsu/share/fsu/environment/path.sh
+[2.761s] -- Installing: /home/denis/diploma_ws/install/fsu/share/fsu/environment/path.dsv
+[2.761s] -- Installing: /home/denis/diploma_ws/install/fsu/share/fsu/local_setup.bash
+[2.761s] -- Installing: /home/denis/diploma_ws/install/fsu/share/fsu/local_setup.sh
+[2.762s] -- Installing: /home/denis/diploma_ws/install/fsu/share/fsu/local_setup.zsh
+[2.762s] -- Installing: /home/denis/diploma_ws/install/fsu/share/fsu/local_setup.dsv
+[2.762s] -- Installing: /home/denis/diploma_ws/install/fsu/share/fsu/package.dsv
+[2.762s] -- Installing: /home/denis/diploma_ws/install/fsu/share/ament_index/resource_index/packages/fsu
+[2.763s] -- Installing: /home/denis/diploma_ws/install/fsu/share/fsu/cmake/fsuConfig.cmake
+[2.763s] -- Installing: /home/denis/diploma_ws/install/fsu/share/fsu/cmake/fsuConfig-version.cmake
+[2.763s] -- Installing: /home/denis/diploma_ws/install/fsu/share/fsu/package.xml
+[2.764s] Invoked command in '/home/denis/diploma_ws/build/fsu' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/build/fsu

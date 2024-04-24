@@ -1,0 +1,3 @@
+gmake[2]: *** [tests/CMakeFiles/behaviortree_cpp_v3_test.dir/build.make:286: tests/CMakeFiles/behaviortree_cpp_v3_test.dir/gtest_wakeup.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:393: tests/CMakeFiles/behaviortree_cpp_v3_test.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

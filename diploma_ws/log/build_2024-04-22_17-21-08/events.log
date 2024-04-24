@@ -1,0 +1,263 @@
+[0.000000] (-) TimerEvent: {}
+[0.002452] (-) JobUnselected: {'identifier': 'behaviortree_cpp_v3'}
+[0.002546] (-) JobUnselected: {'identifier': 'csu'}
+[0.002603] (-) JobUnselected: {'identifier': 'dms_interfaces'}
+[0.002657] (-) JobUnselected: {'identifier': 'fsu'}
+[0.002713] (-) JobUnselected: {'identifier': 'groot'}
+[0.002810] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.002952] (-) JobUnselected: {'identifier': 'ssu'}
+[0.004101] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.004554] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.004835] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.005066] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.005307] (bt) JobQueued: {'identifier': 'bt', 'dependencies': OrderedDict([('behaviortree_cpp_v3', '/home/denis/diploma_ws/install/behaviortree_cpp_v3')])}
+[0.005536] (bt) JobStarted: {'identifier': 'bt'}
+[0.073099] (bt) JobProgress: {'identifier': 'bt', 'progress': 'cmake'}
+[0.075028] (bt) JobProgress: {'identifier': 'bt', 'progress': 'build'}
+[0.077924] (bt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/denis/diploma_ws/build/bt', '--', '-j4', '-l4'], 'cwd': '/home/denis/diploma_ws/build/bt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'denis'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/denis/diploma_ws/install/behaviortree_cpp_v3/lib:/home/denis/diploma_ws/install/groot/lib:/home/denis/diploma_ws/install/dms_interfaces/lib:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/lib:/home/denis/diploma_ws/install/behaviortree_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/denis'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '34361'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/denis/diploma_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'denis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'denis'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/denis/diploma_ws/install/behaviortree_cpp_v3/bin:/home/denis/diploma_ws/install/behaviortree_cpp/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/denis-asus:@/tmp/.ICE-unix/1076,unix/denis-asus:/tmp/.ICE-unix/1076'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6edcd4e1_d6e7_48ee_a568_7aa3295b7377'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YIEZM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.400'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/nav2_bringup:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/denis/diploma_ws/build/bt'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/denis/diploma_ws/install/dms_interfaces/local/lib/python3.10/dist-packages:/home/denis/diploma_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/denis/diploma_ws/install/behaviortree_cpp_v3:/home/denis/diploma_ws/install/turtlebot3_simulations:/home/denis/diploma_ws/install/turtlebot3_navigation2:/home/denis/diploma_ws/install/nav2_bringup:/home/denis/diploma_ws/install/turtlebot3_gazebo:/home/denis/diploma_ws/install/turtlebot3_fake_node:/home/denis/diploma_ws/install/ssu:/home/denis/diploma_ws/install/groot:/home/denis/diploma_ws/install/fsu:/home/denis/diploma_ws/install/csu:/home/denis/diploma_ws/install/dms_interfaces:/home/denis/diploma_ws/install/btcpp_ros2_samples:/home/denis/diploma_ws/install/btcpp_ros2_interfaces:/home/denis/diploma_ws/install/bt:/home/denis/diploma_ws/install/behaviortree_ros2:/home/denis/diploma_ws/install/behaviortree_cpp:/opt/ros/humble')]), 'shell': False}
+[0.099154] (-) TimerEvent: {}
+[0.199768] (-) TimerEvent: {}
+[0.300882] (-) TimerEvent: {}
+[0.301235] (bt) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_bt\x1b[0m\n'}
+[0.382473] (bt) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lidar_bt.dir/src/lidar_bt.cpp.o\x1b[0m\n'}
+[0.401909] (-) TimerEvent: {}
+[0.502587] (-) TimerEvent: {}
+[0.603052] (-) TimerEvent: {}
+[0.703658] (-) TimerEvent: {}
+[0.804418] (-) TimerEvent: {}
+[0.905507] (-) TimerEvent: {}
+[1.005956] (-) TimerEvent: {}
+[1.106310] (-) TimerEvent: {}
+[1.206705] (-) TimerEvent: {}
+[1.307161] (-) TimerEvent: {}
+[1.407518] (-) TimerEvent: {}
+[1.508048] (-) TimerEvent: {}
+[1.608644] (-) TimerEvent: {}
+[1.709820] (-) TimerEvent: {}
+[1.810249] (-) TimerEvent: {}
+[1.910842] (-) TimerEvent: {}
+[2.013735] (-) TimerEvent: {}
+[2.114363] (-) TimerEvent: {}
+[2.215735] (-) TimerEvent: {}
+[2.318030] (-) TimerEvent: {}
+[2.418475] (-) TimerEvent: {}
+[2.519025] (-) TimerEvent: {}
+[2.620112] (-) TimerEvent: {}
+[2.721350] (-) TimerEvent: {}
+[2.821834] (-) TimerEvent: {}
+[2.922394] (-) TimerEvent: {}
+[3.025333] (-) TimerEvent: {}
+[3.126081] (-) TimerEvent: {}
+[3.227158] (-) TimerEvent: {}
+[3.327776] (-) TimerEvent: {}
+[3.429692] (-) TimerEvent: {}
+[3.530110] (-) TimerEvent: {}
+[3.631037] (-) TimerEvent: {}
+[3.732256] (-) TimerEvent: {}
+[3.832656] (-) TimerEvent: {}
+[3.933079] (-) TimerEvent: {}
+[4.033478] (-) TimerEvent: {}
+[4.133862] (-) TimerEvent: {}
+[4.234432] (-) TimerEvent: {}
+[4.334797] (-) TimerEvent: {}
+[4.435306] (-) TimerEvent: {}
+[4.537232] (-) TimerEvent: {}
+[4.637840] (-) TimerEvent: {}
+[4.738392] (-) TimerEvent: {}
+[4.838950] (-) TimerEvent: {}
+[4.939551] (-) TimerEvent: {}
+[5.040673] (-) TimerEvent: {}
+[5.142814] (-) TimerEvent: {}
+[5.243449] (-) TimerEvent: {}
+[5.345066] (-) TimerEvent: {}
+[5.445466] (-) TimerEvent: {}
+[5.545943] (-) TimerEvent: {}
+[5.646595] (-) TimerEvent: {}
+[5.747135] (-) TimerEvent: {}
+[5.847843] (-) TimerEvent: {}
+[5.948509] (-) TimerEvent: {}
+[6.052615] (-) TimerEvent: {}
+[6.154267] (-) TimerEvent: {}
+[6.255772] (-) TimerEvent: {}
+[6.356515] (-) TimerEvent: {}
+[6.457346] (-) TimerEvent: {}
+[6.559060] (-) TimerEvent: {}
+[6.659584] (-) TimerEvent: {}
+[6.760391] (-) TimerEvent: {}
+[6.866135] (-) TimerEvent: {}
+[6.966672] (-) TimerEvent: {}
+[7.067229] (-) TimerEvent: {}
+[7.170734] (-) TimerEvent: {}
+[7.271269] (-) TimerEvent: {}
+[7.372670] (-) TimerEvent: {}
+[7.473278] (-) TimerEvent: {}
+[7.578101] (-) TimerEvent: {}
+[7.683617] (-) TimerEvent: {}
+[7.784030] (-) TimerEvent: {}
+[7.884975] (-) TimerEvent: {}
+[7.988306] (-) TimerEvent: {}
+[8.088854] (-) TimerEvent: {}
+[8.189364] (-) TimerEvent: {}
+[8.290379] (-) TimerEvent: {}
+[8.391103] (-) TimerEvent: {}
+[8.492270] (-) TimerEvent: {}
+[8.593818] (-) TimerEvent: {}
+[8.694319] (-) TimerEvent: {}
+[8.794782] (-) TimerEvent: {}
+[8.895388] (-) TimerEvent: {}
+[8.996077] (-) TimerEvent: {}
+[9.097613] (-) TimerEvent: {}
+[9.198069] (-) TimerEvent: {}
+[9.298657] (-) TimerEvent: {}
+[9.399320] (-) TimerEvent: {}
+[9.500040] (-) TimerEvent: {}
+[9.601144] (-) TimerEvent: {}
+[9.701972] (-) TimerEvent: {}
+[9.802775] (-) TimerEvent: {}
+[9.904579] (-) TimerEvent: {}
+[10.005471] (-) TimerEvent: {}
+[10.106069] (-) TimerEvent: {}
+[10.206942] (-) TimerEvent: {}
+[10.307807] (-) TimerEvent: {}
+[10.408572] (-) TimerEvent: {}
+[10.508918] (-) TimerEvent: {}
+[10.609673] (-) TimerEvent: {}
+[10.710715] (-) TimerEvent: {}
+[10.812029] (-) TimerEvent: {}
+[10.912601] (-) TimerEvent: {}
+[11.013073] (-) TimerEvent: {}
+[11.113673] (-) TimerEvent: {}
+[11.214980] (-) TimerEvent: {}
+[11.316669] (-) TimerEvent: {}
+[11.417816] (-) TimerEvent: {}
+[11.519489] (-) TimerEvent: {}
+[11.620059] (-) TimerEvent: {}
+[11.720824] (-) TimerEvent: {}
+[11.821696] (-) TimerEvent: {}
+[11.924922] (-) TimerEvent: {}
+[12.025344] (-) TimerEvent: {}
+[12.125940] (-) TimerEvent: {}
+[12.228079] (-) TimerEvent: {}
+[12.328953] (-) TimerEvent: {}
+[12.429410] (-) TimerEvent: {}
+[12.530037] (-) TimerEvent: {}
+[12.630770] (-) TimerEvent: {}
+[12.731431] (-) TimerEvent: {}
+[12.836941] (-) TimerEvent: {}
+[12.941033] (-) TimerEvent: {}
+[13.043062] (-) TimerEvent: {}
+[13.079538] (bt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[13.080196] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[13.080447] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[13.080641] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[13.080831] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[13.081005] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[13.081183] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[13.081386] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[13.081591] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.081773] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.081926] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.082059] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/denis/diploma_ws/src/bt/include/bt/lidar_check.hpp:6\x1b[m\x1b[K,\n'}
+[13.082188] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:1\x1b[m\x1b[K:\n'}
+[13.082340] (bt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/denis/diploma_ws/src/bt/include/bt/lidar_restart.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual BT::NodeStatus LidarRestart::tick()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.082493] (bt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/denis/diploma_ws/src/bt/include/bt/lidar_restart.hpp:32:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.082630] (bt) StderrLine: {'line': b'   32 |                     RCLCPP_INFO(rclcpp::get_logger("lidar_restart"), \x1b[01;31m\x1b[Knode_name\x1b[m\x1b[K);\n'}
+[13.082761] (bt) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[13.082891] (bt) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[13.083021] (bt) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\n'}
+[13.083181] (bt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rmw/rmw/types.h:28\x1b[m\x1b[K,\n'}
+[13.083341] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/types.h:20\x1b[m\x1b[K,\n'}
+[13.083530] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/log_level.h:22\x1b[m\x1b[K,\n'}
+[13.083703] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/arguments.h:21\x1b[m\x1b[K,\n'}
+[13.083871] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/context.h:28\x1b[m\x1b[K,\n'}
+[13.084058] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26\x1b[m\x1b[K,\n'}
+[13.084277] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30\x1b[m\x1b[K,\n'}
+[13.084521] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.085325] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.086417] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.086962] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/denis/diploma_ws/src/bt/include/bt/lidar_check.hpp:6\x1b[m\x1b[K,\n'}
+[13.087612] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:1\x1b[m\x1b[K:\n'}
+[13.088182] (bt) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcutils/rcutils/logging.h:479:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 4 of \xe2\x80\x98\x1b[01m\x1b[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.088886] (bt) StderrLine: {'line': b'  479 |   \x1b[01;36m\x1b[Kconst char * format\x1b[m\x1b[K,\n'}
+[13.089190] (bt) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[13.143177] (-) TimerEvent: {}
+[13.243764] (-) TimerEvent: {}
+[13.344636] (-) TimerEvent: {}
+[13.444990] (-) TimerEvent: {}
+[13.545566] (-) TimerEvent: {}
+[13.647559] (-) TimerEvent: {}
+[13.691333] (bt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[13.691885] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[13.692340] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[13.694321] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[13.694880] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[13.695286] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[13.695930] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[13.698133] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[13.698364] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.698570] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.698764] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.699012] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/denis/diploma_ws/src/bt/include/bt/lidar_check.hpp:6\x1b[m\x1b[K,\n'}
+[13.699195] (bt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:1\x1b[m\x1b[K:\n'}
+[13.699391] (bt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, const char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.700148] (bt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:50:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[KBT::NodeStatus\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.700560] (bt) StderrLine: {'line': b'   50 |         RCLCPP_INFO(rclcpp::get_logger("root"), \x1b[01;35m\x1b[K"BT Status: %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kstatus\x1b[m\x1b[K);\n'}
+[13.700820] (bt) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K\n'}
+[13.701148] (bt) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[13.701804] (bt) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[KBT::NodeStatus\x1b[m\x1b[K\n'}
+[13.702293] (bt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/denis/diploma_ws/src/bt/src/lidar_bt.cpp:50:62:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[13.702570] (bt) StderrLine: {'line': b'   50 |         RCLCPP_INFO(rclcpp::get_logger("root"), "BT Status: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", status);\n'}
+[13.702807] (bt) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[13.703023] (bt) StderrLine: {'line': b'      |                                                              \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[13.703330] (bt) StderrLine: {'line': b'      |                                                              \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[13.747691] (-) TimerEvent: {}
+[13.849365] (-) TimerEvent: {}
+[13.949965] (-) TimerEvent: {}
+[14.050370] (-) TimerEvent: {}
+[14.151023] (-) TimerEvent: {}
+[14.253999] (-) TimerEvent: {}
+[14.355370] (-) TimerEvent: {}
+[14.456688] (-) TimerEvent: {}
+[14.557330] (-) TimerEvent: {}
+[14.657736] (-) TimerEvent: {}
+[14.758266] (-) TimerEvent: {}
+[14.859024] (-) TimerEvent: {}
+[14.959420] (-) TimerEvent: {}
+[15.059818] (-) TimerEvent: {}
+[15.160315] (-) TimerEvent: {}
+[15.260755] (-) TimerEvent: {}
+[15.361591] (-) TimerEvent: {}
+[15.462605] (-) TimerEvent: {}
+[15.563051] (-) TimerEvent: {}
+[15.664801] (-) TimerEvent: {}
+[15.765247] (-) TimerEvent: {}
+[15.865677] (-) TimerEvent: {}
+[15.966786] (-) TimerEvent: {}
+[16.067310] (-) TimerEvent: {}
+[16.170991] (-) TimerEvent: {}
+[16.271551] (-) TimerEvent: {}
+[16.372176] (-) TimerEvent: {}
+[16.472520] (-) TimerEvent: {}
+[16.572977] (-) TimerEvent: {}
+[16.673813] (-) TimerEvent: {}
+[16.774270] (-) TimerEvent: {}
+[16.875240] (-) TimerEvent: {}
+[16.977246] (-) TimerEvent: {}
+[17.077951] (-) TimerEvent: {}
+[17.178552] (-) TimerEvent: {}
+[17.279596] (-) TimerEvent: {}
+[17.380107] (-) TimerEvent: {}
+[17.480534] (-) TimerEvent: {}
+[17.581110] (-) TimerEvent: {}
+[17.681941] (-) TimerEvent: {}
+[17.782830] (-) TimerEvent: {}
+[17.883209] (-) TimerEvent: {}
+[17.941373] (bt) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lidar_bt.dir/build.make:76: CMakeFiles/lidar_bt.dir/src/lidar_bt.cpp.o] Error 1\n'}
+[17.942326] (bt) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_bt.dir/all] Error 2\n'}
+[17.942908] (bt) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.950486] (bt) CommandEnded: {'returncode': 2}
+[17.983335] (-) TimerEvent: {}
+[18.087376] (-) TimerEvent: {}
+[18.187722] (-) TimerEvent: {}
+[18.214794] (bt) JobEnded: {'identifier': 'bt', 'rc': 2}
+[18.217149] (-) EventReactorShutdown: {}

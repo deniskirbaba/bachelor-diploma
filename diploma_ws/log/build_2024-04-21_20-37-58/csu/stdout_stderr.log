@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target control_switching_unit[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/control_switching_unit.dir/src/control_switching_unit.cpp.o[0m
+[100%] [32m[1mLinking CXX executable control_switching_unit[0m
+[100%] Built target control_switching_unit

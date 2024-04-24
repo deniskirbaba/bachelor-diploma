@@ -1,0 +1,8 @@
+source;share/nspu/hook/cmake_prefix_path.ps1
+source;share/nspu/hook/cmake_prefix_path.dsv
+source;share/nspu/hook/cmake_prefix_path.sh
+source;share/nspu/local_setup.bash
+source;share/nspu/local_setup.dsv
+source;share/nspu/local_setup.ps1
+source;share/nspu/local_setup.sh
+source;share/nspu/local_setup.zsh

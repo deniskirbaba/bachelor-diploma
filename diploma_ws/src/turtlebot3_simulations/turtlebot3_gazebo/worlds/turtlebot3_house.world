@@ -49,6 +49,5 @@
         <uri>model://turtlebot3_house</uri>
       </include>
     </model>
-
   </world>
 </sdf>

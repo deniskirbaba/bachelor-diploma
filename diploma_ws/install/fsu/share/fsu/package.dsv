@@ -1,8 +1,0 @@
-source;share/fsu/hook/cmake_prefix_path.ps1
-source;share/fsu/hook/cmake_prefix_path.dsv
-source;share/fsu/hook/cmake_prefix_path.sh
-source;share/fsu/local_setup.bash
-source;share/fsu/local_setup.dsv
-source;share/fsu/local_setup.ps1
-source;share/fsu/local_setup.sh
-source;share/fsu/local_setup.zsh

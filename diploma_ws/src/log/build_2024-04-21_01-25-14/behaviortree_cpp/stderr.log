@@ -1,6 +1,0 @@
-[01m[K/home/denis/diploma_ws/src/BehaviorTree.CPP/src/decorators/wait_update.cpp:13:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
-   13 | #pragma [01;35m[Konce[m[K
-      |         [01;35m[K^~~~[m[K
-gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:454: CMakeFiles/behaviortree_cpp.dir/src/controls/reactive_sequence.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:309: CMakeFiles/behaviortree_cpp.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

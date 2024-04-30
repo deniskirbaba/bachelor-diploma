@@ -1,6 +1,0 @@
-Invoking command in '/home/denis/diploma_ws/src/build/nav2_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/denis/diploma_ws/src/nav2_bringup -DCMAKE_INSTALL_PREFIX=/home/denis/diploma_ws/src/install/nav2_bringup
-Invoked command in '/home/denis/diploma_ws/src/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/denis/diploma_ws/src/nav2_bringup -DCMAKE_INSTALL_PREFIX=/home/denis/diploma_ws/src/install/nav2_bringup
-Invoking command in '/home/denis/diploma_ws/src/build/nav2_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/src/build/nav2_bringup -- -j4 -l4
-Invoked command in '/home/denis/diploma_ws/src/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/denis/diploma_ws/src/build/nav2_bringup -- -j4 -l4
-Invoking command in '/home/denis/diploma_ws/src/build/nav2_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/src/build/nav2_bringup
-Invoked command in '/home/denis/diploma_ws/src/build/nav2_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/denis/diploma_ws/src/build/nav2_bringup

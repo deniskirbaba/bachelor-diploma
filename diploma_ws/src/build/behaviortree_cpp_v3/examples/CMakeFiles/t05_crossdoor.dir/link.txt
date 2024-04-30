@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/t05_crossdoor.dir/t05_crossdoor.cpp.o -o t05_crossdoor  -Wl,-rpath,/home/denis/diploma_ws/src/build/behaviortree_cpp_v3:/opt/ros/humble/lib ../sample_nodes/lib/libbt_sample_nodes.a ../libbehaviortree_cpp_v3.so -ldl -Wl,-rpath-link,/opt/ros/humble/lib 

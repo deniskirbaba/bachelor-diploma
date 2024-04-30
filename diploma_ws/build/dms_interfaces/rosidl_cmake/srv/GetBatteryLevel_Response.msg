@@ -1,4 +1,0 @@
-
-float64 battery_level
-float64 idle_consumption
-float64 drive_consumption

@@ -1,7 +1,0 @@
-[01m[K/home/denis/diploma_ws/src/ssu/src/sensor_supervisitory_unit.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ksensor_supervisitory_unit.hpp: No such file or directory
-    1 | #include [01;31m[K"sensor_supervisitory_unit.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/sensor_supervisitory_unit.dir/build.make:76: CMakeFiles/sensor_supervisitory_unit.dir/src/sensor_supervisitory_unit.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sensor_supervisitory_unit.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

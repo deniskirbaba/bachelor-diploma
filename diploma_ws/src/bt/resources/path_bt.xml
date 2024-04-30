@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<root BTCPP_format="4" >
+    <BehaviorTree ID="main_bt">
+        <Sequence name="root_sequence">
+            <Fallback name="path_fallback">
+                <Sequence name="global_planner_check_seq">
+                    <Inverter>
+                        <GlobalPlannerCheck name="global_planner_check"/>
+                    </Inverter>
+                    <GlobalPlannerRestart name="global_planner_restart"/>
+                </Sequence>
+                <PathPossibilityCheck name="path_possibility_check"/>
+                <Sequence name="path_impossible_seq">
+                    <FullStop name="full_stop"/>
+                    <CancelTask name="cancel_task"/>
+                    <SetPathFailureState name="set_path_failure_state"/>
+                </Sequence>
+            </Fallback>
+        </Sequence>
+    </BehaviorTree>
+
+    <!-- the BT executor don't require this, but Groot does -->     
+    <TreeNodeModel>
+        <Condition ID="GlobalPlannerCheck"/>
+        <Action ID="GlobalPlannerRestart"/>
+
+        <Condition ID="PathPossibilityCheck"/>
+        <Action ID="FullStop"/>
+        <Action ID="CancelTask"/>
+        <Action ID="SetPathFailureState"/>
+    </TreeNodeModel>
+</root>

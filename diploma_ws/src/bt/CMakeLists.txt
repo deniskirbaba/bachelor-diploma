@@ -17,7 +17,9 @@ find_package(rclcpp REQUIRED)
 find_package(rclcpp_action REQUIRED)
 
 find_package(std_srvs REQUIRED)
+
 find_package(nav2_msgs REQUIRED)
+find_package(lifecycle_msgs REQUIRED)
 
 find_package(dms_interfaces REQUIRED)
 find_package(rcl_interfaces REQUIRED)
@@ -62,6 +64,17 @@ add_executable(battery_bt src/battery_bt.cpp)
     behaviortree_cpp_v3
     dms_interfaces
     rcl_interfaces)
+add_executable(path_bt src/path_bt.cpp)
+  ament_target_dependencies(path_bt
+    rclcpp 
+    rclcpp_action
+    std_srvs
+    nav2_msgs
+    behaviortree_cpp_v3
+    dms_interfaces
+    rcl_interfaces
+    lifecycle_msgs)
+  
 add_executable(main_bt src/main_bt.cpp)
   ament_target_dependencies(main_bt
     rclcpp 
@@ -70,7 +83,8 @@ add_executable(main_bt src/main_bt.cpp)
     nav2_msgs
     behaviortree_cpp_v3
     dms_interfaces
-    rcl_interfaces)
+    rcl_interfaces
+    lifecycle_msgs)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -89,7 +103,7 @@ include_directories(
 )
 
 install(
-  TARGETS lidar_bt imu_bt odom_bt sensors_bt battery_bt main_bt
+  TARGETS lidar_bt imu_bt odom_bt sensors_bt battery_bt path_bt main_bt
   DESTINATION lib/${PROJECT_NAME}
 )
 

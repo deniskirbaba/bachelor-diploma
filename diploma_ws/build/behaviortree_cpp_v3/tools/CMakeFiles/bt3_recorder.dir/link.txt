@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o -o bt3_recorder  -Wl,-rpath,/home/denis/diploma_ws/build/behaviortree_cpp_v3:/opt/ros/humble/lib: ../libbehaviortree_cpp_v3.so /usr/lib/x86_64-linux-gnu/libzmq.so -ldl -Wl,-rpath-link,/opt/ros/humble/lib 

@@ -1,7 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target lidar_bt[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/lidar_bt.dir/src/lidar_bt.cpp.o[0m
-[100%] [32m[1mLinking CXX executable lidar_bt[0m
-[100%] Built target lidar_bt
--- Install configuration: ""
--- Installing: /home/denis/diploma_ws/install/bt/lib/bt/lidar_bt
--- Set runtime path of "/home/denis/diploma_ws/install/bt/lib/bt/lidar_bt" to ""

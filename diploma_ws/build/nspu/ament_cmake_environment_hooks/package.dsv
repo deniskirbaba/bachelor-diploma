@@ -1,4 +1,0 @@
-source;share/nspu/local_setup.bash
-source;share/nspu/local_setup.dsv
-source;share/nspu/local_setup.sh
-source;share/nspu/local_setup.zsh

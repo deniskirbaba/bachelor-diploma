@@ -5,6 +5,8 @@ NavigationServicesProviderUnit::NavigationServicesProviderUnit (const std::strin
 {
     RCLCPP_INFO(rclcpp::get_logger("NavigationServicesProviderUnit"), "Navigation services provider unit is active.");
 
+    // Get goal distance service
+
     get_goal_distance_srv = this->create_service<dms_interfaces::srv::GetGoalDistance>(
         "get_goal_distance",
         std::bind(&NavigationServicesProviderUnit::get_goal_distance_srv_cb,
@@ -25,9 +27,30 @@ NavigationServicesProviderUnit::NavigationServicesProviderUnit (const std::strin
         std::bind(&NavigationServicesProviderUnit::pose_cov_st_cb, 
             this, 
             std::placeholders::_1));
+
+
+    // Check path possibility service
+
+    path_possibility = true;
+
+    check_path_possibility_srv = this->create_service<std_srvs::srv::SetBool>(
+        "check_path_possibility",
+        std::bind(&NavigationServicesProviderUnit::check_path_possibility_srv_cb,
+            this,
+            std::placeholders::_1,
+            std::placeholders::_2));
+
+    goal_status_sub = this->create_subscription<action_msgs::msg::GoalStatusArray>(
+        "compute_path_to_pose/_action/status", 
+        10, 
+        std::bind(&NavigationServicesProviderUnit::goal_status_cb, 
+            this, 
+            std::placeholders::_1));
 }
 
 NavigationServicesProviderUnit::~NavigationServicesProviderUnit() = default;
+
+// Get goal distance service
 
 void NavigationServicesProviderUnit::path_cb(const nav_msgs::msg::Path::SharedPtr msg)
 {
@@ -53,6 +76,42 @@ void NavigationServicesProviderUnit::get_goal_distance_srv_cb(
         goal_distance = 0.0;
 
     response->goal_distance = goal_distance;
+}
+
+
+// Check path possibility service
+
+void NavigationServicesProviderUnit::check_path_possibility_srv_cb(   
+    const std_srvs::srv::SetBool_Request::SharedPtr request,
+    const std_srvs::srv::SetBool_Response::SharedPtr response)
+{   
+    response->message="";
+    response->success = path_possibility;    
+}   
+
+void NavigationServicesProviderUnit::goal_status_cb(const action_msgs::msg::GoalStatusArray::SharedPtr msg)
+{
+    auto state = msg->status_list.back();
+
+    RCLCPP_INFO(this->get_logger(), "Goal status array received from Nav2 planner.");
+
+    if (state.status == action_msgs::msg::GoalStatus::STATUS_SUCCEEDED)
+    { 
+        path_possibility = true;
+    }
+    else if (state.status == action_msgs::msg::GoalStatus::STATUS_EXECUTING)
+    {
+        path_possibility = true;
+    }
+    else
+    {
+        path_possibility = false;
+    }
+
+    if (path_possibility)
+        RCLCPP_INFO(this->get_logger(), "Path is possible.");    
+    else
+        RCLCPP_INFO(this->get_logger(), "Path is impossible.");    
 }
 
 

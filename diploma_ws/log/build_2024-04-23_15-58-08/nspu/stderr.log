@@ -1,7 +1,0 @@
-[01m[K/home/denis/diploma_ws/src/nspu/src/navigation_services_provider_unit.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Knavigation_services_probider_unit.hpp: No such file or directory
-    1 | #include [01;31m[K"navigation_services_probider_unit.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/navigation_services_provider_unit.dir/build.make:76: CMakeFiles/navigation_services_provider_unit.dir/src/navigation_services_provider_unit.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation_services_provider_unit.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

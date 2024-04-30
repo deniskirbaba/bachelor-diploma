@@ -16,10 +16,12 @@ find_package(rclcpp REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(dms_interfaces REQUIRED)
+find_package(action_msgs REQUIRED)
+find_package(std_srvs REQUIRED)
 
 # add executables
 add_executable(navigation_services_provider_unit src/navigation_services_provider_unit.cpp)
-ament_target_dependencies(navigation_services_provider_unit rclcpp nav_msgs geometry_msgs dms_interfaces)
+ament_target_dependencies(navigation_services_provider_unit rclcpp nav_msgs geometry_msgs dms_interfaces action_msgs std_srvs)
 
 include_directories(
   include/${PROJECT_NAME}

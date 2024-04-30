@@ -1,20 +1,28 @@
 #include "lidar_check.hpp"
 #include "lidar_restart.hpp"
+#include "set_lidar_failure_state.hpp"
+
 #include "imu_check.hpp"
 #include "imu_restart.hpp"
+#include "set_imu_failure_state.hpp"
+
 #include "odom_check.hpp"
 #include "odom_restart.hpp"
+#include "set_odom_failure_state.hpp"
 
 #include "battery_check.hpp"
+
+#include "global_planner_check.hpp"
+#include "global_planner_restart.hpp"
+#include "set_path_failure_state.hpp"
+
+#include "path_possibility_check.hpp"
 
 #include "speed_reduce.hpp"
 #include "speed_restore.hpp"
 #include "full_stop.hpp"
 
 #include "cancel_task.hpp"
-#include "set_lidar_failure_state.hpp"
-#include "set_imu_failure_state.hpp"
-#include "set_odom_failure_state.hpp"
 
 #include "behaviortree_cpp_v3/behavior_tree.h"
 #include "behaviortree_cpp_v3/bt_factory.h"
@@ -32,21 +40,29 @@ int main(int argc, const char* argv[])
     // -------------------------------------------------------------------------------------------
     factory.registerNodeType<LidarCheck>("LidarCheck");
     factory.registerNodeType<LidarRestart>("LidarRestart");
+    factory.registerNodeType<SetLidarFailureState>("SetLidarFailureState");
+    
     factory.registerNodeType<ImuCheck>("ImuCheck");
     factory.registerNodeType<ImuRestart>("ImuRestart");
+    factory.registerNodeType<SetImuFailureState>("SetImuFailureState");
+    
     factory.registerNodeType<OdomCheck>("OdomCheck");
     factory.registerNodeType<OdomRestart>("OdomRestart");
+    factory.registerNodeType<SetOdomFailureState>("SetOdomFailureState");
 
     factory.registerNodeType<BatteryCheck>("BatteryCheck");
     
+    factory.registerNodeType<GlobalPlannerCheck>("GlobalPlannerCheck");
+    factory.registerNodeType<GlobalPlannerRestart>("GlobalPlannerRestart");
+    factory.registerNodeType<SetPathFailureState>("SetPathFailureState");
+
+    factory.registerNodeType<PathPossibilityCheck>("PathPossibilityCheck");
+
     factory.registerNodeType<SpeedReduce>("SpeedReduce");
     factory.registerNodeType<SpeedRestore>("SpeedRestore");
     factory.registerNodeType<FullStop>("FullStop");
 
     factory.registerNodeType<CancelTask>("CancelTask");
-    factory.registerNodeType<SetLidarFailureState>("SetLidarFailureState");
-    factory.registerNodeType<SetImuFailureState>("SetImuFailureState");
-    factory.registerNodeType<SetOdomFailureState>("SetOdomFailureState");
     // -------------------------------------------------------------------------------------------
 
     RCLCPP_INFO(rclcpp::get_logger("root"), "Creating BT...");

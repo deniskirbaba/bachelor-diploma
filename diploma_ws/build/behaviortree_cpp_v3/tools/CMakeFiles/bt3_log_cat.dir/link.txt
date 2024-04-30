@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o -o bt3_log_cat  -Wl,-rpath,/home/denis/diploma_ws/build/behaviortree_cpp_v3:/opt/ros/humble/lib: ../libbehaviortree_cpp_v3.so -ldl -Wl,-rpath-link,/opt/ros/humble/lib 

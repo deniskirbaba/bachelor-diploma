@@ -12,15 +12,21 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(unique_identifier_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/PubResCmdVel.srv"
   "srv/GetBatteryLevel.srv"
   "srv/GetGoalDistance.srv"
-  DEPENDENCIES geometry_msgs std_msgs
+  "srv/GetGoal.srv"
+  "srv/GetPose.srv"
+  "msg/Obstacle.msg"
+  "msg/ObstacleArray.msg"
+  DEPENDENCIES geometry_msgs std_msgs unique_identifier_msgs
 )
 
 if(BUILD_TESTING)

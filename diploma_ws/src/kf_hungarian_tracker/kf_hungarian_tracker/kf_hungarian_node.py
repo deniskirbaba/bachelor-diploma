@@ -41,7 +41,7 @@ class KFHungarianTracker(Node):
                 ('global_frame', ),
                 ('process_noise_cov', [2., 2., 0.5]),
                 ('top_down', False),
-                ('death_threshold', 3),
+                ('death_threshold', 25),
                 ('measurement_noise_cov', [1., 1., 1.]),
                 ('error_cov_post', [1., 1., 1., 10., 10., 10.]),
                 ('vel_filter', [0.1, 2.0]),

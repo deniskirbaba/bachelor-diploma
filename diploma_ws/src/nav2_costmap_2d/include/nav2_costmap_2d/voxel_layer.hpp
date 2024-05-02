@@ -133,6 +133,7 @@ protected:
    */
   virtual void resetMaps();
 
+private:
   /**
    * @brief Use raycasting between 2 points to clear freespace
    */

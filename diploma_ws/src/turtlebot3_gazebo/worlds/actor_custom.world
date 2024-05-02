@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+    <world name="my_world_1">
+        <include>
+            <uri>model://ground_plane</uri>
+        </include>
+
+        <include>
+            <uri>model://sun</uri>
+        </include>
+
+        <scene>
+            <shadows>false</shadows>
+        </scene>
+
+        <model name="my_model_1">
+            <include>
+                <uri>model://my_model_1</uri>
+            </include>
+        </model>
+
+        <actor name="actor">
+<plugin name="actor_collisions_plugin" filename="/home/denis/diploma_src/dms_ws/src/actor_collisions/build/libActorCollisionsPlugin.so">
+      <scaling collision="LowerBack_Spine_collision" scale="
+        12.0
+        20.0
+        10.0
+      " pose="0.05 0 0 0 -0.2 0"/>
+    </plugin>
+            <skin>
+                <filename>walk.dae</filename>
+                <scale>1.0</scale>
+            </skin>
+            <animation name="walking">
+                <filename>walk.dae</filename>
+                <scale>1.0</scale>
+            </animation>
+            <script>
+                <loop>true</loop>
+                <delay_start>0.000000</delay_start>
+                <auto_start>true</auto_start>
+                <trajectory id="0" type="walking">
+                    <waypoint>
+                        <time>0.0</time>
+                        <pose>4.0 -2.5 0.0 0.000000 0.000000 0.000000</pose>
+                    </waypoint>
+                    <waypoint>
+                        <time>5.0</time>
+                        <pose>4.0 2.5 0.000000 0.000000 0.000000 0.0</pose>
+                    </waypoint>
+                    <waypoint>
+                        <time>10.0</time>
+                        <pose>4.000000 -2.5 0.000000 0.000000 0.000000 0.000000</pose>
+                    </waypoint>
+                </trajectory>
+            </script>
+        </actor>
+    </world>
+</sdf>

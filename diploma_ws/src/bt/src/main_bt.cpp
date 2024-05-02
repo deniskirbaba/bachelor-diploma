@@ -18,6 +18,19 @@
 
 #include "path_possibility_check.hpp"
 
+#include "collision_check.hpp"
+#include "set_collision_failure_state.hpp"
+
+#include "orientation_check.hpp"
+#include "slam_check.hpp"
+
+#include "reset_map.hpp"
+#include "update_map.hpp"
+#include "save_map.hpp"
+#include "load_map.hpp"
+
+#include "publish_last_goal.hpp"
+
 #include "speed_reduce.hpp"
 #include "speed_restore.hpp"
 #include "full_stop.hpp"
@@ -58,6 +71,19 @@ int main(int argc, const char* argv[])
 
     factory.registerNodeType<PathPossibilityCheck>("PathPossibilityCheck");
 
+    factory.registerNodeType<CollisionCheck>("CollisionCheck");
+    factory.registerNodeType<SetCollisionFailureState>("SetCollisionFailureState");
+
+    factory.registerNodeType<OrientationCheck>("OrientationCheck");
+    factory.registerNodeType<SlamCheck>("SlamCheck");
+
+    factory.registerNodeType<ResetMap>("ResetMap");
+    factory.registerNodeType<UpdateMap>("UpdateMap");
+    factory.registerNodeType<SaveMap>("SaveMap");
+    factory.registerNodeType<LoadMap>("LoadMap");
+
+    factory.registerNodeType<PublishLastGoal>("PublishLastGoal");
+
     factory.registerNodeType<SpeedReduce>("SpeedReduce");
     factory.registerNodeType<SpeedRestore>("SpeedRestore");
     factory.registerNodeType<FullStop>("FullStop");
@@ -66,7 +92,7 @@ int main(int argc, const char* argv[])
     // -------------------------------------------------------------------------------------------
 
     RCLCPP_INFO(rclcpp::get_logger("root"), "Creating BT...");
-    auto tree = factory.createTreeFromFile("/home/denis/diploma_ws/src/bt/resources/main_bt.xml");
+    auto tree = factory.createTreeFromFile("/home/denis/diploma_src/dms_ws/src/bt/resources/main_bt.xml");
     RCLCPP_INFO(rclcpp::get_logger("root"), "BT created.");
 
     RCLCPP_INFO(rclcpp::get_logger("root"), "Creating BT ZeroMQ publisher."); 

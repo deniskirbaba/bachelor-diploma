@@ -477,7 +477,7 @@
         <max_wheel_torque>20</max_wheel_torque>
         <max_wheel_acceleration>1.0</max_wheel_acceleration>
 
-        <command_topic>cmd_vel_nav</command_topic>
+        <command_topic>cmd_vel</command_topic>
 
         <!-- output -->
         <publish_odom>true</publish_odom>

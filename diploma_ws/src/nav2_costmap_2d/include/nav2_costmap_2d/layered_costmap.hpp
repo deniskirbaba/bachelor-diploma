@@ -47,6 +47,7 @@
 #include "nav2_costmap_2d/costmap_2d.hpp"
 #include "dms_interfaces/msg/obstacle_array.hpp"
 
+
 namespace nav2_costmap_2d
 {
 class Layer;
@@ -153,8 +154,10 @@ public:
   /**
    * @brief Add a new costmap filter plugin to the filters vector to process
    */
-  void addFilter(std::shared_ptr<Layer> filter);
-
+  void addFilter(std::shared_ptr<Layer> filter)
+  {
+    filters_.push_back(filter);
+  }
 
   /**
    * @brief Get if the size of the costmap is locked

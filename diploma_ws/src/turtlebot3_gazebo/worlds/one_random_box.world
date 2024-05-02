@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <model name="EmptyRoom">
+      <include>
+        <uri>model://empty_room</uri>
+      </include>
+    </model>
+
+    <model name="DynamicObstacle">
+       <pose>-4 4 0.15 0 0 0</pose>
+       <include>
+        <uri>model://dynamic_obstacle</uri>
+      </include>
+    </model>
+
+  </world>
+</sdf>

@@ -26,10 +26,18 @@ find_package(visualization_msgs REQUIRED)
 find_package(angles REQUIRED)
 find_package(dms_interfaces REQUIRED)
 
+
 remove_definitions(-DDISABLE_LIBUSB-1.0)
-find_package(Eigen3 3.3 REQUIRED)
+find_package(Eigen3 REQUIRED)
 
 nav2_package()
+
+include_directories(
+  include
+  ${EIGEN3_INCLUDE_DIRS}
+)
+
+add_definitions(${EIGEN3_DEFINITIONS})
 
 add_library(nav2_costmap_2d_core SHARED
   src/array_parser.cpp
@@ -45,13 +53,6 @@ add_library(nav2_costmap_2d_core SHARED
   src/clear_costmap_service.cpp
   src/footprint_collision_checker.cpp
   plugins/costmap_filters/costmap_filter.cpp
-)
-add_library(${PROJECT_NAME}::nav2_costmap_2d_core ALIAS nav2_costmap_2d_core)
-
-target_include_directories(nav2_costmap_2d_core
-  PUBLIC
-    "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>"
-    "$<INSTALL_INTERFACE:include/${PROJECT_NAME}>"
 )
 
 set(dependencies
@@ -81,7 +82,6 @@ set(dependencies
 ament_target_dependencies(nav2_costmap_2d_core
   ${dependencies}
 )
-target_link_libraries(nav2_costmap_2d_core Eigen3::Eigen)
 
 add_library(layers SHARED
   plugins/inflation_layer.cpp
@@ -90,14 +90,12 @@ add_library(layers SHARED
   src/observation_buffer.cpp
   plugins/voxel_layer.cpp
   plugins/range_sensor_layer.cpp
-  plugins/denoise_layer.cpp
 )
-add_library(${PROJECT_NAME}::layers ALIAS layers)
 ament_target_dependencies(layers
   ${dependencies}
 )
 target_link_libraries(layers
-  ${PROJECT_NAME}::nav2_costmap_2d_core
+  nav2_costmap_2d_core
 )
 
 add_library(filters SHARED
@@ -105,14 +103,11 @@ add_library(filters SHARED
   plugins/costmap_filters/speed_filter.cpp
   plugins/costmap_filters/binary_filter.cpp
 )
-add_library(${PROJECT_NAME}::filters ALIAS filters)
-
-
 ament_target_dependencies(filters
   ${dependencies}
 )
 target_link_libraries(filters
-  ${PROJECT_NAME}::nav2_costmap_2d_core
+  nav2_costmap_2d_core
 )
 
 add_library(nav2_costmap_2d_client SHARED
@@ -120,19 +115,18 @@ add_library(nav2_costmap_2d_client SHARED
   src/costmap_subscriber.cpp
   src/costmap_topic_collision_checker.cpp
 )
-add_library(${PROJECT_NAME}::nav2_costmap_2d_client ALIAS nav2_costmap_2d_client)
 
 ament_target_dependencies(nav2_costmap_2d_client
   ${dependencies}
 )
 
 target_link_libraries(nav2_costmap_2d_client
-  ${PROJECT_NAME}::nav2_costmap_2d_core
+  nav2_costmap_2d_core
 )
 
 add_executable(nav2_costmap_2d_markers src/costmap_2d_markers.cpp)
 target_link_libraries(nav2_costmap_2d_markers
-  ${PROJECT_NAME}::nav2_costmap_2d_core
+  nav2_costmap_2d_core
 )
 
 ament_target_dependencies(nav2_costmap_2d_markers
@@ -141,7 +135,7 @@ ament_target_dependencies(nav2_costmap_2d_markers
 
 add_executable(nav2_costmap_2d_cloud src/costmap_2d_cloud.cpp)
 target_link_libraries(nav2_costmap_2d_cloud
-  ${PROJECT_NAME}::nav2_costmap_2d_core
+  nav2_costmap_2d_core
 )
 
 add_executable(nav2_costmap_2d src/costmap_2d_node.cpp)
@@ -150,24 +144,26 @@ ament_target_dependencies(nav2_costmap_2d
 )
 
 target_link_libraries(nav2_costmap_2d
-  ${PROJECT_NAME}::nav2_costmap_2d_core
-  ${PROJECT_NAME}::layers
-  ${PROJECT_NAME}::filters
+  nav2_costmap_2d_core
+  layers
+  filters
 )
 
 install(TARGETS
+  nav2_costmap_2d_core
   layers
   filters
-  nav2_costmap_2d_core
   nav2_costmap_2d_client
-  EXPORT export_${PROJECT_NAME}
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION bin
 )
 
-install(TARGETS nav2_costmap_2d_markers nav2_costmap_2d_cloud nav2_costmap_2d
-  DESTINATION lib/${PROJECT_NAME}
+install(TARGETS
+  nav2_costmap_2d
+  nav2_costmap_2d_markers
+  nav2_costmap_2d_cloud
+  RUNTIME DESTINATION lib/${PROJECT_NAME}
 )
 
 install(FILES costmap_plugins.xml
@@ -175,7 +171,7 @@ install(FILES costmap_plugins.xml
 )
 
 install(DIRECTORY include/
-  DESTINATION include/${PROJECT_NAME}
+  DESTINATION include/
 )
 
 if(BUILD_TESTING)
@@ -187,10 +183,10 @@ if(BUILD_TESTING)
 
   find_package(ament_cmake_gtest REQUIRED)
   add_subdirectory(test)
-  pluginlib_export_plugin_description_file(nav2_costmap_2d test/regression/order_layer.xml)
 endif()
 
-ament_export_targets(export_${PROJECT_NAME} HAS_LIBRARY_TARGET)
+ament_export_include_directories(include)
+ament_export_libraries(layers filters nav2_costmap_2d_core nav2_costmap_2d_client)
 ament_export_dependencies(${dependencies})
 pluginlib_export_plugin_description_file(nav2_costmap_2d costmap_plugins.xml)
 ament_package()

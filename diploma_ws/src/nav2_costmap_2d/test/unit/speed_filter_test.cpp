@@ -633,7 +633,7 @@ void TestNode::reset()
 
 TEST_F(TestNode, testPercentSpeedLimit)
 {
-  // Initialize test system
+  // Initilize test system
   createMaps("map");
   publishMaps(nav2_costmap_2d::SPEED_FILTER_PERCENT, 0.0, 1.0);
   EXPECT_TRUE(createSpeedFilter("map"));
@@ -648,7 +648,7 @@ TEST_F(TestNode, testPercentSpeedLimit)
 
 TEST_F(TestNode, testIncorrectPercentSpeedLimit)
 {
-  // Initialize test system
+  // Initilize test system
   createMaps("map");
   publishMaps(nav2_costmap_2d::SPEED_FILTER_PERCENT, -50.0, 2.0);
   EXPECT_TRUE(createSpeedFilter("map"));
@@ -663,7 +663,7 @@ TEST_F(TestNode, testIncorrectPercentSpeedLimit)
 
 TEST_F(TestNode, testAbsoluteSpeedLimit)
 {
-  // Initialize test system
+  // Initilize test system
   createMaps("map");
   publishMaps(nav2_costmap_2d::SPEED_FILTER_ABSOLUTE, 1.23, 4.5);
   EXPECT_TRUE(createSpeedFilter("map"));
@@ -678,7 +678,7 @@ TEST_F(TestNode, testAbsoluteSpeedLimit)
 
 TEST_F(TestNode, testIncorrectAbsoluteSpeedLimit)
 {
-  // Initialize test system
+  // Initilize test system
   createMaps("map");
   publishMaps(nav2_costmap_2d::SPEED_FILTER_ABSOLUTE, -50.0, 2.0);
   EXPECT_TRUE(createSpeedFilter("map"));
@@ -693,7 +693,7 @@ TEST_F(TestNode, testIncorrectAbsoluteSpeedLimit)
 
 TEST_F(TestNode, testOutOfBounds)
 {
-  // Initialize test system
+  // Initilize test system
   createMaps("map");
   publishMaps(nav2_costmap_2d::SPEED_FILTER_PERCENT, 0.0, 1.0);
   EXPECT_TRUE(createSpeedFilter("map"));
@@ -708,7 +708,7 @@ TEST_F(TestNode, testOutOfBounds)
 
 TEST_F(TestNode, testInfoRePublish)
 {
-  // Initialize test system
+  // Initilize test system
   createMaps("map");
   publishMaps(nav2_costmap_2d::SPEED_FILTER_ABSOLUTE, 1.23, 4.5);
   EXPECT_TRUE(createSpeedFilter("map"));
@@ -728,7 +728,7 @@ TEST_F(TestNode, testInfoRePublish)
 
 TEST_F(TestNode, testMaskRePublish)
 {
-  // Initialize test system
+  // Initilize test system
   createMaps("map");
   publishMaps(nav2_costmap_2d::SPEED_FILTER_ABSOLUTE, 1.23, 4.5);
   EXPECT_TRUE(createSpeedFilter("map"));
@@ -747,7 +747,7 @@ TEST_F(TestNode, testMaskRePublish)
 
 TEST_F(TestNode, testIncorrectFilterType)
 {
-  // Initialize test system
+  // Initilize test system
   createMaps("map");
   publishMaps(INCORRECT_TYPE, 1.23, 4.5);
   EXPECT_FALSE(createSpeedFilter("map"));
@@ -759,7 +759,7 @@ TEST_F(TestNode, testIncorrectFilterType)
 
 TEST_F(TestNode, testDifferentFrame)
 {
-  // Initialize test system
+  // Initilize test system
   createMaps("map");
   publishMaps(nav2_costmap_2d::SPEED_FILTER_PERCENT, 0.0, 1.0);
   EXPECT_TRUE(createSpeedFilter("odom"));

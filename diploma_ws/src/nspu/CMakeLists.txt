@@ -18,10 +18,14 @@ find_package(geometry_msgs REQUIRED)
 find_package(dms_interfaces REQUIRED)
 find_package(action_msgs REQUIRED)
 find_package(std_srvs REQUIRED)
+find_package(gazebo_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(tf2 REQUIRED)
 
 # add executables
 add_executable(navigation_services_provider_unit src/navigation_services_provider_unit.cpp)
-ament_target_dependencies(navigation_services_provider_unit rclcpp nav_msgs geometry_msgs dms_interfaces action_msgs std_srvs)
+ament_target_dependencies(navigation_services_provider_unit rclcpp nav_msgs tf2 geometry_msgs sensor_msgs dms_interfaces action_msgs std_msgs std_srvs gazebo_msgs)
 
 include_directories(
   include/${PROJECT_NAME}

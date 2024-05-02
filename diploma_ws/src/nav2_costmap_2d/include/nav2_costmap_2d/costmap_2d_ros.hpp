@@ -38,7 +38,6 @@
 #ifndef NAV2_COSTMAP_2D__COSTMAP_2D_ROS_HPP_
 #define NAV2_COSTMAP_2D__COSTMAP_2D_ROS_HPP_
 
-#include <atomic>
 #include <memory>
 #include <string>
 #include <vector>
@@ -308,6 +307,7 @@ public:
    */
   void tracksCallback(const dms_interfaces::msg::ObstacleArray::SharedPtr obstacle_msg);
 
+
 protected:
   // Publishers and subscribers
   rclcpp_lifecycle::LifecyclePublisher<geometry_msgs::msg::PolygonStamped>::SharedPtr
@@ -317,6 +317,7 @@ protected:
   rclcpp::Subscription<geometry_msgs::msg::Polygon>::SharedPtr footprint_sub_;
   rclcpp::Subscription<rcl_interfaces::msg::ParameterEvent>::SharedPtr parameter_sub_;
   rclcpp::Subscription<dms_interfaces::msg::ObstacleArray>::SharedPtr tracks_sub_;
+
 
   // Dedicated callback group and executor for tf timer_interface and message fillter
   rclcpp::CallbackGroup::SharedPtr callback_group_;
@@ -336,9 +337,9 @@ protected:
    */
   void mapUpdateLoop(double frequency);
   bool map_update_thread_shutdown_{false};
-  std::atomic<bool> stop_updates_{false};
-  std::atomic<bool> initialized_{false};
-  std::atomic<bool> stopped_{true};
+  bool stop_updates_{false};
+  bool initialized_{false};
+  bool stopped_{true};
   std::unique_ptr<std::thread> map_update_thread_;  ///< @brief A thread for updating the map
   rclcpp::Time last_publish_{0, 0, RCL_ROS_TIME};
   rclcpp::Duration publish_cycle_{1, 0};

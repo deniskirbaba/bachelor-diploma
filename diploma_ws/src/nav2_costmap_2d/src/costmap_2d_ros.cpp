@@ -154,18 +154,12 @@ Costmap2DROS::on_configure(const rclcpp_lifecycle::State & /*state*/)
     RCLCPP_INFO(get_logger(), "Using plugin \"%s\"", plugin_names_[i].c_str());
 
     std::shared_ptr<Layer> plugin = plugin_loader_.createSharedInstance(plugin_types_[i]);
-
-    // lock the costmap because no update is allowed until the plugin is initialized
-    std::unique_lock<Costmap2D::mutex_t> lock(*(layered_costmap_->getCostmap()->getMutex()));
-
     layered_costmap_->addPlugin(plugin);
 
     // TODO(mjeronimo): instead of get(), use a shared ptr
     plugin->initialize(
       layered_costmap_.get(), plugin_names_[i], tf_buffer_.get(),
       shared_from_this(), callback_group_);
-
-    lock.unlock();
 
     RCLCPP_INFO(get_logger(), "Initialized plugin \"%s\"", plugin_names_[i].c_str());
   }
@@ -174,17 +168,11 @@ Costmap2DROS::on_configure(const rclcpp_lifecycle::State & /*state*/)
     RCLCPP_INFO(get_logger(), "Using costmap filter \"%s\"", filter_names_[i].c_str());
 
     std::shared_ptr<Layer> filter = plugin_loader_.createSharedInstance(filter_types_[i]);
-
-    // lock the costmap because no update is allowed until the filter is initialized
-    std::unique_lock<Costmap2D::mutex_t> lock(*(layered_costmap_->getCostmap()->getMutex()));
-
     layered_costmap_->addFilter(filter);
 
     filter->initialize(
       layered_costmap_.get(), filter_names_[i], tf_buffer_.get(),
       shared_from_this(), callback_group_);
-
-    lock.unlock();
 
     RCLCPP_INFO(get_logger(), "Initialized costmap filter \"%s\"", filter_names_[i].c_str());
   }
@@ -211,6 +199,7 @@ Costmap2DROS::on_configure(const rclcpp_lifecycle::State & /*state*/)
 
     RCLCPP_INFO(get_logger(), "Created subscription to dynamic obstacles topic");
   }
+
 
   // Set the footprint
   if (use_radius_) {
@@ -282,18 +271,14 @@ Costmap2DROS::on_deactivate(const rclcpp_lifecycle::State & /*state*/)
   RCLCPP_INFO(get_logger(), "Deactivating");
 
   dyn_params_handler.reset();
+  costmap_publisher_->on_deactivate();
+  footprint_pub_->on_deactivate();
 
   stop();
 
   // Map thread stuff
   map_update_thread_shutdown_ = true;
-
-  if (map_update_thread_->joinable()) {
-    map_update_thread_->join();
-  }
-
-  costmap_publisher_->on_deactivate();
-  footprint_pub_->on_deactivate();
+  map_update_thread_->join();
 
   return nav2_util::CallbackReturn::SUCCESS;
 }
@@ -350,6 +335,7 @@ Costmap2DROS::getParameters()
   get_parameter("plugins", plugin_names_);
   get_parameter("filters", filter_names_);
   get_parameter("dynamic_obstacles_plugin", dynamic_obstacles_plugin_);
+
 
   auto node = shared_from_this();
 
@@ -442,27 +428,24 @@ Costmap2DROS::mapUpdateLoop(double frequency)
   while (rclcpp::ok() && !map_update_thread_shutdown_) {
     nav2_util::ExecutionTimer timer;
 
-    // Execute after start() will complete plugins activation
-    if (!stopped_) {
-      // Measure the execution time of the updateMap method
-      timer.start();
-      updateMap();
-      timer.end();
+    // Measure the execution time of the updateMap method
+    timer.start();
+    updateMap();
+    timer.end();
 
-      RCLCPP_DEBUG(get_logger(), "Map update time: %.9f", timer.elapsed_time_in_seconds());
-      if (publish_cycle_ > rclcpp::Duration(0s) && layered_costmap_->isInitialized()) {
-        unsigned int x0, y0, xn, yn;
-        layered_costmap_->getBounds(&x0, &xn, &y0, &yn);
-        costmap_publisher_->updateBounds(x0, xn, y0, yn);
+    RCLCPP_DEBUG(get_logger(), "Map update time: %.9f", timer.elapsed_time_in_seconds());
+    if (publish_cycle_ > rclcpp::Duration(0s) && layered_costmap_->isInitialized()) {
+      unsigned int x0, y0, xn, yn;
+      layered_costmap_->getBounds(&x0, &xn, &y0, &yn);
+      costmap_publisher_->updateBounds(x0, xn, y0, yn);
 
-        auto current_time = now();
-        if ((last_publish_ + publish_cycle_ < current_time) ||  // publish_cycle_ is due
-          (current_time < last_publish_))      // time has moved backwards, probably due to a switch to sim_time // NOLINT
-        {
-          RCLCPP_DEBUG(get_logger(), "Publish costmap at %s", name_.c_str());
-          costmap_publisher_->publishCostmap();
-          last_publish_ = current_time;
-        }
+      auto current_time = now();
+      if ((last_publish_ + publish_cycle_ < current_time) ||  // publish_cycle_ is due
+        (current_time < last_publish_))      // time has moved backwards, probably due to a switch to sim_time // NOLINT
+      {
+        RCLCPP_DEBUG(get_logger(), "Publish costmap at %s", name_.c_str());
+        costmap_publisher_->publishCostmap();
+        last_publish_ = current_time;
       }
     }
 
@@ -544,22 +527,18 @@ void
 Costmap2DROS::stop()
 {
   stop_updates_ = true;
-  // layered_costmap_ is set only if on_configure has been called
-  if (layered_costmap_) {
-    std::vector<std::shared_ptr<Layer>> * plugins = layered_costmap_->getPlugins();
-    std::vector<std::shared_ptr<Layer>> * filters = layered_costmap_->getFilters();
-
-    // unsubscribe from topics
-    for (std::vector<std::shared_ptr<Layer>>::iterator plugin = plugins->begin();
-      plugin != plugins->end(); ++plugin)
-    {
-      (*plugin)->deactivate();
-    }
-    for (std::vector<std::shared_ptr<Layer>>::iterator filter = filters->begin();
-      filter != filters->end(); ++filter)
-    {
-      (*filter)->deactivate();
-    }
+  std::vector<std::shared_ptr<Layer>> * plugins = layered_costmap_->getPlugins();
+  std::vector<std::shared_ptr<Layer>> * filters = layered_costmap_->getFilters();
+  // unsubscribe from topics
+  for (std::vector<std::shared_ptr<Layer>>::iterator plugin = plugins->begin();
+    plugin != plugins->end(); ++plugin)
+  {
+    (*plugin)->deactivate();
+  }
+  for (std::vector<std::shared_ptr<Layer>>::iterator filter = filters->begin();
+    filter != filters->end(); ++filter)
+  {
+    (*filter)->deactivate();
   }
   initialized_ = false;
   stopped_ = true;
@@ -737,6 +716,6 @@ Costmap2DROS::dynamicParametersCallback(std::vector<rclcpp::Parameter> parameter
 void Costmap2DROS::tracksCallback(const dms_interfaces::msg::ObstacleArray::SharedPtr obstacle_msg)
 {
   layered_costmap_->updateDynamicObstaclesContainer(obstacle_msg);
-}
+} 
 
 }  // namespace nav2_costmap_2d

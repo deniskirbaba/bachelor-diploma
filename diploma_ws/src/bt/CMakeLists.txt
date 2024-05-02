@@ -18,13 +18,18 @@ find_package(rclcpp_action REQUIRED)
 
 find_package(std_srvs REQUIRED)
 
+find_package(geometry_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 find_package(nav2_msgs REQUIRED)
 find_package(lifecycle_msgs REQUIRED)
+find_package(visualization_msgs REQUIRED)
 
 find_package(dms_interfaces REQUIRED)
 find_package(rcl_interfaces REQUIRED)
 
 find_package(behaviortree_cpp_v3 REQUIRED)
+find_package(tf2 REQUIRED)
+
 
 # add executables
 add_executable(lidar_bt src/lidar_bt.cpp)
@@ -74,17 +79,35 @@ add_executable(path_bt src/path_bt.cpp)
     dms_interfaces
     rcl_interfaces
     lifecycle_msgs)
-  
-add_executable(main_bt src/main_bt.cpp)
-  ament_target_dependencies(main_bt
+add_executable(collision_bt src/collision_bt.cpp)
+  ament_target_dependencies(collision_bt
     rclcpp 
     rclcpp_action
     std_srvs
+    geometry_msgs
+    nav_msgs
     nav2_msgs
+    visualization_msgs
     behaviortree_cpp_v3
     dms_interfaces
     rcl_interfaces
-    lifecycle_msgs)
+    lifecycle_msgs
+    tf2)
+  
+add_executable(main_bt src/main_bt.cpp)
+  ament_target_dependencies(main_bt
+  rclcpp 
+  rclcpp_action
+  std_srvs
+  geometry_msgs
+  nav_msgs
+  nav2_msgs
+  visualization_msgs
+  behaviortree_cpp_v3
+  dms_interfaces
+  rcl_interfaces
+  lifecycle_msgs
+  tf2)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -103,7 +126,7 @@ include_directories(
 )
 
 install(
-  TARGETS lidar_bt imu_bt odom_bt sensors_bt battery_bt path_bt main_bt
+  TARGETS lidar_bt imu_bt odom_bt sensors_bt battery_bt path_bt collision_bt main_bt
   DESTINATION lib/${PROJECT_NAME}
 )
 

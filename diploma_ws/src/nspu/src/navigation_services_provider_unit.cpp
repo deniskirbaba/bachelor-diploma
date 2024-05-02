@@ -46,6 +46,46 @@ NavigationServicesProviderUnit::NavigationServicesProviderUnit (const std::strin
         std::bind(&NavigationServicesProviderUnit::goal_status_cb, 
             this, 
             std::placeholders::_1));
+
+    // Check collision service
+
+    in_collision = false;
+    last_collision_time = 0;
+
+    save_collision_pose_cli = this->create_client<std_srvs::srv::Empty>(
+        "save_collision_pose");
+
+    check_collision_srv = this->create_service<std_srvs::srv::SetBool>(
+        "check_collision",
+        std::bind(&NavigationServicesProviderUnit::check_collision_srv_cb,
+            this,
+            std::placeholders::_1,
+            std::placeholders::_2));
+    
+    contacts_state_sub = this->create_subscription<gazebo_msgs::msg::ContactsState>(
+        "/bumper_states", 
+        10, 
+        std::bind(&NavigationServicesProviderUnit::contacts_state_cb, 
+            this, 
+            std::placeholders::_1));
+
+    // Check orientation service
+
+    all_wheels_on_the_ground = true;
+
+    check_orientation_srv = this->create_service<std_srvs::srv::SetBool>(
+        "check_orientation",
+        std::bind(&NavigationServicesProviderUnit::check_orientation_srv_cb,
+            this,
+            std::placeholders::_1,
+            std::placeholders::_2));
+    
+    imu_sub = this->create_subscription<sensor_msgs::msg::Imu>(
+        "/imu", 
+        10, 
+        std::bind(&NavigationServicesProviderUnit::imu_cb, 
+            this, 
+            std::placeholders::_1));
 }
 
 NavigationServicesProviderUnit::~NavigationServicesProviderUnit() = default;
@@ -112,6 +152,64 @@ void NavigationServicesProviderUnit::goal_status_cb(const action_msgs::msg::Goal
         RCLCPP_INFO(this->get_logger(), "Path is possible.");    
     else
         RCLCPP_INFO(this->get_logger(), "Path is impossible.");    
+}
+
+// Check collision service
+
+void NavigationServicesProviderUnit::check_collision_srv_cb(
+    const std_srvs::srv::SetBool_Request::SharedPtr request,
+    const std_srvs::srv::SetBool_Response::SharedPtr response)
+{
+    response->success = in_collision;
+}
+
+void NavigationServicesProviderUnit::contacts_state_cb(const gazebo_msgs::msg::ContactsState::SharedPtr msg)
+{
+    if (msg->states.size() > 0)
+    {
+        auto response = this->save_collision_pose_cli->async_send_request(std::make_shared<std_srvs::srv::Empty::Request>());
+        
+        in_collision = true;
+        // save time of the last collision from Header of msg
+        last_collision_time = msg->header.stamp.sec;
+    }
+    else
+    {
+        // check if the last collision was more than 1 second ago
+        if (msg->header.stamp.sec - last_collision_time > 1)
+            in_collision = false;
+    }
+}
+
+
+// Check orientation service
+
+void NavigationServicesProviderUnit::check_orientation_srv_cb(
+    const std_srvs::srv::SetBool_Request::SharedPtr request,
+    const std_srvs::srv::SetBool_Response::SharedPtr response)
+{
+    response->success = all_wheels_on_the_ground;
+}
+
+void NavigationServicesProviderUnit::imu_cb(const sensor_msgs::msg::Imu::SharedPtr msg)
+{
+    tf2::Quaternion quat(msg->orientation.x,
+                        msg->orientation.y,
+                        msg->orientation.z,
+                        msg->orientation.w);
+    
+    tf2::Matrix3x3 m(quat);
+    double roll,pitch,yaw;
+    m.getRPY(roll, pitch, yaw);
+
+    if (roll > -0.1 && roll < 0.1 && pitch > -0.1 && pitch < 0.1) //Robot is standing parallel to the ground within some margin (~6°)
+    {
+        all_wheels_on_the_ground = true;
+    }
+    else
+    {
+        all_wheels_on_the_ground = false;
+    }
 }
 
 

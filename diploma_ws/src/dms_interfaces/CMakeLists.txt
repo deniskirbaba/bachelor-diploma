@@ -17,6 +17,7 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(unique_identifier_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/PubResCmdVel.srv"
@@ -24,9 +25,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetGoalDistance.srv"
   "srv/GetGoal.srv"
   "srv/GetPose.srv"
+  "srv/GetLastMap.srv"
+  "srv/SendMap.srv"
   "msg/Obstacle.msg"
   "msg/ObstacleArray.msg"
-  DEPENDENCIES geometry_msgs std_msgs unique_identifier_msgs
+  DEPENDENCIES geometry_msgs std_msgs unique_identifier_msgs nav_msgs
 )
 
 if(BUILD_TESTING)

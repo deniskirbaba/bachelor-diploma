@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <root BTCPP_format="4" >
-    <BehaviorTree ID="main_bt">
+    <BehaviorTree ID="battery_bt">
         <Sequence name="root_sequence">
             <Fallback name="battery_fallback">
                 <BatteryCheck name="battery_check"/>

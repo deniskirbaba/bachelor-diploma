@@ -131,7 +131,7 @@ public:
   /**
    * @brief If clearing operations should be processed on this layer or not
    */
-  virtual bool isClearable() override {return false;}
+  virtual bool isClearable() {return false;}
 
   /**
    * @brief Reset this costmap
@@ -178,6 +178,7 @@ protected:
    */
   void onFootprintChanged() override;
 
+private:
   /**
    * @brief  Lookup pre-computed distances
    * @param mx The x coordinate of the current cell

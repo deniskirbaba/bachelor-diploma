@@ -1,0 +1,53 @@
+#!/bin/bash
+
+
+SESSION_NAME="launch_system_actor_custom"
+
+
+export TURTLEBOT3_MODEL=waffle_pi
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/opt/ros/humble/share/turtlebot3_gazebo/models
+# export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/denis/diploma_src/dms_ws/src/turtlebot3_gazebo/models
+source /home/denis/diploma_src/dms_ws/install/local_setup.bash
+cd ~/diploma_src/dms_ws
+
+tmux new-session -d -s $SESSION_NAME
+tmux split-window -v
+tmux select-layout tiled
+tmux split-window -v
+tmux select-layout tiled
+tmux split-window -v
+tmux select-layout tiled
+tmux split-window -v
+tmux select-layout tiled
+tmux split-window -v
+tmux select-layout tiled
+tmux split-window -v
+tmux select-layout tiled
+tmux split-window -v
+tmux select-layout tiled
+tmux split-window -v
+tmux select-layout tiled
+tmux split-window -v
+tmux select-layout tiled
+tmux split-window -v
+tmux select-layout tiled
+tmux split-window -v
+tmux select-layout tiled
+
+
+tmux send-keys -t $SESSION_NAME.0 "ros2 run costmap_to_dynamic_obstacles my_converter_node" Enter
+tmux send-keys -t $SESSION_NAME.1 "ros2 launch kf_hungarian_tracker kf_hungarian.launch.py" Enter
+
+tmux send-keys -t $SESSION_NAME.2 "ros2 launch turtlebot3_gazebo tb3_my_world_2_boxes.launch.py use_sim_time:=True" Enter
+tmux send-keys -t $SESSION_NAME.3 "ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:='/home/denis/diploma_src/maps/my_world_1.yaml'" Enter
+
+tmux send-keys -t $SESSION_NAME.4 "ros2 run fsu lidar_remapping_node" Enter
+tmux send-keys -t $SESSION_NAME.5 "ros2 run fsu imu_remapping_node" Enter
+tmux send-keys -t $SESSION_NAME.6 "ros2 run fsu odom_remapping_node" Enter
+tmux send-keys -t $SESSION_NAME.7 "ros2 launch ssu sensor_supervisitory_unit.launch.py" Enter
+tmux send-keys -t $SESSION_NAME.8 "ros2 launch csu control_switching_unit.launch.py" Enter
+tmux send-keys -t $SESSION_NAME.9 "ros2 launch bsu battery_simulation_unit.launch.py" Enter
+tmux send-keys -t $SESSION_NAME.10 "ros2 launch nspu navigation_services_provider_unit.launch.py" Enter
+tmux send-keys -t $SESSION_NAME.11 "ros2 launch dsu data_storage_unit.launch.py" Enter
+
+tmux a -t $SESSION_NAME

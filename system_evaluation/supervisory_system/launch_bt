@@ -1,0 +1,19 @@
+#!/bin/bash
+
+
+SESSION_NAME="launch_bt"
+
+export TURTLEBOT3_MODEL=waffle_pi
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/opt/ros/humble/share/turtlebot3_gazebo/models
+source /home/denis/diploma_src/dms_ws/install/local_setup.bash
+cd ~/diploma_src/dms_ws
+
+
+tmux new-session -d -s $SESSION_NAME
+tmux split-window -v
+tmux select-layout tiled
+
+tmux send-keys -t $SESSION_NAME.0 "ros2 launch bt lidar_bt.launch.py" Enter
+tmux send-keys -t $SESSION_NAME.1 "ros2 run groot Groot" Enter
+
+tmux a -t $SESSION_NAME

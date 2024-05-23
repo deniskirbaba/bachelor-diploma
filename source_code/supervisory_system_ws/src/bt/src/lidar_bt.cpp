@@ -34,16 +34,13 @@ int main(int argc, const char* argv[])
     // -------------------------------------------------------------------------------------------
 
     RCLCPP_INFO(rclcpp::get_logger("root"), "Creating BT...");
-    auto tree = factory.createTreeFromFile("/home/denis/diploma_ws/src/bt/resources/lidar_bt.xml");
+    auto tree = factory.createTreeFromFile("/home/denis/diploma_src/dms_ws/src/bt/resources/lidar_bt.xml");
     RCLCPP_INFO(rclcpp::get_logger("root"), "BT created.");
 
     RCLCPP_INFO(rclcpp::get_logger("root"), "Creating BT ZeroMQ publisher."); 
     BT::PublisherZMQ publisher_zqm(tree, 25, 1668, 1669);
 
     BT::NodeStatus status;
-
-    // Create logger so we can track the change of node's status
-    BT::FileLogger logger_file(tree, "bt_lidar_trace.fbl");
 
     std::chrono::milliseconds sleep_time = std::chrono::milliseconds(2000);
 

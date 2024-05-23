@@ -43,11 +43,11 @@ void CostmapToDynamicObstacles::initialize(rclcpp::Node::SharedPtr nh)
   nh->declare_parameter("beta", rclcpp::ParameterValue(bg_sub_params.beta ));
   nh->get_parameter_or<double>("beta", bg_sub_params.beta, bg_sub_params.beta);
 
-  bg_sub_params.min_occupancy_probability = 120;  //180
+  bg_sub_params.min_occupancy_probability = 100; //120  //180
   nh->declare_parameter("min_occupancy_probability", rclcpp::ParameterValue(bg_sub_params.min_occupancy_probability));
   nh->get_parameter_or<double>("min_occupancy_probability", bg_sub_params.min_occupancy_probability, bg_sub_params.min_occupancy_probability);
 
-  bg_sub_params.min_sep_between_fast_and_slow_filter = 80;
+  bg_sub_params.min_sep_between_fast_and_slow_filter = 30; //50 //80
   nh->declare_parameter("min_sep_between_fast_and_slow_filter", rclcpp::ParameterValue(bg_sub_params.min_sep_between_fast_and_slow_filter ));
   nh->get_parameter_or<double>("min_sep_between_slow_and_fast_filter", bg_sub_params.min_sep_between_fast_and_slow_filter, bg_sub_params.min_sep_between_fast_and_slow_filter);
 
@@ -73,11 +73,11 @@ void CostmapToDynamicObstacles::initialize(rclcpp::Node::SharedPtr nh)
   blob_det_params.maxThreshold = 255;
   blob_det_params.minRepeatability = 1;
 
-  blob_det_params.minDistBetweenBlobs = 10;
+  blob_det_params.minDistBetweenBlobs = 5; //10
   nh->declare_parameter("min_distance_between_blobs", rclcpp::ParameterValue(blob_det_params.minDistBetweenBlobs));
   nh->get_parameter_or<float>("min_distance_between_blobs", blob_det_params.minDistBetweenBlobs, blob_det_params.minDistBetweenBlobs);
 
-  blob_det_params.filterByArea = true;
+  blob_det_params.filterByArea = false;
   nh->declare_parameter("filter_by_area", rclcpp::ParameterValue(blob_det_params.filterByArea));
   nh->get_parameter_or<bool>("filter_by_area", blob_det_params.filterByArea, blob_det_params.filterByArea);
 
@@ -89,7 +89,7 @@ void CostmapToDynamicObstacles::initialize(rclcpp::Node::SharedPtr nh)
   nh->declare_parameter("max_area", rclcpp::ParameterValue(blob_det_params.maxArea));
   nh->get_parameter_or<float>("max_area", blob_det_params.maxArea, blob_det_params.maxArea);
 
-  blob_det_params.filterByCircularity = true; // circularity = 4*pi*area/perimeter^2
+  blob_det_params.filterByCircularity = false; // circularity = 4*pi*area/perimeter^2
   nh->declare_parameter("filter_by_circularity", rclcpp::ParameterValue(blob_det_params.filterByCircularity));
   nh->get_parameter_or<bool>("filter_by_circularity", blob_det_params.filterByCircularity, blob_det_params.filterByCircularity);
 
@@ -101,7 +101,7 @@ void CostmapToDynamicObstacles::initialize(rclcpp::Node::SharedPtr nh)
   nh->declare_parameter("max_circularity", rclcpp::ParameterValue(blob_det_params.maxCircularity));
   nh->get_parameter_or<float>("max_circularity", blob_det_params.maxCircularity, blob_det_params.maxCircularity);
 
-  blob_det_params.filterByInertia = true; // Filter blobs based on their elongation
+  blob_det_params.filterByInertia = false; // Filter blobs based on their elongation
   nh->declare_parameter("filter_by_intertia", rclcpp::ParameterValue(blob_det_params.filterByInertia));
   nh->get_parameter_or<bool>("filter_by_intertia", blob_det_params.filterByInertia, blob_det_params.filterByInertia);
 

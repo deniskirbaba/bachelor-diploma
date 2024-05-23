@@ -26,7 +26,7 @@ class CostmapConversionNode : public rclcpp::Node
                 std::make_shared<nav2_costmap_2d::Costmap2DROS>("converter_costmap");
 
             costmap_ros_->set_parameter(rclcpp::Parameter("always_send_full_costmap", true)); 
-            costmap_ros_->set_parameter(rclcpp::Parameter("publish_frequency", 5.0));
+            costmap_ros_->set_parameter(rclcpp::Parameter("publish_frequency", 10.0)); // 5.0
             costmap_ros_->set_parameter(rclcpp::Parameter("resolution", 0.5));
 
             costmap_ros_->declare_parameter( "inflation_layer.inflation_radius", rclcpp::ParameterValue(0.30));
@@ -40,8 +40,8 @@ class CostmapConversionNode : public rclcpp::Node
             costmap_ros_->declare_parameter( "obstacle_layer.scan.max_obstacle_height", rclcpp::ParameterValue(2.0));
             costmap_ros_->declare_parameter( "obstacle_layer.scan.min_obstacle_height", rclcpp::ParameterValue(0.0));
             costmap_ros_->declare_parameter( "obstacle_layer.scan.observation_persistence", rclcpp::ParameterValue(0.0));
-            costmap_ros_->declare_parameter( "obstacle_layer.scan.obstacle_range", rclcpp::ParameterValue(2.5));
-            costmap_ros_->declare_parameter( "obstacle_layer.scan.raytrace_range", rclcpp::ParameterValue(3.0));
+            costmap_ros_->declare_parameter( "obstacle_layer.scan.obstacle_range", rclcpp::ParameterValue(7.0)); //2.5
+            costmap_ros_->declare_parameter( "obstacle_layer.scan.raytrace_range", rclcpp::ParameterValue(7.0)); // 3.0
             costmap_ros_->declare_parameter( "obstacle_layer.scan.sensor_frame", rclcpp::ParameterValue(std::string("")));
             costmap_ros_->declare_parameter( "obstacle_layer.scan.topic", rclcpp::ParameterValue(std::string("/scan"))); 
             
@@ -208,7 +208,8 @@ class CostmapConversionNode : public rclcpp::Node
             box.markers.back().action = visualization_msgs::msg::Marker::ADD;
             box.markers.back().pose.orientation.w = 1.0;
             box.markers.back().pose.position = obstacle.position;
-            box.markers.back().scale = obstacle.size;
+            box.markers.back().scale.x = 0.3; //obstacle.size.x * 0.5;
+            box.markers.back().scale.y = 0.3; //obstacle.size.y * 0.5;
             box.markers.back().scale.z = 0.01;
 
             box.markers.back().color.r = 0.0;
